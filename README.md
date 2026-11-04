@@ -20,7 +20,7 @@ Stars are a snapshot, not a quality score.
 | ✅ in use | **[code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts)** | 341 code-rendered animation styles with prompts | 517 | NOASSERTION | 2026-11-04 |
 | 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 295k-star pack of 314 Claude skills, 71 agents, 98 commands | 297,052 | MIT | 2026-11-02 |
 | 🟡 consider | **[Cal.com (cal.diy)](https://github.com/calcom/cal.diy)** | Self-hosted scheduling pages (Calendly alternative) | 49,683 | MIT | 2026-11-03 |
-| 🟡 consider | **[huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** | Claude skill collection for hand-drawn and painterly motion | 6,229 | MIT | 2026-10-16 |
+| 🟡 consider | **[huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** | Claude skill collection for hand-drawn and painterly motion | 6,230 | MIT | 2026-10-16 |
 | 🟡 consider | **[anidoodle](https://github.com/alexgreensh/anidoodle)** | Animated doodle/sketch skill for Claude | 1,312 | Apache-2.0 | 2026-10-31 |
 | 🟡 consider | **[Masque Config Generator](https://github.com/DarknessShade/Masque-Generator)** | One-page generator for Xray WARP-over-MASQUE configs (P-256 keys) | 17 | MIT | 2026-11-03 |
 | 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 100,771 | AGPL-3.0 | 2026-11-04 |
