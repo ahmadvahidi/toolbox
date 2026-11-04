@@ -1,0 +1,30 @@
+# index — one line per entry
+
+checked 2026-11-04
+
+- `use     ` **llama.cpp** — CPU/GPU inference for GGUF models · ggml-org/llama.cpp · Runs on this box (build b12064); 0.8B-2B models are usable for batch work, 30B on 6 cores gives 2 tok/s and is not.
+- `use     ` **usque** — Open-source Cloudflare WARP MASQUE client · Diniboy1123/usque · Local key generation and a real client — the safe half of the MASQUE generator workflow; 1.5k stars, MIT.
+- `use     ` **ascii.rest** — 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT · bas3line/ascii · Rendered three pieces headless here in minutes; ready for landing pages, shorts backdrops and bot dashboards.
+- `use     ` **code-animation-prompts** — 341 code-rendered animation styles with prompts · XiaoyeCodes/code-animation-prompts · Mirrored to workspace/animation-styles and published as code-animation-atlas; 28 runnable on Canvas + headless Chrome with no GPU.
+- `consider` **ECC** — 295k-star pack of 314 Claude skills, 71 agents, 98 commands · affaan-m/ECC · Real and huge, but the useful parts are the skills — imported 12 as Hermes skills and catalogued all 483 items; the rest costs context for nothing.
+- `consider` **Cal.com (cal.diy)** — Self-hosted scheduling pages (Calendly alternative) · calcom/cal.diy · MIT and real, but it wants a domain, TLS and email before it is useful — worth it when the IT work gets its own booking link.
+- `consider` **huashu-art-motion** — Claude skill collection for hand-drawn and painterly motion · alchaincyf/huashu-art-motion · MIT and small; the p5.brush watercolour path costs ~40 s/frame here, so use it for keyframes only.
+- `consider` **anidoodle** — Animated doodle/sketch skill for Claude · alexgreensh/anidoodle · Apache-2.0, ~1.2k stars, lighter than p5.brush; candidate for short-form illustration once tested end to end.
+- `consider` **Masque Config Generator** — One-page generator for Xray WARP-over-MASQUE configs (P-256 keys) · DarknessShade/Masque-Generator · Technically correct (MASQUE on TCP/443, H2 default for MCI, 162.159.198.0/24 for Irancell) but its fallback posts to an unknown Worker — generate keys locally with usque instead.
+- `watch   ` **VoiceStudio** — Local voice cloning and dubbing (ElevenLabs alternative) · debpalash/VoiceStudio · 100k stars, AGPL; needs GPU/Apple Silicon. The moment the rig exists this is the German voice for DOPEAK.
+- `watch   ` **StableGen** — Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold) · sakalond/stablegen · Needs Blender plus a ComfyUI GPU server; no /dev/dri here. One rented GPU hour could ship a brand mascot without buying hardware.
+- `watch   ` **Weight-Space Programming** — MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops · RikiyaT/lm_understand-logs · Artifacts are real (logs, edited Qwen3.5-0.8B, eval files) but the headline 6x compares 25 base problems against 500 edited ones, with 95% of base outputs truncated — direction yes, multiplier no. Needs the unreleased GPT-6 Astra.
+- `park    ` **OpenCut** — Browser timeline video editor (CapCut alternative) · OpenCut-app/OpenCut · 97k stars but a GUI timeline for humans; our videos are rendered from code, so an editor adds a step without adding capability.
+- `park    ` **Plane** — Self-hosted Jira/Linear alternative · makeplane/plane · Postgres plus Redis plus a worker; too much server for one person's task list. The kanban tool in Hermes already covers it.
+- `park    ` **Chatwoot** — Self-hosted Intercom alternative · chatwoot/chatwoot · No OSI licence, and a support inbox only pays off after there are customers to support.
+- `park    ` **Cap** — Open-source Loom alternative for screen recording · CapSoftware/Cap · Non-OSI licence and a desktop app; screen capture on a headless server is ffmpeg, which we already use.
+- `park    ` **Dyad** — Local Lovable-style app builder · dyad-sh/dyad · Non-OSI licence, GUI-first; writing the code directly with an agent is faster than clicking a builder.
+- `park    ` **ClaudeAnimationBase** — Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE · JohnHeibel/ClaudeAnimationBase · Measured on this box: 19 s/frame at 320px, 17.8 s for one 1280px still — a 11s clip is an 80-minute overnight job, not interactive. Stills are usable today.
+- `park    ` **TWP-CF** — Telegram web proxy on Cloudflare Workers (MTProto over websocket) · MHDLabs/TWP-CF · 11 stars, custom licence and a security warning in its own README; Telegram Web already reaches us from Iran via the existing tunnel.
+- `park    ` **Muse-Glimmer-30B** — Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB · Measured on ki: 8.5 tok/s prompt, 2.07 tok/s generation, 28.6 GB peak RAM with default context — overnight batch only, never interactive.
+- `skip    ` **AppFlowy** — Self-hosted Notion alternative · AppFlowy-IO/AppFlowy · Desktop-plus-server product for teams of humans; our notes are markdown in the vault and the bots already read them.
+- `skip    ` **TwinDesk** — Share mouse, keyboard, files and clipboard across machines (KVM) · inukaasith/twindesk · Needs a human at a physical desk; does nothing for a headless server fleet. fleet.py already syncs and dispatches over ssh.
+- `skip    ` **FloMorphic getting-started** — Low-code graph platform for agent pipelines, MCP + RAG + human oversight · FloMorphic/getting-started · Eight repos at 0-1 stars, commercial licence, no runnable core — a landing page, not a platform yet.
+- `skip    ` **tree-of-neuron** — Interactive 47-milestone history of neuroscience · fermow/tree-of-neuron · Nice one-off educational toy, 1 star, no licence; nothing to reuse in our pipeline.
+- `dead    ` **OpenSEO (claim)** — Supposed free Semrush alternative from the same carousel · No repository at the claimed size — the name lands on a 2016 and a 2023 project, and the only live one has 27 stars and a week of history.
+- `dead    ` **OpenWhispr (claim)** — Supposed open-source Wispr Flow dictation app · Claim did not survive a repo search; no canonical project found to install.

@@ -1,0 +1,418 @@
+{
+  "checked": "2026-11-04",
+  "tools": [
+    {
+      "name": "ECC",
+      "repo": "affaan-m/ECC",
+      "what": "295k-star pack of 314 Claude skills, 71 agents, 98 commands",
+      "verdict": "consider",
+      "why": "Real and huge, but the useful parts are the skills — imported 12 as Hermes skills and catalogued all 483 items; the rest costs context for nothing.",
+      "date": "2026-11-02",
+      "tags": [
+        "agents",
+        "skills"
+      ],
+      "stars": 297052,
+      "forks": 43913,
+      "license": "MIT",
+      "pushed": "2026-11-02",
+      "archived": false
+    },
+    {
+      "name": "ascii.rest",
+      "repo": "bas3line/ascii",
+      "what": "240 animated ASCII pieces for the web, one <ascii-art> tag, MIT",
+      "verdict": "use",
+      "why": "Rendered three pieces headless here in minutes; ready for landing pages, shorts backdrops and bot dashboards.",
+      "date": "2026-11-04",
+      "tags": [
+        "web",
+        "design"
+      ],
+      "stars": 1135,
+      "forks": 66,
+      "license": "MIT",
+      "pushed": "2026-10-30",
+      "archived": false
+    },
+    {
+      "name": "StableGen",
+      "repo": "sakalond/stablegen",
+      "what": "Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold)",
+      "verdict": "watch",
+      "why": "Needs Blender plus a ComfyUI GPU server; no /dev/dri here. One rented GPU hour could ship a brand mascot without buying hardware.",
+      "date": "2026-11-04",
+      "tags": [
+        "3d",
+        "gpu"
+      ],
+      "stars": 1458,
+      "forks": 142,
+      "license": "GPL-3.0",
+      "pushed": "2026-11-02",
+      "archived": false
+    },
+    {
+      "name": "ClaudeAnimationBase",
+      "repo": "JohnHeibel/ClaudeAnimationBase",
+      "what": "Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE",
+      "verdict": "park",
+      "why": "Measured on this box: 19 s/frame at 320px, 17.8 s for one 1280px still — a 11s clip is an 80-minute overnight job, not interactive. Stills are usable today.",
+      "date": "2026-11-04",
+      "tags": [
+        "animation",
+        "gpu"
+      ],
+      "stars": 2564,
+      "forks": 233,
+      "license": "MIT",
+      "pushed": "2026-09-24",
+      "archived": false
+    },
+    {
+      "name": "huashu-art-motion",
+      "repo": "alchaincyf/huashu-art-motion",
+      "what": "Claude skill collection for hand-drawn and painterly motion",
+      "verdict": "consider",
+      "why": "MIT and small; the p5.brush watercolour path costs ~40 s/frame here, so use it for keyframes only.",
+      "date": "2026-11-03",
+      "tags": [
+        "animation"
+      ],
+      "stars": 6229,
+      "forks": 623,
+      "license": "MIT",
+      "pushed": "2026-10-16",
+      "archived": false
+    },
+    {
+      "name": "anidoodle",
+      "repo": "alexgreensh/anidoodle",
+      "what": "Animated doodle/sketch skill for Claude",
+      "verdict": "consider",
+      "why": "Apache-2.0, ~1.2k stars, lighter than p5.brush; candidate for short-form illustration once tested end to end.",
+      "date": "2026-11-03",
+      "tags": [
+        "animation"
+      ],
+      "stars": 1312,
+      "forks": 124,
+      "license": "Apache-2.0",
+      "pushed": "2026-10-31",
+      "archived": false
+    },
+    {
+      "name": "code-animation-prompts",
+      "repo": "XiaoyeCodes/code-animation-prompts",
+      "what": "341 code-rendered animation styles with prompts",
+      "verdict": "use",
+      "why": "Mirrored to workspace/animation-styles and published as code-animation-atlas; 28 runnable on Canvas + headless Chrome with no GPU.",
+      "date": "2026-11-03",
+      "tags": [
+        "animation",
+        "design"
+      ],
+      "stars": 517,
+      "forks": 127,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "TwinDesk",
+      "repo": "inukaasith/twindesk",
+      "what": "Share mouse, keyboard, files and clipboard across machines (KVM)",
+      "verdict": "skip",
+      "why": "Needs a human at a physical desk; does nothing for a headless server fleet. fleet.py already syncs and dispatches over ssh.",
+      "date": "2026-11-03",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 3361,
+      "forks": 253,
+      "license": "GPL-3.0",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "FloMorphic getting-started",
+      "req": "",
+      "repo": "FloMorphic/getting-started",
+      "what": "Low-code graph platform for agent pipelines, MCP + RAG + human oversight",
+      "verdict": "skip",
+      "why": "Eight repos at 0-1 stars, commercial licence, no runnable core — a landing page, not a platform yet.",
+      "date": "2026-11-03",
+      "tags": [
+        "agents"
+      ],
+      "stars": 8,
+      "forks": 2,
+      "license": "Apache-2.0",
+      "pushed": "2026-10-26",
+      "archived": false
+    },
+    {
+      "name": "TWP-CF",
+      "repo": "MHDLabs/TWP-CF",
+      "what": "Telegram web proxy on Cloudflare Workers (MTProto over websocket)",
+      "verdict": "park",
+      "why": "11 stars, custom licence and a security warning in its own README; Telegram Web already reaches us from Iran via the existing tunnel.",
+      "date": "2026-11-03",
+      "tags": [
+        "network"
+      ],
+      "stars": 15,
+      "forks": 12,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "tree-of-neuron",
+      "repo": "fermow/tree-of-neuron",
+      "what": "Interactive 47-milestone history of neuroscience",
+      "verdict": "skip",
+      "why": "Nice one-off educational toy, 1 star, no licence; nothing to reuse in our pipeline.",
+      "date": "2026-11-03",
+      "tags": [
+        "education"
+      ],
+      "stars": 2,
+      "forks": 0,
+      "license": "none",
+      "pushed": "2026-10-15",
+      "archived": false
+    },
+    {
+      "name": "Masque Config Generator",
+      "repo": "DarknessShade/Masque-Generator",
+      "what": "One-page generator for Xray WARP-over-MASQUE configs (P-256 keys)",
+      "verdict": "consider",
+      "why": "Technically correct (MASQUE on TCP/443, H2 default for MCI, 162.159.198.0/24 for Irancell) but its fallback posts to an unknown Worker — generate keys locally with usque instead.",
+      "date": "2026-11-03",
+      "tags": [
+        "network"
+      ],
+      "stars": 17,
+      "forks": 1,
+      "license": "MIT",
+      "pushed": "2026-11-03",
+      "archived": false
+    },
+    {
+      "name": "usque",
+      "repo": "Diniboy1123/usque",
+      "what": "Open-source Cloudflare WARP MASQUE client",
+      "verdict": "use",
+      "why": "Local key generation and a real client — the safe half of the MASQUE generator workflow; 1.5k stars, MIT.",
+      "date": "2026-11-03",
+      "tags": [
+        "network"
+      ],
+      "stars": 1514,
+      "forks": 196,
+      "license": "MIT",
+      "pushed": "2026-07-20",
+      "archived": false
+    },
+    {
+      "name": "llama.cpp",
+      "repo": "ggml-org/llama.cpp",
+      "what": "CPU/GPU inference for GGUF models",
+      "verdict": "use",
+      "why": "Runs on this box (build b12064); 0.8B-2B models are usable for batch work, 30B on 6 cores gives 2 tok/s and is not.",
+      "date": "2026-11-03",
+      "tags": [
+        "llm",
+        "local"
+      ],
+      "stars": 133369,
+      "forks": 25149,
+      "license": "MIT",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "Muse-Glimmer-30B",
+      "repo": null,
+      "what": "Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB",
+      "verdict": "park",
+      "why": "Measured on ki: 8.5 tok/s prompt, 2.07 tok/s generation, 28.6 GB peak RAM with default context — overnight batch only, never interactive.",
+      "date": "2026-11-03",
+      "tags": [
+        "llm",
+        "local"
+      ]
+    },
+    {
+      "name": "OpenCut",
+      "repo": "OpenCut-app/OpenCut",
+      "what": "Browser timeline video editor (CapCut alternative)",
+      "verdict": "park",
+      "why": "97k stars but a GUI timeline for humans; our videos are rendered from code, so an editor adds a step without adding capability.",
+      "date": "2026-11-03",
+      "tags": [
+        "video"
+      ],
+      "stars": 97317,
+      "forks": 9688,
+      "license": "MIT",
+      "pushed": "2026-09-24",
+      "archived": false
+    },
+    {
+      "name": "VoiceStudio",
+      "repo": "debpalash/VoiceStudio",
+      "what": "Local voice cloning and dubbing (ElevenLabs alternative)",
+      "verdict": "watch",
+      "why": "100k stars, AGPL; needs GPU/Apple Silicon. The moment the rig exists this is the German voice for DOPEAK.",
+      "date": "2026-11-03",
+      "tags": [
+        "audio",
+        "gpu"
+      ],
+      "stars": 100771,
+      "forks": 11154,
+      "license": "AGPL-3.0",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "Cal.com (cal.diy)",
+      "repo": "calcom/cal.diy",
+      "what": "Self-hosted scheduling pages (Calendly alternative)",
+      "verdict": "consider",
+      "why": "MIT and real, but it wants a domain, TLS and email before it is useful — worth it when the IT work gets its own booking link.",
+      "date": "2026-11-03",
+      "tags": [
+        "business"
+      ],
+      "stars": 49683,
+      "forks": 15536,
+      "license": "MIT",
+      "pushed": "2026-11-03",
+      "archived": false
+    },
+    {
+      "name": "AppFlowy",
+      "repo": "AppFlowy-IO/AppFlowy",
+      "what": "Self-hosted Notion alternative",
+      "verdict": "skip",
+      "why": "Desktop-plus-server product for teams of humans; our notes are markdown in the vault and the bots already read them.",
+      "date": "2026-11-03",
+      "tags": [
+        "productivity"
+      ],
+      "stars": 78190,
+      "forks": 6174,
+      "license": "AGPL-3.0",
+      "pushed": "2026-11-02",
+      "archived": false
+    },
+    {
+      "name": "Plane",
+      "repo": "makeplane/plane",
+      "what": "Self-hosted Jira/Linear alternative",
+      "verdict": "park",
+      "why": "Postgres plus Redis plus a worker; too much server for one person's task list. The kanban tool in Hermes already covers it.",
+      "date": "2026-11-03",
+      "tags": [
+        "productivity"
+      ],
+      "stars": 61968,
+      "forks": 6295,
+      "license": "AGPL-3.0",
+      "pushed": "2026-11-03",
+      "archived": false
+    },
+    {
+      "name": "Chatwoot",
+      "repo": "chatwoot/chatwoot",
+      "what": "Self-hosted Intercom alternative",
+      "verdict": "park",
+      "why": "No OSI licence, and a support inbox only pays off after there are customers to support.",
+      "date": "2026-11-03",
+      "tags": [
+        "business"
+      ],
+      "stars": 38865,
+      "forks": 9455,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "Cap",
+      "repo": "CapSoftware/Cap",
+      "what": "Open-source Loom alternative for screen recording",
+      "verdict": "park",
+      "why": "Non-OSI licence and a desktop app; screen capture on a headless server is ffmpeg, which we already use.",
+      "date": "2026-11-03",
+      "tags": [
+        "video"
+      ],
+      "stars": 24357,
+      "forks": 2245,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "Dyad",
+      "repo": "dyad-sh/dyad",
+      "what": "Local Lovable-style app builder",
+      "verdict": "park",
+      "why": "Non-OSI licence, GUI-first; writing the code directly with an agent is faster than clicking a builder.",
+      "date": "2026-11-03",
+      "tags": [
+        "dev"
+      ],
+      "stars": 22182,
+      "forks": 2793,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "OpenSEO (claim)",
+      "repo": null,
+      "what": "Supposed free Semrush alternative from the same carousel",
+      "verdict": "dead",
+      "why": "No repository at the claimed size — the name lands on a 2016 and a 2023 project, and the only live one has 27 stars and a week of history.",
+      "date": "2026-11-03",
+      "tags": [
+        "seo",
+        "unverified"
+      ]
+    },
+    {
+      "name": "OpenWhispr (claim)",
+      "repo": null,
+      "what": "Supposed open-source Wispr Flow dictation app",
+      "verdict": "dead",
+      "why": "Claim did not survive a repo search; no canonical project found to install.",
+      "date": "2026-11-03",
+      "tags": [
+        "audio",
+        "unverified"
+      ]
+    },
+    {
+      "name": "Weight-Space Programming",
+      "repo": "RikiyaT/lm_understand-logs",
+      "what": "MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops",
+      "verdict": "watch",
+      "why": "Artifacts are real (logs, edited Qwen3.5-0.8B, eval files) but the headline 6x compares 25 base problems against 500 edited ones, with 95% of base outputs truncated — direction yes, multiplier no. Needs the unreleased GPT-6 Astra.",
+      "date": "2026-11-04",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "stars": 877,
+      "forks": 110,
+      "license": "NOASSERTION",
+      "pushed": "2026-10-29",
+      "archived": false
+    }
+  ]
+}
