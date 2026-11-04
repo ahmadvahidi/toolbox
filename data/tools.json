@@ -12,7 +12,7 @@
         "agents",
         "skills"
       ],
-      "stars": 297052,
+      "stars": 297068,
       "forks": 43913,
       "license": "MIT",
       "pushed": "2026-11-02",
@@ -46,7 +46,7 @@
         "3d",
         "gpu"
       ],
-      "stars": 1458,
+      "stars": 1459,
       "forks": 142,
       "license": "GPL-3.0",
       "pushed": "2026-11-02",
@@ -79,7 +79,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 6230,
+      "stars": 6231,
       "forks": 623,
       "license": "MIT",
       "pushed": "2026-10-16",
@@ -128,8 +128,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3361,
-      "forks": 253,
+      "stars": 3364,
+      "forks": 255,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -194,7 +194,7 @@
         "network"
       ],
       "stars": 17,
-      "forks": 1,
+      "forks": 2,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -254,7 +254,7 @@
       "tags": [
         "video"
       ],
-      "stars": 97317,
+      "stars": 97321,
       "forks": 9688,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -271,8 +271,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 100771,
-      "forks": 11154,
+      "stars": 100781,
+      "forks": 11157,
       "license": "AGPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -287,7 +287,7 @@
       "tags": [
         "business"
       ],
-      "stars": 49683,
+      "stars": 49685,
       "forks": 15536,
       "license": "MIT",
       "pushed": "2026-11-03",
@@ -304,7 +304,7 @@
         "productivity"
       ],
       "stars": 78190,
-      "forks": 6174,
+      "forks": 6175,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -319,7 +319,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 61968,
+      "stars": 61970,
       "forks": 6295,
       "license": "AGPL-3.0",
       "pushed": "2026-11-03",
@@ -335,7 +335,7 @@
       "tags": [
         "business"
       ],
-      "stars": 38865,
+      "stars": 38868,
       "forks": 9455,
       "license": "NOASSERTION",
       "pushed": "2026-11-04",
@@ -352,7 +352,7 @@
         "video"
       ],
       "stars": 24357,
-      "forks": 2245,
+      "forks": 2246,
       "license": "NOASSERTION",
       "pushed": "2026-11-04",
       "archived": false
@@ -367,7 +367,7 @@
       "tags": [
         "dev"
       ],
-      "stars": 22182,
+      "stars": 22181,
       "forks": 2793,
       "license": "NOASSERTION",
       "pushed": "2026-11-04",
@@ -408,8 +408,8 @@
         "llm",
         "research"
       ],
-      "stars": 877,
-      "forks": 110,
+      "stars": 880,
+      "forks": 111,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
       "archived": false
