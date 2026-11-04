@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 297068,
-      "forks": 43913,
+      "stars": 297076,
+      "forks": 43915,
       "license": "MIT",
       "pushed": "2026-11-02",
       "archived": false
@@ -23,11 +23,12 @@
       "repo": "bas3line/ascii",
       "what": "240 animated ASCII pieces for the web, one <ascii-art> tag, MIT",
       "verdict": "use",
-      "why": "Rendered three pieces headless here in minutes; ready for landing pages, shorts backdrops and bot dashboards.",
+      "why": "Wired in: ascii_bumper.mjs captures any piece in headless Chrome and encodes an MP4 — a 2.5s vertical 1080x1920 bumper renders in 2.5s. Used as the short intro; page also renders live for landing pages.",
       "date": "2026-11-04",
       "tags": [
         "web",
-        "design"
+        "design",
+        "video"
       ],
       "stars": 1135,
       "forks": 66,
@@ -56,14 +57,15 @@
       "name": "ClaudeAnimationBase",
       "repo": "JohnHeibel/ClaudeAnimationBase",
       "what": "Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE",
-      "verdict": "park",
-      "why": "Measured on this box: 19 s/frame at 320px, 17.8 s for one 1280px still — a 11s clip is an 80-minute overnight job, not interactive. Stills are usable today.",
+      "verdict": "use",
+      "why": "Split verdict: 17.8s per 1280px still makes it a thumbnail/painting tool today (wired in the playbook), while its own video path costs ~19s/frame — a 11s clip is an 80-minute overnight job.",
       "date": "2026-11-04",
       "tags": [
         "animation",
+        "thumbnails",
         "gpu"
       ],
-      "stars": 2564,
+      "stars": 2565,
       "forks": 233,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -79,7 +81,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 6231,
+      "stars": 6232,
       "forks": 623,
       "license": "MIT",
       "pushed": "2026-10-16",
@@ -112,7 +114,7 @@
         "animation",
         "design"
       ],
-      "stars": 517,
+      "stars": 518,
       "forks": 127,
       "license": "NOASSERTION",
       "pushed": "2026-11-04",
@@ -128,7 +130,7 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3364,
+      "stars": 3365,
       "forks": 255,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
@@ -226,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133369,
-      "forks": 25149,
+      "stars": 133372,
+      "forks": 25150,
       "license": "MIT",
       "pushed": "2026-11-04",
       "archived": false
@@ -254,7 +256,7 @@
       "tags": [
         "video"
       ],
-      "stars": 97321,
+      "stars": 97324,
       "forks": 9688,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -271,7 +273,7 @@
         "audio",
         "gpu"
       ],
-      "stars": 100781,
+      "stars": 100785,
       "forks": 11157,
       "license": "AGPL-3.0",
       "pushed": "2026-11-04",
@@ -367,7 +369,7 @@
       "tags": [
         "dev"
       ],
-      "stars": 22181,
+      "stars": 22182,
       "forks": 2793,
       "license": "NOASSERTION",
       "pushed": "2026-11-04",
@@ -408,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 880,
+      "stars": 882,
       "forks": 111,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",

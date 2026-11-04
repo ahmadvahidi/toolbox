@@ -3,8 +3,9 @@
 checked 2026-11-04
 
 - `use     ` **llama.cpp** — CPU/GPU inference for GGUF models · ggml-org/llama.cpp · Runs on this box (build b12064); 0.8B-2B models are usable for batch work, 30B on 6 cores gives 2 tok/s and is not.
+- `use     ` **ClaudeAnimationBase** — Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE · JohnHeibel/ClaudeAnimationBase · Split verdict: 17.8s per 1280px still makes it a thumbnail/painting tool today (wired in the playbook), while its own video path costs ~19s/frame — a 11s clip is an 80-minute overnight job.
 - `use     ` **usque** — Open-source Cloudflare WARP MASQUE client · Diniboy1123/usque · Local key generation and a real client — the safe half of the MASQUE generator workflow; 1.5k stars, MIT.
-- `use     ` **ascii.rest** — 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT · bas3line/ascii · Rendered three pieces headless here in minutes; ready for landing pages, shorts backdrops and bot dashboards.
+- `use     ` **ascii.rest** — 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT · bas3line/ascii · Wired in: ascii_bumper.mjs captures any piece in headless Chrome and encodes an MP4 — a 2.5s vertical 1080x1920 bumper renders in 2.5s. Used as the short intro; page also renders live for landing pages.
 - `use     ` **code-animation-prompts** — 341 code-rendered animation styles with prompts · XiaoyeCodes/code-animation-prompts · Mirrored to workspace/animation-styles and published as code-animation-atlas; 28 runnable on Canvas + headless Chrome with no GPU.
 - `consider` **ECC** — 295k-star pack of 314 Claude skills, 71 agents, 98 commands · affaan-m/ECC · Real and huge, but the useful parts are the skills — imported 12 as Hermes skills and catalogued all 483 items; the rest costs context for nothing.
 - `consider` **Cal.com (cal.diy)** — Self-hosted scheduling pages (Calendly alternative) · calcom/cal.diy · MIT and real, but it wants a domain, TLS and email before it is useful — worth it when the IT work gets its own booking link.
@@ -19,7 +20,6 @@ checked 2026-11-04
 - `park    ` **Chatwoot** — Self-hosted Intercom alternative · chatwoot/chatwoot · No OSI licence, and a support inbox only pays off after there are customers to support.
 - `park    ` **Cap** — Open-source Loom alternative for screen recording · CapSoftware/Cap · Non-OSI licence and a desktop app; screen capture on a headless server is ffmpeg, which we already use.
 - `park    ` **Dyad** — Local Lovable-style app builder · dyad-sh/dyad · Non-OSI licence, GUI-first; writing the code directly with an agent is faster than clicking a builder.
-- `park    ` **ClaudeAnimationBase** — Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE · JohnHeibel/ClaudeAnimationBase · Measured on this box: 19 s/frame at 320px, 17.8 s for one 1280px still — a 11s clip is an 80-minute overnight job, not interactive. Stills are usable today.
 - `park    ` **TWP-CF** — Telegram web proxy on Cloudflare Workers (MTProto over websocket) · MHDLabs/TWP-CF · 11 stars, custom licence and a security warning in its own README; Telegram Web already reaches us from Iran via the existing tunnel.
 - `park    ` **Muse-Glimmer-30B** — Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB · Measured on ki: 8.5 tok/s prompt, 2.07 tok/s generation, 28.6 GB peak RAM with default context — overnight batch only, never interactive.
 - `skip    ` **AppFlowy** — Self-hosted Notion alternative · AppFlowy-IO/AppFlowy · Desktop-plus-server product for teams of humans; our notes are markdown in the vault and the bots already read them.

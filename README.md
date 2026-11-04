@@ -14,28 +14,28 @@ Stars are a snapshot, not a quality score.
 
 | | Tool | What it is | ★ | Licence | Last push |
 |---|---|---|---:|---|---|
-| ✅ in use | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | CPU/GPU inference for GGUF models | 133,369 | MIT | 2026-11-04 |
+| ✅ in use | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | CPU/GPU inference for GGUF models | 133,372 | MIT | 2026-11-04 |
+| ✅ in use | **[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)** | Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE | 2,565 | MIT | 2026-09-24 |
 | ✅ in use | **[usque](https://github.com/Diniboy1123/usque)** | Open-source Cloudflare WARP MASQUE client | 1,514 | MIT | 2026-07-20 |
 | ✅ in use | **[ascii.rest](https://github.com/bas3line/ascii)** | 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT | 1,135 | MIT | 2026-10-30 |
-| ✅ in use | **[code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts)** | 341 code-rendered animation styles with prompts | 517 | NOASSERTION | 2026-11-04 |
-| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 295k-star pack of 314 Claude skills, 71 agents, 98 commands | 297,068 | MIT | 2026-11-02 |
+| ✅ in use | **[code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts)** | 341 code-rendered animation styles with prompts | 518 | NOASSERTION | 2026-11-04 |
+| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 295k-star pack of 314 Claude skills, 71 agents, 98 commands | 297,076 | MIT | 2026-11-02 |
 | 🟡 consider | **[Cal.com (cal.diy)](https://github.com/calcom/cal.diy)** | Self-hosted scheduling pages (Calendly alternative) | 49,685 | MIT | 2026-11-03 |
-| 🟡 consider | **[huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** | Claude skill collection for hand-drawn and painterly motion | 6,231 | MIT | 2026-10-16 |
+| 🟡 consider | **[huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** | Claude skill collection for hand-drawn and painterly motion | 6,232 | MIT | 2026-10-16 |
 | 🟡 consider | **[anidoodle](https://github.com/alexgreensh/anidoodle)** | Animated doodle/sketch skill for Claude | 1,312 | Apache-2.0 | 2026-10-31 |
 | 🟡 consider | **[Masque Config Generator](https://github.com/DarknessShade/Masque-Generator)** | One-page generator for Xray WARP-over-MASQUE configs (P-256 keys) | 17 | MIT | 2026-11-03 |
-| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 100,781 | AGPL-3.0 | 2026-11-04 |
+| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 100,785 | AGPL-3.0 | 2026-11-04 |
 | 👀 watch | **[StableGen](https://github.com/sakalond/stablegen)** | Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold) | 1,459 | GPL-3.0 | 2026-11-02 |
-| 👀 watch | **[Weight-Space Programming](https://github.com/RikiyaT/lm_understand-logs)** | MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops | 880 | NOASSERTION | 2026-10-29 |
-| 🅿️ park | **[OpenCut](https://github.com/OpenCut-app/OpenCut)** | Browser timeline video editor (CapCut alternative) | 97,321 | MIT | 2026-09-24 |
+| 👀 watch | **[Weight-Space Programming](https://github.com/RikiyaT/lm_understand-logs)** | MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops | 882 | NOASSERTION | 2026-10-29 |
+| 🅿️ park | **[OpenCut](https://github.com/OpenCut-app/OpenCut)** | Browser timeline video editor (CapCut alternative) | 97,324 | MIT | 2026-09-24 |
 | 🅿️ park | **[Plane](https://github.com/makeplane/plane)** | Self-hosted Jira/Linear alternative | 61,970 | AGPL-3.0 | 2026-11-03 |
 | 🅿️ park | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | Self-hosted Intercom alternative | 38,868 | NOASSERTION | 2026-11-04 |
 | 🅿️ park | **[Cap](https://github.com/CapSoftware/Cap)** | Open-source Loom alternative for screen recording | 24,357 | NOASSERTION | 2026-11-04 |
-| 🅿️ park | **[Dyad](https://github.com/dyad-sh/dyad)** | Local Lovable-style app builder | 22,181 | NOASSERTION | 2026-11-04 |
-| 🅿️ park | **[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)** | Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE | 2,564 | MIT | 2026-09-24 |
+| 🅿️ park | **[Dyad](https://github.com/dyad-sh/dyad)** | Local Lovable-style app builder | 22,182 | NOASSERTION | 2026-11-04 |
 | 🅿️ park | **[TWP-CF](https://github.com/MHDLabs/TWP-CF)** | Telegram web proxy on Cloudflare Workers (MTProto over websocket) | 15 | NOASSERTION | 2026-11-04 |
 | 🅿️ park | **Muse-Glimmer-30B** | Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB | — | — | — |
 | ⏭️ skip | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | Self-hosted Notion alternative | 78,190 | AGPL-3.0 | 2026-11-02 |
-| ⏭️ skip | **[TwinDesk](https://github.com/inukaasith/twindesk)** | Share mouse, keyboard, files and clipboard across machines (KVM) | 3,364 | GPL-3.0 | 2026-11-04 |
+| ⏭️ skip | **[TwinDesk](https://github.com/inukaasith/twindesk)** | Share mouse, keyboard, files and clipboard across machines (KVM) | 3,365 | GPL-3.0 | 2026-11-04 |
 | ⏭️ skip | **[FloMorphic getting-started](https://github.com/FloMorphic/getting-started)** | Low-code graph platform for agent pipelines, MCP + RAG + human oversight | 8 | Apache-2.0 | 2026-10-26 |
 | ⏭️ skip | **[tree-of-neuron](https://github.com/fermow/tree-of-neuron)** | Interactive 47-milestone history of neuroscience | 2 | none | 2026-10-15 |
 | ⚰️ dead | **OpenSEO (claim)** | Supposed free Semrush alternative from the same carousel | — | — | — |
