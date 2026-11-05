@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "tools": [
     {
       "name": "ECC",
@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 297076,
-      "forks": 43915,
+      "stars": 297357,
+      "forks": 43963,
       "license": "MIT",
       "pushed": "2026-11-02",
       "archived": false
@@ -30,8 +30,8 @@
         "design",
         "video"
       ],
-      "stars": 1135,
-      "forks": 66,
+      "stars": 1140,
+      "forks": 67,
       "license": "MIT",
       "pushed": "2026-10-30",
       "archived": false
@@ -47,10 +47,10 @@
         "3d",
         "gpu"
       ],
-      "stars": 1459,
+      "stars": 1467,
       "forks": 142,
       "license": "GPL-3.0",
-      "pushed": "2026-11-02",
+      "pushed": "2026-11-04",
       "archived": false
     },
     {
@@ -65,8 +65,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2565,
-      "forks": 233,
+      "stars": 2587,
+      "forks": 239,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6232,
-      "forks": 623,
+      "stars": 6260,
+      "forks": 626,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,8 +97,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 1312,
-      "forks": 124,
+      "stars": 1338,
+      "forks": 128,
       "license": "Apache-2.0",
       "pushed": "2026-10-31",
       "archived": false
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 518,
-      "forks": 127,
+      "stars": 556,
+      "forks": 139,
       "license": "NOASSERTION",
       "pushed": "2026-11-04",
       "archived": false
@@ -130,10 +130,10 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3365,
-      "forks": 255,
+      "stars": 3430,
+      "forks": 264,
       "license": "GPL-3.0",
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "archived": false
     },
     {
@@ -147,7 +147,7 @@
       "tags": [
         "agents"
       ],
-      "stars": 8,
+      "stars": 10,
       "forks": 2,
       "license": "Apache-2.0",
       "pushed": "2026-10-26",
@@ -195,7 +195,7 @@
       "tags": [
         "network"
       ],
-      "stars": 17,
+      "stars": 20,
       "forks": 2,
       "license": "MIT",
       "pushed": "2026-11-03",
@@ -211,8 +211,8 @@
       "tags": [
         "network"
       ],
-      "stars": 1514,
-      "forks": 196,
+      "stars": 1517,
+      "forks": 197,
       "license": "MIT",
       "pushed": "2026-07-20",
       "archived": false
@@ -228,10 +228,10 @@
         "llm",
         "local"
       ],
-      "stars": 133372,
-      "forks": 25150,
+      "stars": 133399,
+      "forks": 25162,
       "license": "MIT",
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "archived": false
     },
     {
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97324,
-      "forks": 9688,
+      "stars": 97349,
+      "forks": 9689,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 100785,
-      "forks": 11157,
+      "stars": 101164,
+      "forks": 11198,
       "license": "AGPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49685,
-      "forks": 15536,
+      "stars": 49696,
+      "forks": 15537,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78190,
-      "forks": 6175,
+      "stars": 78211,
+      "forks": 6178,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,10 +321,10 @@
       "tags": [
         "productivity"
       ],
-      "stars": 61970,
-      "forks": 6295,
+      "stars": 61994,
+      "forks": 6301,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-03",
+      "pushed": "2026-11-05",
       "archived": false
     },
     {
@@ -337,10 +337,10 @@
       "tags": [
         "business"
       ],
-      "stars": 38868,
-      "forks": 9455,
+      "stars": 38898,
+      "forks": 9464,
       "license": "NOASSERTION",
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "archived": false
     },
     {
@@ -353,10 +353,10 @@
       "tags": [
         "video"
       ],
-      "stars": 24357,
-      "forks": 2246,
+      "stars": 24383,
+      "forks": 2250,
       "license": "NOASSERTION",
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "archived": false
     },
     {
@@ -369,10 +369,10 @@
       "tags": [
         "dev"
       ],
-      "stars": 22182,
-      "forks": 2793,
+      "stars": 22186,
+      "forks": 2794,
       "license": "NOASSERTION",
-      "pushed": "2026-11-04",
+      "pushed": "2026-11-05",
       "archived": false
     },
     {
@@ -410,8 +410,8 @@
         "llm",
         "research"
       ],
-      "stars": 882,
-      "forks": 111,
+      "stars": 947,
+      "forks": 128,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
       "archived": false
