@@ -12,7 +12,7 @@
         "agents",
         "skills"
       ],
-      "stars": 298359,
+      "stars": 298379,
       "forks": 44110,
       "license": "MIT",
       "pushed": "2026-11-06",
@@ -81,7 +81,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 6385,
+      "stars": 6388,
       "forks": 639,
       "license": "MIT",
       "pushed": "2026-10-16",
@@ -114,7 +114,7 @@
         "animation",
         "design"
       ],
-      "stars": 696,
+      "stars": 698,
       "forks": 172,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
@@ -130,8 +130,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3616,
-      "forks": 279,
+      "stars": 3619,
+      "forks": 280,
       "license": "GPL-3.0",
       "pushed": "2026-11-06",
       "archived": false
@@ -229,7 +229,7 @@
         "local"
       ],
       "stars": 133555,
-      "forks": 25210,
+      "forks": 25211,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -256,7 +256,7 @@
       "tags": [
         "video"
       ],
-      "stars": 97486,
+      "stars": 97489,
       "forks": 9709,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 102616,
-      "forks": 11381,
+      "stars": 102635,
+      "forks": 11386,
       "license": "AGPL-3.0",
       "pushed": "2026-11-06",
       "archived": false
@@ -289,7 +289,7 @@
       "tags": [
         "business"
       ],
-      "stars": 49747,
+      "stars": 49748,
       "forks": 15554,
       "license": "MIT",
       "pushed": "2026-11-03",
@@ -305,7 +305,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78308,
+      "stars": 78310,
       "forks": 6192,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
@@ -337,7 +337,7 @@
       "tags": [
         "business"
       ],
-      "stars": 38991,
+      "stars": 38992,
       "forks": 9488,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
@@ -353,7 +353,7 @@
       "tags": [
         "video"
       ],
-      "stars": 24515,
+      "stars": 24517,
       "forks": 2270,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1055,
+      "stars": 1057,
       "forks": 139,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -421,7 +421,7 @@
       "repo": "cinemap.video (TapNow)",
       "what": "3D previs from text: build an editable set, keyframe props/actors, phone-as-camera via QR, then hand the clip to Seedance 2.5 as a camera reference",
       "verdict": "park",
-      "why": "Real product (cinemap.video / app.tapnow.ai) and the camera-reference trick works because Seedance 2.5 ships camera-perspective reference. But the reel is a paid ad, pricing could not be verified (JS anti-bot wall), and it targets cinematic scenes, not our chart-driven shorts. Revisit when we make a film-style piece.",
+      "why": "Real product (cinemap.video, run by TapNow). Pricing now verified via the TapNow pricing page: Basic $15/mo ($7.5/mo billed yearly, 1500 Tapies), Pro $60/mo (6000, top-up $1=107), Ultimate $360/mo, Max $720/mo; 1 Tapie ≈ $0.01 of credit. The camera-reference trick works because Seedance 2.5 ships camera-perspective reference (ByteDance launch post, 2026-07-31). Parked, not skipped: it targets cinematic previs, not our chart-driven shorts, and the reel is a paid ad. Revisit for a film-style piece.",
       "date": "2026-11-06",
       "tags": [
         "video",
@@ -433,7 +433,14 @@
       "forks": null,
       "license": null,
       "pushed": null,
-      "archived": false
+      "archived": false,
+      "pricing": {
+        "basic_usd_month": 15,
+        "basic_yearly_usd_month": 7.5,
+        "credits_basic": 1500,
+        "credit_rate": "$1 = 100 Tapies",
+        "verified": "2026-11-06"
+      }
     }
   ]
 }
