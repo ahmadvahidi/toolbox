@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 297969,
-      "forks": 44059,
+      "stars": 298359,
+      "forks": 44110,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -30,8 +30,8 @@
         "design",
         "video"
       ],
-      "stars": 1148,
-      "forks": 67,
+      "stars": 1149,
+      "forks": 68,
       "license": "MIT",
       "pushed": "2026-10-30",
       "archived": false
@@ -47,8 +47,8 @@
         "3d",
         "gpu"
       ],
-      "stars": 1483,
-      "forks": 144,
+      "stars": 1492,
+      "forks": 145,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -65,8 +65,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2622,
-      "forks": 243,
+      "stars": 2647,
+      "forks": 245,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6344,
-      "forks": 637,
+      "stars": 6385,
+      "forks": 639,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,8 +97,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 1367,
-      "forks": 130,
+      "stars": 1388,
+      "forks": 134,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
       "archived": false
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 651,
-      "forks": 164,
+      "stars": 696,
+      "forks": 172,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,10 +130,10 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3551,
-      "forks": 275,
+      "stars": 3616,
+      "forks": 279,
       "license": "GPL-3.0",
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "archived": false
     },
     {
@@ -166,7 +166,7 @@
       "stars": 16,
       "forks": 13,
       "license": "GPL-3.0",
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "archived": false
     },
     {
@@ -195,7 +195,7 @@
       "tags": [
         "network"
       ],
-      "stars": 22,
+      "stars": 23,
       "forks": 4,
       "license": "MIT",
       "pushed": "2026-11-03",
@@ -211,7 +211,7 @@
       "tags": [
         "network"
       ],
-      "stars": 1519,
+      "stars": 1523,
       "forks": 198,
       "license": "MIT",
       "pushed": "2026-07-20",
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133504,
-      "forks": 25195,
+      "stars": 133555,
+      "forks": 25210,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97425,
-      "forks": 9701,
+      "stars": 97486,
+      "forks": 9709,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 102105,
-      "forks": 11321,
+      "stars": 102616,
+      "forks": 11381,
       "license": "AGPL-3.0",
       "pushed": "2026-11-06",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49725,
-      "forks": 15548,
+      "stars": 49747,
+      "forks": 15554,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78269,
-      "forks": 6189,
+      "stars": 78308,
+      "forks": 6192,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,10 +321,10 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62046,
-      "forks": 6311,
+      "stars": 62075,
+      "forks": 6321,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-05",
+      "pushed": "2026-11-06",
       "archived": false
     },
     {
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 38965,
-      "forks": 9483,
+      "stars": 38991,
+      "forks": 9488,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
       "archived": false
@@ -353,8 +353,8 @@
       "tags": [
         "video"
       ],
-      "stars": 24455,
-      "forks": 2259,
+      "stars": 24515,
+      "forks": 2270,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
       "archived": false
@@ -369,8 +369,8 @@
       "tags": [
         "dev"
       ],
-      "stars": 22194,
-      "forks": 2797,
+      "stars": 22206,
+      "forks": 2798,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
       "archived": false
@@ -410,10 +410,29 @@
         "llm",
         "research"
       ],
-      "stars": 1026,
-      "forks": 137,
+      "stars": 1055,
+      "forks": 139,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
+      "archived": false
+    },
+    {
+      "name": "Cinemap",
+      "repo": "cinemap.video (TapNow)",
+      "what": "3D previs from text: build an editable set, keyframe props/actors, phone-as-camera via QR, then hand the clip to Seedance 2.5 as a camera reference",
+      "verdict": "park",
+      "why": "Real product (cinemap.video / app.tapnow.ai) and the camera-reference trick works because Seedance 2.5 ships camera-perspective reference. But the reel is a paid ad, pricing could not be verified (JS anti-bot wall), and it targets cinematic scenes, not our chart-driven shorts. Revisit when we make a film-style piece.",
+      "date": "2026-11-06",
+      "tags": [
+        "video",
+        "previs",
+        "3d",
+        "seedance"
+      ],
+      "stars": null,
+      "forks": null,
+      "license": null,
+      "pushed": null,
       "archived": false
     }
   ]
