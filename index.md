@@ -1,6 +1,6 @@
 # index — one line per entry
 
-checked 2026-11-05
+checked 2026-11-06
 
 - `use     ` **llama.cpp** — CPU/GPU inference for GGUF models · ggml-org/llama.cpp · Runs on this box (build b12064); 0.8B-2B models are usable for batch work, 30B on 6 cores gives 2 tok/s and is not.
 - `use     ` **ClaudeAnimationBase** — Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE · JohnHeibel/ClaudeAnimationBase · Split verdict: 17.8s per 1280px still makes it a thumbnail/painting tool today (wired in the playbook), while its own video path costs ~19s/frame — a 11s clip is an 80-minute overnight job.
