@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 298672,
-      "forks": 44138,
+      "stars": 298707,
+      "forks": 44145,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -30,10 +30,10 @@
         "design",
         "video"
       ],
-      "stars": 1154,
+      "stars": 1155,
       "forks": 68,
       "license": "MIT",
-      "pushed": "2026-10-30",
+      "pushed": "2026-11-07",
       "archived": false
     },
     {
@@ -47,7 +47,7 @@
         "3d",
         "gpu"
       ],
-      "stars": 1509,
+      "stars": 1510,
       "forks": 145,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
@@ -65,7 +65,7 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2661,
+      "stars": 2662,
       "forks": 244,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6410,
-      "forks": 640,
+      "stars": 6415,
+      "forks": 641,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,7 +97,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1396,
+      "stars": 1399,
       "forks": 134,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 716,
-      "forks": 172,
+      "stars": 723,
+      "forks": 173,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,8 +130,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3649,
-      "forks": 281,
+      "stars": 3654,
+      "forks": 282,
       "license": "GPL-3.0",
       "pushed": "2026-11-06",
       "archived": false
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133591,
-      "forks": 25222,
+      "stars": 133596,
+      "forks": 25223,
       "license": "MIT",
       "pushed": "2026-11-07",
       "archived": false
@@ -256,7 +256,7 @@
       "tags": [
         "video"
       ],
-      "stars": 97526,
+      "stars": 97530,
       "forks": 9715,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 103047,
-      "forks": 11443,
+      "stars": 103107,
+      "forks": 11451,
       "license": "AGPL-3.0",
       "pushed": "2026-11-06",
       "archived": false
@@ -289,7 +289,7 @@
       "tags": [
         "business"
       ],
-      "stars": 49753,
+      "stars": 49754,
       "forks": 15563,
       "license": "MIT",
       "pushed": "2026-11-03",
@@ -305,7 +305,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78347,
+      "stars": 78348,
       "forks": 6198,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
@@ -321,7 +321,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62097,
+      "stars": 62099,
       "forks": 6323,
       "license": "AGPL-3.0",
       "pushed": "2026-11-06",
@@ -337,7 +337,7 @@
       "tags": [
         "business"
       ],
-      "stars": 39018,
+      "stars": 39022,
       "forks": 9498,
       "license": "NOASSERTION",
       "pushed": "2026-11-07",
@@ -353,7 +353,7 @@
       "tags": [
         "video"
       ],
-      "stars": 24549,
+      "stars": 24554,
       "forks": 2277,
       "license": "NOASSERTION",
       "pushed": "2026-11-07",
@@ -369,7 +369,7 @@
       "tags": [
         "dev"
       ],
-      "stars": 22212,
+      "stars": 22213,
       "forks": 2801,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1075,
+      "stars": 1080,
       "forks": 143,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -441,6 +441,32 @@
         "credit_rate": "$1 = 100 Tapies",
         "verified": "2026-11-06"
       }
+    },
+    {
+      "name": "ClipUtils",
+      "repo": "cliputils.com",
+      "what": "32 browser tools: trim/compress/convert, remove music keeping the voice, auto subtitles, video translation/dubbing, TTS, HEIC/WebP conversion, background removal",
+      "verdict": "park",
+      "why": "Real and genuinely free at the core: no signup, no watermark on local tools, and trimming/compressing/converting/removing music run on-device (nothing uploaded). The 'free' claim has limits the homepage buries: video translator 8 min, dubbing 2 min and German is Pro-only, auto subtitles 15 min, TTS 5 min, Text-to-Video adds a cliputils tag. Pro is cheap ($1.49/mo most countries, $2.99 US/Europe). No API, so it cannot be automated into our pipeline. For Ahmad's phone it is a useful one-off tool (remove music, Dub German); for the channel pipeline ffmpeg/whisper/edge-tts stay the answer.",
+      "date": "2026-11-06",
+      "tags": [
+        "video",
+        "audio",
+        "subtitles",
+        "dubbing",
+        "browser"
+      ],
+      "stars": null,
+      "forks": null,
+      "license": null,
+      "pushed": null,
+      "archived": false,
+      "pricing": {
+        "pro_usd_month": 1.49,
+        "pro_usd_month_us_eu": 2.99,
+        "verified": "2026-11-06"
+      },
+      "status": "gone"
     }
   ]
 }
