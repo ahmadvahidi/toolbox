@@ -1,19 +1,19 @@
 {
-  "checked": "2026-11-07",
+  "checked": "2026-11-08",
   "tools": [
     {
       "name": "ECC",
       "repo": "affaan-m/ECC",
-      "what": "295k-star pack of 314 Claude skills, 71 agents, 98 commands",
+      "what": "299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review)",
       "verdict": "consider",
-      "why": "Real and huge, but the useful parts are the skills — imported 12 as Hermes skills and catalogued all 483 items; the rest costs context for nothing.",
-      "date": "2026-11-02",
+      "why": "Real and huge, but the useful parts are the skills — 12 imported as Hermes skills and all 483 items catalogued. Re-checked 2026-11-08 after @moeen_valpr's reel (cover claims 290K★; actual 299,217, so the claim is honest): upstream advanced 6 commits since b38be6a but only CI/PR-moderation files — zero skill changes, mirror still current. Not a model upgrade; gain is phase discipline + checklists.",
+      "date": "2026-11-08",
       "tags": [
         "agents",
         "skills"
       ],
-      "stars": 298707,
-      "forks": 44145,
+      "stars": 299217,
+      "forks": 44202,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -30,10 +30,10 @@
         "design",
         "video"
       ],
-      "stars": 1155,
+      "stars": 1161,
       "forks": 68,
       "license": "MIT",
-      "pushed": "2026-11-07",
+      "pushed": "2026-11-08",
       "archived": false
     },
     {
@@ -47,8 +47,8 @@
         "3d",
         "gpu"
       ],
-      "stars": 1510,
-      "forks": 145,
+      "stars": 1577,
+      "forks": 151,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -65,8 +65,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2662,
-      "forks": 244,
+      "stars": 2721,
+      "forks": 251,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6415,
-      "forks": 641,
+      "stars": 6473,
+      "forks": 646,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,8 +97,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 1399,
-      "forks": 134,
+      "stars": 1444,
+      "forks": 137,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
       "archived": false
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 723,
-      "forks": 173,
+      "stars": 771,
+      "forks": 181,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,10 +130,10 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3654,
-      "forks": 282,
+      "stars": 3708,
+      "forks": 285,
       "license": "GPL-3.0",
-      "pushed": "2026-11-06",
+      "pushed": "2026-11-07",
       "archived": false
     },
     {
@@ -163,7 +163,7 @@
       "tags": [
         "network"
       ],
-      "stars": 16,
+      "stars": 17,
       "forks": 13,
       "license": "GPL-3.0",
       "pushed": "2026-11-06",
@@ -228,10 +228,10 @@
         "llm",
         "local"
       ],
-      "stars": 133596,
-      "forks": 25223,
+      "stars": 133668,
+      "forks": 25246,
       "license": "MIT",
-      "pushed": "2026-11-07",
+      "pushed": "2026-11-08",
       "archived": false
     },
     {
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97530,
-      "forks": 9715,
+      "stars": 97624,
+      "forks": 9729,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,10 +273,10 @@
         "audio",
         "gpu"
       ],
-      "stars": 103107,
-      "forks": 11451,
+      "stars": 103952,
+      "forks": 11549,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-06",
+      "pushed": "2026-11-07",
       "archived": false
     },
     {
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49754,
-      "forks": 15563,
+      "stars": 49781,
+      "forks": 15568,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78348,
-      "forks": 6198,
+      "stars": 78412,
+      "forks": 6206,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,10 +321,10 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62099,
-      "forks": 6323,
+      "stars": 62135,
+      "forks": 6339,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-06",
+      "pushed": "2026-11-07",
       "archived": false
     },
     {
@@ -337,10 +337,10 @@
       "tags": [
         "business"
       ],
-      "stars": 39022,
-      "forks": 9498,
+      "stars": 39064,
+      "forks": 9509,
       "license": "NOASSERTION",
-      "pushed": "2026-11-07",
+      "pushed": "2026-11-08",
       "archived": false
     },
     {
@@ -353,10 +353,10 @@
       "tags": [
         "video"
       ],
-      "stars": 24554,
-      "forks": 2277,
+      "stars": 24609,
+      "forks": 2284,
       "license": "NOASSERTION",
-      "pushed": "2026-11-07",
+      "pushed": "2026-11-08",
       "archived": false
     },
     {
@@ -369,8 +369,8 @@
       "tags": [
         "dev"
       ],
-      "stars": 22213,
-      "forks": 2801,
+      "stars": 22227,
+      "forks": 2803,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
       "archived": false
@@ -410,8 +410,8 @@
         "llm",
         "research"
       ],
-      "stars": 1080,
-      "forks": 143,
+      "stars": 1109,
+      "forks": 146,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
       "archived": false
