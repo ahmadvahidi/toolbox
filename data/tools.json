@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 299221,
-      "forks": 44202,
+      "stars": 299261,
+      "forks": 44215,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -30,8 +30,8 @@
         "design",
         "video"
       ],
-      "stars": 1161,
-      "forks": 68,
+      "stars": 1162,
+      "forks": 69,
       "license": "MIT",
       "pushed": "2026-11-08",
       "archived": false
@@ -47,8 +47,8 @@
         "3d",
         "gpu"
       ],
-      "stars": 1577,
-      "forks": 151,
+      "stars": 1580,
+      "forks": 154,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -65,7 +65,7 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2722,
+      "stars": 2727,
       "forks": 251,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6473,
-      "forks": 646,
+      "stars": 6477,
+      "forks": 647,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,8 +97,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 1444,
-      "forks": 137,
+      "stars": 1448,
+      "forks": 138,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
       "archived": false
@@ -114,7 +114,7 @@
         "animation",
         "design"
       ],
-      "stars": 771,
+      "stars": 785,
       "forks": 181,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
@@ -130,10 +130,10 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3708,
-      "forks": 285,
+      "stars": 3720,
+      "forks": 286,
       "license": "GPL-3.0",
-      "pushed": "2026-11-07",
+      "pushed": "2026-11-08",
       "archived": false
     },
     {
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133669,
-      "forks": 25246,
+      "stars": 133681,
+      "forks": 25247,
       "license": "MIT",
       "pushed": "2026-11-08",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97624,
-      "forks": 9729,
+      "stars": 97642,
+      "forks": 9732,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,10 +273,10 @@
         "audio",
         "gpu"
       ],
-      "stars": 103960,
-      "forks": 11549,
+      "stars": 104063,
+      "forks": 11567,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-07",
+      "pushed": "2026-11-08",
       "archived": false
     },
     {
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49781,
-      "forks": 15568,
+      "stars": 49785,
+      "forks": 15567,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,7 +305,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78412,
+      "stars": 78419,
       "forks": 6206,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
@@ -321,8 +321,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62135,
-      "forks": 6339,
+      "stars": 62139,
+      "forks": 6338,
       "license": "AGPL-3.0",
       "pushed": "2026-11-07",
       "archived": false
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39064,
-      "forks": 9509,
+      "stars": 39071,
+      "forks": 9510,
       "license": "NOASSERTION",
       "pushed": "2026-11-08",
       "archived": false
@@ -353,8 +353,8 @@
       "tags": [
         "video"
       ],
-      "stars": 24610,
-      "forks": 2284,
+      "stars": 24616,
+      "forks": 2286,
       "license": "NOASSERTION",
       "pushed": "2026-11-08",
       "archived": false
@@ -369,7 +369,7 @@
       "tags": [
         "dev"
       ],
-      "stars": 22227,
+      "stars": 22229,
       "forks": 2803,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1109,
+      "stars": 1112,
       "forks": 146,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
