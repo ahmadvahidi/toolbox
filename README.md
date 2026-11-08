@@ -14,23 +14,23 @@ Stars are a snapshot, not a quality score.
 
 | | Tool | What it is | ★ | Licence | Last push |
 |---|---|---|---:|---|---|
-| ✅ in use | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | CPU/GPU inference for GGUF models | 133,668 | MIT | 2026-11-08 |
-| ✅ in use | **[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)** | Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE | 2,721 | MIT | 2026-09-24 |
+| ✅ in use | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | CPU/GPU inference for GGUF models | 133,669 | MIT | 2026-11-08 |
+| ✅ in use | **[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)** | Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE | 2,722 | MIT | 2026-09-24 |
 | ✅ in use | **[usque](https://github.com/Diniboy1123/usque)** | Open-source Cloudflare WARP MASQUE client | 1,524 | MIT | 2026-07-20 |
 | ✅ in use | **[ascii.rest](https://github.com/bas3line/ascii)** | 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT | 1,161 | MIT | 2026-11-08 |
 | ✅ in use | **[code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts)** | 341 code-rendered animation styles with prompts | 771 | NOASSERTION | 2026-11-05 |
-| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review) | 299,217 | MIT | 2026-11-06 |
+| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review) | 299,221 | MIT | 2026-11-06 |
 | 🟡 consider | **[Cal.com (cal.diy)](https://github.com/calcom/cal.diy)** | Self-hosted scheduling pages (Calendly alternative) | 49,781 | MIT | 2026-11-03 |
 | 🟡 consider | **[huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** | Claude skill collection for hand-drawn and painterly motion | 6,473 | MIT | 2026-10-16 |
 | 🟡 consider | **[anidoodle](https://github.com/alexgreensh/anidoodle)** | Animated doodle/sketch skill for Claude | 1,444 | Apache-2.0 | 2026-11-05 |
 | 🟡 consider | **[Masque Config Generator](https://github.com/DarknessShade/Masque-Generator)** | One-page generator for Xray WARP-over-MASQUE configs (P-256 keys) | 25 | MIT | 2026-11-03 |
-| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 103,952 | AGPL-3.0 | 2026-11-07 |
+| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 103,960 | AGPL-3.0 | 2026-11-07 |
 | 👀 watch | **[StableGen](https://github.com/sakalond/stablegen)** | Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold) | 1,577 | GPL-3.0 | 2026-11-04 |
 | 👀 watch | **[Weight-Space Programming](https://github.com/RikiyaT/lm_understand-logs)** | MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops | 1,109 | NOASSERTION | 2026-10-29 |
 | 🅿️ park | **[OpenCut](https://github.com/OpenCut-app/OpenCut)** | Browser timeline video editor (CapCut alternative) | 97,624 | MIT | 2026-09-24 |
 | 🅿️ park | **[Plane](https://github.com/makeplane/plane)** | Self-hosted Jira/Linear alternative | 62,135 | AGPL-3.0 | 2026-11-07 |
 | 🅿️ park | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | Self-hosted Intercom alternative | 39,064 | NOASSERTION | 2026-11-08 |
-| 🅿️ park | **[Cap](https://github.com/CapSoftware/Cap)** | Open-source Loom alternative for screen recording | 24,609 | NOASSERTION | 2026-11-08 |
+| 🅿️ park | **[Cap](https://github.com/CapSoftware/Cap)** | Open-source Loom alternative for screen recording | 24,610 | NOASSERTION | 2026-11-08 |
 | 🅿️ park | **[Dyad](https://github.com/dyad-sh/dyad)** | Local Lovable-style app builder | 22,227 | NOASSERTION | 2026-11-06 |
 | 🅿️ park | **[TWP-CF](https://github.com/MHDLabs/TWP-CF)** | Telegram web proxy on Cloudflare Workers (MTProto over websocket) | 17 | GPL-3.0 | 2026-11-06 |
 | 🅿️ park | **Muse-Glimmer-30B** | Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB | — | — | — |

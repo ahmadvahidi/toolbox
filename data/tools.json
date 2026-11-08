@@ -12,7 +12,7 @@
         "agents",
         "skills"
       ],
-      "stars": 299217,
+      "stars": 299221,
       "forks": 44202,
       "license": "MIT",
       "pushed": "2026-11-06",
@@ -65,7 +65,7 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2721,
+      "stars": 2722,
       "forks": 251,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -228,7 +228,7 @@
         "llm",
         "local"
       ],
-      "stars": 133668,
+      "stars": 133669,
       "forks": 25246,
       "license": "MIT",
       "pushed": "2026-11-08",
@@ -273,7 +273,7 @@
         "audio",
         "gpu"
       ],
-      "stars": 103952,
+      "stars": 103960,
       "forks": 11549,
       "license": "AGPL-3.0",
       "pushed": "2026-11-07",
@@ -353,7 +353,7 @@
       "tags": [
         "video"
       ],
-      "stars": 24609,
+      "stars": 24610,
       "forks": 2284,
       "license": "NOASSERTION",
       "pushed": "2026-11-08",
