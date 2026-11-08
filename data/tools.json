@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 299261,
-      "forks": 44215,
+      "stars": 299334,
+      "forks": 44228,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -47,8 +47,8 @@
         "3d",
         "gpu"
       ],
-      "stars": 1580,
-      "forks": 154,
+      "stars": 1583,
+      "forks": 155,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -65,7 +65,7 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2727,
+      "stars": 2734,
       "forks": 251,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6477,
-      "forks": 647,
+      "stars": 6489,
+      "forks": 648,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,7 +97,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1448,
+      "stars": 1453,
       "forks": 138,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 785,
-      "forks": 181,
+      "stars": 797,
+      "forks": 183,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,7 +130,7 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3720,
+      "stars": 3725,
       "forks": 286,
       "license": "GPL-3.0",
       "pushed": "2026-11-08",
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133681,
-      "forks": 25247,
+      "stars": 133692,
+      "forks": 25250,
       "license": "MIT",
       "pushed": "2026-11-08",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97642,
-      "forks": 9732,
+      "stars": 97672,
+      "forks": 9741,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 104063,
-      "forks": 11567,
+      "stars": 104193,
+      "forks": 11590,
       "license": "AGPL-3.0",
       "pushed": "2026-11-08",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49785,
-      "forks": 15567,
+      "stars": 49787,
+      "forks": 15568,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,7 +305,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78419,
+      "stars": 78427,
       "forks": 6206,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
@@ -321,8 +321,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62139,
-      "forks": 6338,
+      "stars": 62140,
+      "forks": 6339,
       "license": "AGPL-3.0",
       "pushed": "2026-11-07",
       "archived": false
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39071,
-      "forks": 9510,
+      "stars": 39075,
+      "forks": 9512,
       "license": "NOASSERTION",
       "pushed": "2026-11-08",
       "archived": false
@@ -353,7 +353,7 @@
       "tags": [
         "video"
       ],
-      "stars": 24616,
+      "stars": 24624,
       "forks": 2286,
       "license": "NOASSERTION",
       "pushed": "2026-11-08",
@@ -369,8 +369,8 @@
       "tags": [
         "dev"
       ],
-      "stars": 22229,
-      "forks": 2803,
+      "stars": 22231,
+      "forks": 2804,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
       "archived": false
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1112,
+      "stars": 1117,
       "forks": 146,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -467,6 +467,23 @@
         "verified": "2026-11-06"
       },
       "status": "gone"
+    },
+    {
+      "name": "AgentPilot",
+      "repo": "HKUDS/AgentPilot",
+      "what": "9B strategy model that picks the next move for a bigger agent, plus a skill workspace and an RSI benchmark arena",
+      "verdict": "watch",
+      "why": "Real (7.9k stars, MIT, HKUDS, pushed 06.11.2026) and it lists Hermes as a supported executor, so the hook exists. But it optimises *improvement policy* over many trials on benchmarks (AIME, SWE-bench, BrowseComp) and needs the 9B policy model itself — on this CPU-only box that means either a slow local model or a second API bill. Our bottleneck is content and distribution, not search over strategies; the honest use case is auto-tuning the render/upgrade loop once the GPU rig exists. Revisit then; not a dependency now.",
+      "date": "2026-11-08",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "stars": 7946,
+      "forks": 935,
+      "license": "MIT",
+      "pushed": "2026-11-06",
+      "archived": false
     }
   ]
 }
