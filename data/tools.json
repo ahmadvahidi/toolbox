@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 299334,
-      "forks": 44228,
+      "stars": 299442,
+      "forks": 44236,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -30,7 +30,7 @@
         "design",
         "video"
       ],
-      "stars": 1162,
+      "stars": 1164,
       "forks": 69,
       "license": "MIT",
       "pushed": "2026-11-08",
@@ -47,8 +47,8 @@
         "3d",
         "gpu"
       ],
-      "stars": 1583,
-      "forks": 155,
+      "stars": 1587,
+      "forks": 156,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -65,7 +65,7 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2734,
+      "stars": 2743,
       "forks": 251,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6489,
-      "forks": 648,
+      "stars": 6509,
+      "forks": 649,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,7 +97,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1453,
+      "stars": 1462,
       "forks": 138,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 797,
-      "forks": 183,
+      "stars": 811,
+      "forks": 186,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,8 +130,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3725,
-      "forks": 286,
+      "stars": 3732,
+      "forks": 287,
       "license": "GPL-3.0",
       "pushed": "2026-11-08",
       "archived": false
@@ -211,8 +211,8 @@
       "tags": [
         "network"
       ],
-      "stars": 1524,
-      "forks": 198,
+      "stars": 1525,
+      "forks": 199,
       "license": "MIT",
       "pushed": "2026-07-20",
       "archived": false
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133692,
-      "forks": 25250,
+      "stars": 133710,
+      "forks": 25254,
       "license": "MIT",
       "pushed": "2026-11-08",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97672,
-      "forks": 9741,
+      "stars": 97718,
+      "forks": 9749,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 104193,
-      "forks": 11590,
+      "stars": 104415,
+      "forks": 11622,
       "license": "AGPL-3.0",
       "pushed": "2026-11-08",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49787,
-      "forks": 15568,
+      "stars": 49794,
+      "forks": 15574,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78427,
-      "forks": 6206,
+      "stars": 78446,
+      "forks": 6207,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,8 +321,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62140,
-      "forks": 6339,
+      "stars": 62145,
+      "forks": 6341,
       "license": "AGPL-3.0",
       "pushed": "2026-11-07",
       "archived": false
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39075,
-      "forks": 9512,
+      "stars": 39083,
+      "forks": 9516,
       "license": "NOASSERTION",
       "pushed": "2026-11-08",
       "archived": false
@@ -353,8 +353,8 @@
       "tags": [
         "video"
       ],
-      "stars": 24624,
-      "forks": 2286,
+      "stars": 24641,
+      "forks": 2288,
       "license": "NOASSERTION",
       "pushed": "2026-11-08",
       "archived": false
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1117,
+      "stars": 1126,
       "forks": 146,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -479,10 +479,30 @@
         "agents",
         "research"
       ],
-      "stars": 7946,
+      "stars": 7952,
       "forks": 935,
       "license": "MIT",
       "pushed": "2026-11-06",
+      "archived": false
+    },
+    {
+      "name": "LivLiv Player",
+      "repo": "livliv-dev/player",
+      "what": "2.5D avatar player for the web: WebGL2, ~30KB core, lip sync + MediaPipe face tracking in-browser, VRM/PNGTuber support, 21 sample characters",
+      "verdict": "use",
+      "why": "Shipped a real talking-avatar clip on 2026-11-08 (720x1280, 30fps, German VO, Sena/k01) fully headless on CPU via browser_exec + CDP screenshots; skill livliv-avatar-video holds the pipeline. Apache-2.0 core is clean, but the 21 sample characters are non-commercial with a burned-in livliv mark -> monetised channels need our own VRM/PNGTuber. speech.say() does not drive the mouth headless; drive mouthOpen from a Python amplitude envelope. Render speed ~5 fps on CPU (12s clip ~3min).",
+      "date": "2026-11-08",
+      "tags": [
+        "avatar",
+        "vtuber",
+        "video",
+        "webgl",
+        "lip-sync"
+      ],
+      "stars": 1302,
+      "forks": 133,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-08",
       "archived": false
     }
   ]
