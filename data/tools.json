@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 299986,
-      "forks": 44307,
+      "stars": 300056,
+      "forks": 44314,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -30,7 +30,7 @@
         "design",
         "video"
       ],
-      "stars": 1171,
+      "stars": 1172,
       "forks": 70,
       "license": "MIT",
       "pushed": "2026-11-08",
@@ -47,7 +47,7 @@
         "3d",
         "gpu"
       ],
-      "stars": 1625,
+      "stars": 1627,
       "forks": 163,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
@@ -65,8 +65,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2783,
-      "forks": 258,
+      "stars": 2786,
+      "forks": 260,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6598,
-      "forks": 652,
+      "stars": 6604,
+      "forks": 654,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,7 +97,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1490,
+      "stars": 1491,
       "forks": 138,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -114,7 +114,7 @@
         "animation",
         "design"
       ],
-      "stars": 871,
+      "stars": 878,
       "forks": 201,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
@@ -130,8 +130,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3807,
-      "forks": 292,
+      "stars": 3812,
+      "forks": 293,
       "license": "GPL-3.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133818,
-      "forks": 25287,
+      "stars": 133831,
+      "forks": 25294,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97898,
-      "forks": 9764,
+      "stars": 97908,
+      "forks": 9766,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 105695,
-      "forks": 11746,
+      "stars": 105826,
+      "forks": 11760,
       "license": "AGPL-3.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49836,
-      "forks": 15585,
+      "stars": 49843,
+      "forks": 15586,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78554,
-      "forks": 6224,
+      "stars": 78561,
+      "forks": 6227,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,7 +321,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62202,
+      "stars": 62206,
       "forks": 6352,
       "license": "AGPL-3.0",
       "pushed": "2026-11-07",
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39449,
-      "forks": 9580,
+      "stars": 39469,
+      "forks": 9584,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
       "archived": false
@@ -353,7 +353,7 @@
       "tags": [
         "video"
       ],
-      "stars": 24722,
+      "stars": 24728,
       "forks": 2304,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
@@ -369,8 +369,8 @@
       "tags": [
         "dev"
       ],
-      "stars": 22238,
-      "forks": 2807,
+      "stars": 22242,
+      "forks": 2808,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
       "archived": false
@@ -410,8 +410,8 @@
         "llm",
         "research"
       ],
-      "stars": 1160,
-      "forks": 154,
+      "stars": 1164,
+      "forks": 157,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
       "archived": false
@@ -499,8 +499,8 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1383,
-      "forks": 146,
+      "stars": 1386,
+      "forks": 145,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -520,10 +520,31 @@
         "urdf",
         "animation"
       ],
-      "stars": 16765,
-      "forks": 1973,
+      "stars": 16798,
+      "forks": 1979,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
+      "archived": false
+    },
+    {
+      "name": "awesome-llm-apps",
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "what": "57 runnable AI app folders (agents, RAG, voice): Streamlit demos, ~17.7k Python lines total, Apache-2.0",
+      "verdict": "consider",
+      "why": "The reel's claims check out: 144,280 stars (reel said 142K+), Apache-2.0, 100+ apps. But the audit says tutorial-grade: 57 folders with requirements.txt, 45 of them Streamlit, 29 need OpenAI keys, ~310 lines per app on average - demos, not products. The real use for us is the CONTENT mine (each app is a working demo for a 30-45 s short) plus one app productised with auth+billing via stdlib-saas-wrapper, not the whole collection. 'You can sell them' is legally true under Apache-2.0; it is commercially true only with hosting, keys and support. Cloned to /opt/data/workspace/awesome-llm-apps (163 MB).",
+      "date": "2026-11-09",
+      "tags": [
+        "ai",
+        "agents",
+        "rag",
+        "streamlit",
+        "templates",
+        "content"
+      ],
+      "stars": 144280,
+      "forks": 21231,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-08",
       "archived": false
     }
   ]
