@@ -10,6 +10,13 @@ Stars are a snapshot, not a quality score.
 
 **Verdicts** — `use` shipped/installed · `consider` worth it, needs a decision · `watch` right tool, needs hardware we do not have · `park` useful to a human, useless on a server · `skip` we already do it better with code · `dead` repo gone or abandoned.
 
+## 🎬 Video stack
+
+Every project on this box that can produce a video — what it makes, when to use it and the
+exact command — is in **[VIDEO-STACK.md](VIDEO-STACK.md)**, generated from
+`data/video-stack.json` by `tools/video_stack.py`. Pick the tool by the job, then mix:
+motion from one, voice from another, `ffmpeg` for the cut and the cards.
+
 ## Index
 
 | | Tool | What it is | ★ | Licence | Last push |
