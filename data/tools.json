@@ -12,7 +12,7 @@
         "agents",
         "skills"
       ],
-      "stars": 299980,
+      "stars": 299986,
       "forks": 44307,
       "license": "MIT",
       "pushed": "2026-11-09",
@@ -81,7 +81,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 6597,
+      "stars": 6598,
       "forks": 652,
       "license": "MIT",
       "pushed": "2026-10-16",
@@ -114,7 +114,7 @@
         "animation",
         "design"
       ],
-      "stars": 869,
+      "stars": 871,
       "forks": 201,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
@@ -130,7 +130,7 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3806,
+      "stars": 3807,
       "forks": 292,
       "license": "GPL-3.0",
       "pushed": "2026-11-09",
@@ -228,7 +228,7 @@
         "llm",
         "local"
       ],
-      "stars": 133816,
+      "stars": 133818,
       "forks": 25287,
       "license": "MIT",
       "pushed": "2026-11-09",
@@ -256,7 +256,7 @@
       "tags": [
         "video"
       ],
-      "stars": 97897,
+      "stars": 97898,
       "forks": 9764,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 105686,
-      "forks": 11745,
+      "stars": 105695,
+      "forks": 11746,
       "license": "AGPL-3.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -290,7 +290,7 @@
         "business"
       ],
       "stars": 49836,
-      "forks": 15584,
+      "forks": 15585,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,7 +305,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78552,
+      "stars": 78554,
       "forks": 6224,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
@@ -337,7 +337,7 @@
       "tags": [
         "business"
       ],
-      "stars": 39447,
+      "stars": 39449,
       "forks": 9580,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
@@ -353,7 +353,7 @@
       "tags": [
         "video"
       ],
-      "stars": 24721,
+      "stars": 24722,
       "forks": 2304,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
@@ -372,7 +372,7 @@
       "stars": 22238,
       "forks": 2807,
       "license": "NOASSERTION",
-      "pushed": "2026-11-06",
+      "pushed": "2026-11-09",
       "archived": false
     },
     {
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1159,
+      "stars": 1160,
       "forks": 154,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -499,8 +499,8 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1381,
-      "forks": 145,
+      "stars": 1383,
+      "forks": 146,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -510,7 +510,7 @@
       "repo": "google-deepmind/mujoco",
       "what": "Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0",
       "verdict": "use",
-      "why": "Installed 2026-11-08 (pip mujoco 4.0.0) and measured on this CPU-only box: 212,162 steps/s single-thread on a small free-joint scene, so a 6 s 24 fps clip simulates in well under a second. Its own OpenGL renderer does NOT start here (no EGL/OSMesa: 'an OpenGL platform library has not been loaded into this process'), so visuals are drawn from body poses with matplotlib and piped to ffmpeg - that path shipped a 720x1280 domino-chain B-roll clip (out/mujoco-dominoes.mp4). Real use for us: physics-visual shorts for ALGORHYTHM/DOPEAK and validating URDF/MJCF before robot work. Not a CAD/print tool.",
+      "why": "Installed 2026-11-08 (pip mujoco 4.0.0) and measured on this CPU-only box: 212,162 steps/s single-thread on a small free-joint scene, so a 6 s 24 fps clip simulates in well under a second. Its own OpenGL renderer does NOT start here (no EGL/OSMesa: 'an OpenGL platform library has not been loaded into this process'), so visuals are drawn from body poses with matplotlib and piped to ffmpeg - that path shipped a 720x1280 domino-chain B-roll clip (out/mujoco-dominoes.mp4). Real use for us: physics-visual shorts for ALGORHYTHM/DOPEAK and validating URDF/MJCF before robot work. Not a CAD/print tool. Reusable CLI now at /opt/data/workspace/physics-broll/render.py (scenes: dominoes, pendulum, balls; 24 fps 720x1280, silent) and it is wired into faceless-youtube/PLAYBOOK.md as a B-roll source.",
       "date": "2026-11-08",
       "tags": [
         "physics",
@@ -520,7 +520,7 @@
         "urdf",
         "animation"
       ],
-      "stars": 16759,
+      "stars": 16765,
       "forks": 1973,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
