@@ -6,18 +6,19 @@ Refreshed **2026-11-09**. Each row points at a real folder on the box and a real
 
 | | Project | Makes | Use it when | Cost |
 |---|---|---|---|---|
-| ✅ in use | **[MuJoCo B-roll](https://github.com/google-deepmind/mujoco)** ★16,806 | real physics B-roll (domino chain, tower collapse, pendulum, collisions) and full mixes: physics + avatar + caption cards | a claim needs motion you cannot film — saturation, cascades, damping, impact | CPU only, ~2-3 min per 12 s at 720x1280 |
-| ✅ in use | **[LivLiv Player (talking avatar)](https://github.com/livliv-dev/player)** ★1,387 | 2.5D character that speaks with lip-sync, no face, no GPU | the video needs a presenter or a character voice instead of a narrator | ~5 frames/s on CPU; a 12 s clip ≈ 3 min |
+| ✅ in use | **[MuJoCo B-roll](https://github.com/google-deepmind/mujoco)** ★16,872 | real physics B-roll (domino chain, tower collapse, pendulum, collisions) and full mixes: physics + avatar + caption cards | a claim needs motion you cannot film — saturation, cascades, damping, impact | CPU only, ~2-3 min per 12 s at 720x1280 |
+| ✅ in use | **[LivLiv Player (talking avatar)](https://github.com/livliv-dev/player)** ★1,398 | 2.5D character that speaks with lip-sync, no face, no GPU | the video needs a presenter or a character voice instead of a narrator | ~5 frames/s on CPU; a 12 s clip ≈ 3 min |
 | ✅ in use | **Gabimaru PNGTuber** | our own masked-ninja avatar frames (closed/open/blink) + monologue renders | channel identity videos, intros, in-character pieces | CPU; 2:19 clip ≈ 7 min |
 | ✅ in use | **Aesthetic notes shorts** | handwritten-notebook math explainers (TTS + notes page + motion + music) | math/education topic with a visual derivation | CPU, a few minutes; 127 renders to date |
 | ✅ in use | **ALGORHYTHM CS shorts** | computer-science shorts with diagrams, code and narration | CS concept, system behaviour, algorithm intuition | CPU; 533 renders to date |
 | ✅ in use | **faceless-youtube pipeline** | the main long/short pipeline: script → TTS → scenes → motion → upload | standard DOPEAK output; anything that must end up published | CPU; 88 renders to date |
-| ✅ in use | **[Manim CE](https://github.com/ManimCommunity/manim)** ★42,367 | mathematical animation with exact geometry (3Blue1Brown style) | the idea IS the geometry: circles, limits, transforms, graphs | CPU, slow; keep scenes under ~20 s |
+| ✅ in use | **[Manim CE](https://github.com/ManimCommunity/manim)** ★42,376 | mathematical animation with exact geometry (3Blue1Brown style) | the idea IS the geometry: circles, limits, transforms, graphs | CPU, slow; keep scenes under ~20 s |
 | 🟡 available | **Animation styles library** | 13 coded motion styles (kinetic type, grid, glitch...) as JS samples | the video needs a look, not a simulation — pick a style and drive it with our text | browser render, seconds per frame |
-| 🟡 available | **[ClaudeAnimationBase (p5.brush)](https://github.com/JohnHeibel/ClaudeAnimationBase)** ★2,786 | hand-drawn character acting (31 emotions) and soft painted stills | a mascot must emote, or a thumbnail needs a painted look | ~18 s per 1280px still; full video ~19 s per frame — nightly only |
+| 🟡 available | **[ClaudeAnimationBase (p5.brush)](https://github.com/JohnHeibel/ClaudeAnimationBase)** ★2,797 | hand-drawn character acting (31 emotions) and soft painted stills | a mascot must emote, or a thumbnail needs a painted look | ~18 s per 1280px still; full video ~19 s per frame — nightly only |
 | ✅ in use | **CASE FILE longform** | documentary-style long episodes (evidence boards, maps, timelines) | a story with documents, dates and a verdict | long render, run twice a week |
 | 🟡 available | **microduck-short** | short assembly from clips + audio (one build.py) | you already have footage and only need the cut | seconds |
 | ✅ in use | **ffmpeg** | encode, concat, mux audio, burn cards, loudnorm, loop, trim | always — it is the last step of every pipeline above | seconds per clip |
+| 🟡 available | **[AI Shorts Generator (long -> 9:16)](https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator)** ★5,867 | whisper transcript + LLM highlight ranking + auto-cropped vertical shorts from one long video | talking-head / interview footage only — the auto crop is centre/face based and cuts text off our kinetic-type longforms | 8.5 min source: ~2 min transcribe + ~3 min rank/render on CPU |
 
 ## Recipes (what to stack for a given job)
 
@@ -155,6 +156,15 @@ Refreshed **2026-11-09**. Each row points at a real folder on the box and a real
 - **Path:** `/usr/bin`
 - **Command:** `ffmpeg -framerate 24 -i f%04d.png -i vo.mp3 -vf format=yuv420p -c:v libx264 -crf 20 -shortest out.mp4`
 - **Cost:** seconds per clip
+
+### AI Shorts Generator (long -> 9:16) — `Anil-matcha/AI-Youtube-Shorts-Generator`
+
+- **Makes:** whisper transcript + LLM highlight ranking + auto-cropped vertical shorts from one long video
+- **When:** talking-head / interview footage only — the auto crop is centre/face based and cuts text off our kinetic-type longforms
+- **License:** MIT
+- **Path:** `/opt/data/workspace/ai-shorts-gen`
+- **Command:** `GEMINI_API_KEY=... LLM_PROVIDER=gemini python main.py <file> --mode local --num-clips 2`
+- **Cost:** 8.5 min source: ~2 min transcribe + ~3 min rank/render on CPU
 
 ## The one rule that keeps this honest
 

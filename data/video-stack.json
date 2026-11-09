@@ -157,6 +157,19 @@
       "cmd": "ffmpeg -framerate 24 -i f%04d.png -i vo.mp3 -vf format=yuv420p -c:v libx264 -crf 20 -shortest out.mp4",
       "cost": "seconds per clip",
       "status": "in use"
+    },
+    {
+      "id": "ai-shorts-gen",
+      "name": "AI Shorts Generator (long -> 9:16)",
+      "kind": "pipeline",
+      "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+      "license": "MIT",
+      "path": "/opt/data/workspace/ai-shorts-gen",
+      "makes": "whisper transcript + LLM highlight ranking + auto-cropped vertical shorts from one long video",
+      "when": "talking-head / interview footage only — the auto crop is centre/face based and cuts text off our kinetic-type longforms",
+      "cmd": "GEMINI_API_KEY=... LLM_PROVIDER=gemini python main.py <file> --mode local --num-clips 2",
+      "cost": "8.5 min source: ~2 min transcribe + ~3 min rank/render on CPU",
+      "status": "available"
     }
   ],
   "mix_recipes": [
