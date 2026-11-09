@@ -273,7 +273,7 @@
         "audio",
         "gpu"
       ],
-      "stars": 105826,
+      "stars": 105828,
       "forks": 11760,
       "license": "AGPL-3.0",
       "pushed": "2026-11-09",
@@ -289,7 +289,7 @@
       "tags": [
         "business"
       ],
-      "stars": 49843,
+      "stars": 49844,
       "forks": 15586,
       "license": "MIT",
       "pushed": "2026-11-03",
@@ -305,7 +305,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78561,
+      "stars": 78562,
       "forks": 6227,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
@@ -499,7 +499,7 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1386,
+      "stars": 1387,
       "forks": 145,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
@@ -546,6 +546,28 @@
       "license": "Apache-2.0",
       "pushed": "2026-11-08",
       "archived": false
+    },
+    {
+      "name": "Avatar Creator (AVC Suite)",
+      "repo": "avcsuite.com",
+      "what": "Commercial Blender add-on: build / wrap / sync characters, convert AI meshes and retarget to MetaHuman or Genesis 9",
+      "verdict": "watch",
+      "why": "Closed-source paid add-on (launch $99, regular $149; bundle with the wrap/sync tool $149 vs $299), sold via Superhive. Relevant to our 3D-avatar plan but blocked on hardware: no Blender on this box, no GPU, 7 GB RAM, and a character pipeline is GPU work. It outputs DCC characters (MetaHuman / Genesis 9), not VRM - our LivLiv PNGTuber path needs VRM or two PNGs, so even with the tool there is an export step. Revisit after the GPU rig; until then LivLiv + our own art stays the cheap route.",
+      "date": "2026-11-09",
+      "tags": [
+        "blender",
+        "avatar",
+        "character",
+        "3d",
+        "paid",
+        "metahuman"
+      ],
+      "stars": null,
+      "forks": null,
+      "license": "Commercial",
+      "pushed": "2026-10-14",
+      "archived": false,
+      "status": "gone"
     }
   ]
 }
