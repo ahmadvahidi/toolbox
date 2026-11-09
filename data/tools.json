@@ -81,7 +81,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 6604,
+      "stars": 6605,
       "forks": 654,
       "license": "MIT",
       "pushed": "2026-10-16",
@@ -520,7 +520,7 @@
         "urdf",
         "animation"
       ],
-      "stars": 16798,
+      "stars": 16799,
       "forks": 1979,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
@@ -549,7 +549,6 @@
     },
     {
       "name": "Avatar Creator (AVC Suite)",
-      "repo": "avcsuite.com",
       "what": "Commercial Blender add-on: build / wrap / sync characters, convert AI meshes and retarget to MetaHuman or Genesis 9",
       "verdict": "watch",
       "why": "Closed-source paid add-on (launch $99, regular $149; bundle with the wrap/sync tool $149 vs $299), sold via Superhive. Relevant to our 3D-avatar plan but blocked on hardware: no Blender on this box, no GPU, 7 GB RAM, and a character pipeline is GPU work. It outputs DCC characters (MetaHuman / Genesis 9), not VRM - our LivLiv PNGTuber path needs VRM or two PNGs, so even with the tool there is an export step. Revisit after the GPU rig; until then LivLiv + our own art stays the cheap route.",
@@ -567,7 +566,8 @@
       "license": "Commercial",
       "pushed": "2026-10-14",
       "archived": false,
-      "status": "gone"
+      "status": "gone",
+      "url": "https://www.avcsuite.com/"
     }
   ]
 }

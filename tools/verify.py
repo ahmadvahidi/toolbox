@@ -87,7 +87,12 @@ def render(data):
                                                  -(t.get("stars") or 0)))
     rows = []
     for t in tools:
-        name = f"**[{t['name']}](https://github.com/{t['repo']})**" if t.get("repo") else f"**{t['name']}**"
+        if t.get("repo"):
+            name = f"**[{t['name']}](https://github.com/{t['repo']})**"
+        elif t.get("url"):
+            name = f"**[{t['name']}]({t['url']})**"
+        else:
+            name = f"**{t['name']}**"
         stars = f"{t['stars']:,}" if t.get("stars") else "—"
         rows.append(f"| {BADGE.get(t['verdict'], t['verdict'])} | {name} | {t.get('what', '')} | "
                     f"{stars} | {t.get('license', '—')} | {t.get('pushed', '—')} |")
