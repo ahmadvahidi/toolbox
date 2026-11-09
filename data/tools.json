@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 299788,
-      "forks": 44280,
+      "stars": 299980,
+      "forks": 44307,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -30,7 +30,7 @@
         "design",
         "video"
       ],
-      "stars": 1168,
+      "stars": 1171,
       "forks": 70,
       "license": "MIT",
       "pushed": "2026-11-08",
@@ -47,8 +47,8 @@
         "3d",
         "gpu"
       ],
-      "stars": 1609,
-      "forks": 157,
+      "stars": 1625,
+      "forks": 163,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -65,8 +65,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2772,
-      "forks": 257,
+      "stars": 2783,
+      "forks": 258,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6557,
-      "forks": 650,
+      "stars": 6597,
+      "forks": 652,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,7 +97,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1485,
+      "stars": 1490,
       "forks": 138,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 846,
-      "forks": 196,
+      "stars": 869,
+      "forks": 201,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,8 +130,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3771,
-      "forks": 290,
+      "stars": 3806,
+      "forks": 292,
       "license": "GPL-3.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -211,7 +211,7 @@
       "tags": [
         "network"
       ],
-      "stars": 1527,
+      "stars": 1529,
       "forks": 199,
       "license": "MIT",
       "pushed": "2026-07-20",
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133778,
-      "forks": 25274,
+      "stars": 133816,
+      "forks": 25287,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97848,
-      "forks": 9761,
+      "stars": 97897,
+      "forks": 9764,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 105231,
-      "forks": 11698,
+      "stars": 105686,
+      "forks": 11745,
       "license": "AGPL-3.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49818,
-      "forks": 15582,
+      "stars": 49836,
+      "forks": 15584,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78507,
-      "forks": 6216,
+      "stars": 78552,
+      "forks": 6224,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,8 +321,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62168,
-      "forks": 6345,
+      "stars": 62202,
+      "forks": 6352,
       "license": "AGPL-3.0",
       "pushed": "2026-11-07",
       "archived": false
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39344,
-      "forks": 9563,
+      "stars": 39447,
+      "forks": 9580,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
       "archived": false
@@ -353,8 +353,8 @@
       "tags": [
         "video"
       ],
-      "stars": 24690,
-      "forks": 2299,
+      "stars": 24721,
+      "forks": 2304,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
       "archived": false
@@ -369,8 +369,8 @@
       "tags": [
         "dev"
       ],
-      "stars": 22235,
-      "forks": 2804,
+      "stars": 22238,
+      "forks": 2807,
       "license": "NOASSERTION",
       "pushed": "2026-11-06",
       "archived": false
@@ -410,8 +410,8 @@
         "llm",
         "research"
       ],
-      "stars": 1148,
-      "forks": 150,
+      "stars": 1159,
+      "forks": 154,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
       "archived": false
@@ -479,8 +479,8 @@
         "agents",
         "research"
       ],
-      "stars": 7970,
-      "forks": 938,
+      "stars": 7978,
+      "forks": 939,
       "license": "MIT",
       "pushed": "2026-11-06",
       "archived": false
@@ -499,8 +499,29 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1351,
-      "forks": 142,
+      "stars": 1381,
+      "forks": 145,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-09",
+      "archived": false
+    },
+    {
+      "name": "MuJoCo",
+      "repo": "google-deepmind/mujoco",
+      "what": "Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0",
+      "verdict": "use",
+      "why": "Installed 2026-11-08 (pip mujoco 4.0.0) and measured on this CPU-only box: 212,162 steps/s single-thread on a small free-joint scene, so a 6 s 24 fps clip simulates in well under a second. Its own OpenGL renderer does NOT start here (no EGL/OSMesa: 'an OpenGL platform library has not been loaded into this process'), so visuals are drawn from body poses with matplotlib and piped to ffmpeg - that path shipped a 720x1280 domino-chain B-roll clip (out/mujoco-dominoes.mp4). Real use for us: physics-visual shorts for ALGORHYTHM/DOPEAK and validating URDF/MJCF before robot work. Not a CAD/print tool.",
+      "date": "2026-11-08",
+      "tags": [
+        "physics",
+        "simulation",
+        "robotics",
+        "video",
+        "urdf",
+        "animation"
+      ],
+      "stars": 16759,
+      "forks": 1973,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
       "archived": false
