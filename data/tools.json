@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 300056,
-      "forks": 44314,
+      "stars": 300199,
+      "forks": 44335,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -47,7 +47,7 @@
         "3d",
         "gpu"
       ],
-      "stars": 1627,
+      "stars": 1632,
       "forks": 163,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
@@ -65,8 +65,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2786,
-      "forks": 260,
+      "stars": 2797,
+      "forks": 262,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6605,
-      "forks": 654,
+      "stars": 6623,
+      "forks": 657,
       "license": "MIT",
       "pushed": "2026-10-16",
       "archived": false
@@ -97,7 +97,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1491,
+      "stars": 1494,
       "forks": 138,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 878,
-      "forks": 201,
+      "stars": 883,
+      "forks": 202,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,8 +130,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3812,
-      "forks": 293,
+      "stars": 3827,
+      "forks": 295,
       "license": "GPL-3.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -195,7 +195,7 @@
       "tags": [
         "network"
       ],
-      "stars": 25,
+      "stars": 26,
       "forks": 4,
       "license": "MIT",
       "pushed": "2026-11-03",
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133831,
-      "forks": 25294,
+      "stars": 133846,
+      "forks": 25301,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97908,
-      "forks": 9766,
+      "stars": 97929,
+      "forks": 9772,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 105828,
-      "forks": 11760,
+      "stars": 106080,
+      "forks": 11774,
       "license": "AGPL-3.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49844,
-      "forks": 15586,
+      "stars": 49860,
+      "forks": 15591,
       "license": "MIT",
       "pushed": "2026-11-03",
       "archived": false
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78562,
-      "forks": 6227,
+      "stars": 78584,
+      "forks": 6231,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,10 +321,10 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62206,
-      "forks": 6352,
+      "stars": 62213,
+      "forks": 6355,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-07",
+      "pushed": "2026-11-09",
       "archived": false
     },
     {
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39469,
-      "forks": 9584,
+      "stars": 39501,
+      "forks": 9590,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
       "archived": false
@@ -353,8 +353,8 @@
       "tags": [
         "video"
       ],
-      "stars": 24728,
-      "forks": 2304,
+      "stars": 24741,
+      "forks": 2309,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
       "archived": false
@@ -369,8 +369,8 @@
       "tags": [
         "dev"
       ],
-      "stars": 22242,
-      "forks": 2808,
+      "stars": 22247,
+      "forks": 2809,
       "license": "NOASSERTION",
       "pushed": "2026-11-09",
       "archived": false
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1164,
+      "stars": 1168,
       "forks": 157,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -479,7 +479,7 @@
         "agents",
         "research"
       ],
-      "stars": 7978,
+      "stars": 7980,
       "forks": 939,
       "license": "MIT",
       "pushed": "2026-11-06",
@@ -499,8 +499,8 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1387,
-      "forks": 145,
+      "stars": 1398,
+      "forks": 146,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -520,8 +520,8 @@
         "urdf",
         "animation"
       ],
-      "stars": 16799,
-      "forks": 1979,
+      "stars": 16872,
+      "forks": 1989,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -541,8 +541,8 @@
         "templates",
         "content"
       ],
-      "stars": 144280,
-      "forks": 21231,
+      "stars": 144297,
+      "forks": 21230,
       "license": "Apache-2.0",
       "pushed": "2026-11-08",
       "archived": false
@@ -568,6 +568,27 @@
       "archived": false,
       "status": "gone",
       "url": "https://www.avcsuite.com/"
+    },
+    {
+      "name": "AI-Youtube-Shorts-Generator",
+      "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+      "what": "Long-form -> 9:16 shorts: faster-whisper transcription, LLM highlight ranking (OpenAI/Gemini), OpenCV face-tracking crop",
+      "verdict": "consider",
+      "why": "Ran it end-to-end on our own case-file/ep01 (502 s) in local mode: transcription 120 segments in ~2 min on CPU, Gemini picked 6 candidates and rendered 2 shorts (23.8 s and 38.5 s, 606x1080 mpeg4). Real numbers, no credits, MIT. Four breakages had to be fixed first, all pinned: faster-whisper 1.2.1 needs PyAV 13 (av 19 rejects metadata_errors), opencv-python-headless 5.x dropped CascadeClassifier (use 4.10), and gemini's JSON mode answers 400 on v1 so the client must use api_version=v1beta. LIMIT: its auto-crop is a centre/face crop - on our kinetic-type longforms it cuts the text off both sides (verified on a frame), so it fits talking-head footage, not our motion-graphic docs. The genuinely reusable half is the highlight ranking + SRT cache; our own 9:16 rendering should do the crop.",
+      "date": "2026-11-09",
+      "tags": [
+        "shorts",
+        "transcription",
+        "whisper",
+        "llm",
+        "video",
+        "crop"
+      ],
+      "stars": 5867,
+      "forks": 1067,
+      "license": "MIT",
+      "pushed": "2026-11-09",
+      "archived": false
     }
   ]
 }
