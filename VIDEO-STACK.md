@@ -6,7 +6,7 @@ Refreshed **2026-11-09**. Each row points at a real folder on the box and a real
 
 | | Project | Makes | Use it when | Cost |
 |---|---|---|---|---|
-| ✅ in use | **[MuJoCo B-roll](https://github.com/google-deepmind/mujoco)** ★16,803 | real physics: domino chain, tower collapse, pendulum, elastic collisions | a claim needs motion you cannot film — saturation, cascades, damping, impact | CPU only, ~2-3 min per 12 s at 720x1280 |
+| ✅ in use | **[MuJoCo B-roll](https://github.com/google-deepmind/mujoco)** ★16,806 | real physics B-roll (domino chain, tower collapse, pendulum, collisions) and full mixes: physics + avatar + caption cards | a claim needs motion you cannot film — saturation, cascades, damping, impact | CPU only, ~2-3 min per 12 s at 720x1280 |
 | ✅ in use | **[LivLiv Player (talking avatar)](https://github.com/livliv-dev/player)** ★1,387 | 2.5D character that speaks with lip-sync, no face, no GPU | the video needs a presenter or a character voice instead of a narrator | ~5 frames/s on CPU; a 12 s clip ≈ 3 min |
 | ✅ in use | **Gabimaru PNGTuber** | our own masked-ninja avatar frames (closed/open/blink) + monologue renders | channel identity videos, intros, in-character pieces | CPU; 2:19 clip ≈ 7 min |
 | ✅ in use | **Aesthetic notes shorts** | handwritten-notebook math explainers (TTS + notes page + motion + music) | math/education topic with a visual derivation | CPU, a few minutes; 127 renders to date |
@@ -20,6 +20,11 @@ Refreshed **2026-11-09**. Each row points at a real folder on the box and a real
 | ✅ in use | **ffmpeg** | encode, concat, mux audio, burn cards, loudnorm, loop, trim | always — it is the last step of every pipeline above | seconds per clip |
 
 ## Recipes (what to stack for a given job)
+
+### Character + physics + cards (the full mix)
+
+- **Stack:** MuJoCo scene as background, Gabimaru PNGTuber (transparent frames) bottom-right with mouth from the VO envelope, drawtext cards on the VO timeline, one ffmpeg pass
+- **Shipped example:** `physics-broll/out/gabimaru-physics-de.mp4 — 32.7 s, 3 layers, German VO`
 
 ### Concept that needs motion (queues, collapse, damping)
 
@@ -45,11 +50,11 @@ Refreshed **2026-11-09**. Each row points at a real folder on the box and a real
 
 ### MuJoCo B-roll — `google-deepmind/mujoco`
 
-- **Makes:** real physics: domino chain, tower collapse, pendulum, elastic collisions
+- **Makes:** real physics B-roll (domino chain, tower collapse, pendulum, collisions) and full mixes: physics + avatar + caption cards
 - **When:** a claim needs motion you cannot film — saturation, cascades, damping, impact
 - **License:** Apache-2.0
 - **Path:** `/opt/data/workspace/physics-broll`
-- **Command:** `python render.py --scene tower --seconds 12 --fps 24 --out out/tower.mp4`
+- **Command:** `python render.py --scene tower ... && python build_mix.py`
 - **Cost:** CPU only, ~2-3 min per 12 s at 720x1280
 
 ### LivLiv Player (talking avatar) — `livliv-dev/player`

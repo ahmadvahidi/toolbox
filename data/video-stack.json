@@ -9,9 +9,9 @@
       "repo": "google-deepmind/mujoco",
       "license": "Apache-2.0",
       "path": "/opt/data/workspace/physics-broll",
-      "makes": "real physics: domino chain, tower collapse, pendulum, elastic collisions",
+      "makes": "real physics B-roll (domino chain, tower collapse, pendulum, collisions) and full mixes: physics + avatar + caption cards",
       "when": "a claim needs motion you cannot film — saturation, cascades, damping, impact",
-      "cmd": "python render.py --scene tower --seconds 12 --fps 24 --out out/tower.mp4",
+      "cmd": "python render.py --scene tower ... && python build_mix.py",
       "cost": "CPU only, ~2-3 min per 12 s at 720x1280",
       "status": "in use"
     },
@@ -160,6 +160,11 @@
     }
   ],
   "mix_recipes": [
+    {
+      "job": "Character + physics + cards (the full mix)",
+      "use": "MuJoCo scene as background, Gabimaru PNGTuber (transparent frames) bottom-right with mouth from the VO envelope, drawtext cards on the VO timeline, one ffmpeg pass",
+      "example": "physics-broll/out/gabimaru-physics-de.mp4 — 32.7 s, 3 layers, German VO"
+    },
     {
       "job": "Concept that needs motion (queues, collapse, damping)",
       "use": "physics-broll for the motion + faceless-youtube for narration/music + ffmpeg drawtext for the key line",
