@@ -157,7 +157,10 @@ def main():
         print("no changes")
     print(f"{len(data['tools'])} entries, checked {data['checked']}")
 
-    if a.push and changed:
+    if a.push:
+        if not changed and subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
+            print("nothing to push")
+            return 0
         subprocess.run(["git", "add", "-A"], cwd=ROOT, check=True)
         subprocess.run(["git", "-c", "user.name=toolbox-bot",
                         "-c", "user.email=bot@dopeak.dev",
