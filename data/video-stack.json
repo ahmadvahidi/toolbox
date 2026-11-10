@@ -1,202 +1,220 @@
 {
-  "updated": "2026-11-09",
-  "note": "Every project we can make a video with, what it is good for, and the exact command. Pick by job, then mix: one clip is rarely the video.",
-  "items": [
-    {
-      "id": "physics-broll",
-      "name": "MuJoCo B-roll",
-      "kind": "engine",
-      "repo": "google-deepmind/mujoco",
-      "license": "Apache-2.0",
-      "path": "/opt/data/workspace/physics-broll",
-      "makes": "real physics B-roll (domino chain, tower collapse, pendulum, collisions) and full mixes: physics + avatar + caption cards",
-      "when": "a claim needs motion you cannot film — saturation, cascades, damping, impact",
-      "cmd": "python render.py --scene tower ... && python build_mix.py",
-      "cost": "CPU only, ~2-3 min per 12 s at 720x1280",
-      "status": "in use"
-    },
-    {
-      "id": "livliv",
-      "name": "LivLiv Player (talking avatar)",
-      "kind": "engine",
-      "repo": "livliv-dev/player",
-      "license": "Apache-2.0 (core) / samples non-commercial",
-      "path": "/opt/data/workspace/avatar-video",
-      "makes": "2.5D character that speaks with lip-sync, no face, no GPU",
-      "when": "the video needs a presenter or a character voice instead of a narrator",
-      "cmd": "see skill livliv-avatar-video (stage.html + env.json + CDP capture)",
-      "cost": "~5 frames/s on CPU; a 12 s clip ≈ 3 min",
-      "status": "in use"
-    },
-    {
-      "id": "gabimaru-avatar",
-      "name": "Gabimaru PNGTuber",
-      "kind": "asset",
-      "repo": null,
-      "license": "ours",
-      "path": "/opt/data/workspace/avatar-gabimaru",
-      "makes": "our own masked-ninja avatar frames (closed/open/blink) + monologue renders",
-      "when": "channel identity videos, intros, in-character pieces",
-      "cmd": "python make_frames.py && python render_video.py",
-      "cost": "CPU; 2:19 clip ≈ 7 min",
-      "status": "in use"
-    },
-    {
-      "id": "math-notes",
-      "name": "Aesthetic notes shorts",
-      "kind": "pipeline",
-      "repo": null,
-      "license": "ours",
-      "path": "/opt/data/workspace/math-videos",
-      "makes": "handwritten-notebook math explainers (TTS + notes page + motion + music)",
-      "when": "math/education topic with a visual derivation",
-      "cmd": "python aesthetic_notes.py out/notes_vNN_short.mp4  (subject gate runs first)",
-      "cost": "CPU, a few minutes; 127 renders to date",
-      "status": "in use"
-    },
-    {
-      "id": "cs-videos",
-      "name": "ALGORHYTHM CS shorts",
-      "kind": "pipeline",
-      "repo": null,
-      "license": "ours",
-      "path": "/opt/data/workspace/cs-videos",
-      "makes": "computer-science shorts with diagrams, code and narration",
-      "when": "CS concept, system behaviour, algorithm intuition",
-      "cmd": "see run_cs_shorts.sh (cron) / build scripts in the folder",
-      "cost": "CPU; 533 renders to date",
-      "status": "in use"
-    },
-    {
-      "id": "faceless",
-      "name": "faceless-youtube pipeline",
-      "kind": "pipeline",
-      "repo": null,
-      "license": "ours",
-      "path": "/opt/data/workspace/faceless-youtube",
-      "makes": "the main long/short pipeline: script → TTS → scenes → motion → upload",
-      "when": "standard DOPEAK output; anything that must end up published",
-      "cmd": "see PLAYBOOK.md (the operating contract) and pipeline_v3.py",
-      "cost": "CPU; 88 renders to date",
-      "status": "in use"
-    },
-    {
-      "id": "manim",
-      "name": "Manim CE",
-      "kind": "engine",
-      "repo": "ManimCommunity/manim",
-      "license": "MIT",
-      "path": "/opt/data/workspace/manim-test",
-      "makes": "mathematical animation with exact geometry (3Blue1Brown style)",
-      "when": "the idea IS the geometry: circles, limits, transforms, graphs",
-      "cmd": "manim -pqh scene.py Scene (local-sys libs + TEXMFCNF needed)",
-      "cost": "CPU, slow; keep scenes under ~20 s",
-      "status": "in use"
-    },
-    {
-      "id": "animation-styles",
-      "name": "Animation styles library",
-      "kind": "style",
-      "repo": null,
-      "license": "mixed (see INDEX.md)",
-      "path": "/opt/data/workspace/animation-styles",
-      "makes": "13 coded motion styles (kinetic type, grid, glitch...) as JS samples",
-      "when": "the video needs a look, not a simulation — pick a style and drive it with our text",
-      "cmd": "see STYLES.md / dopeak_15s.mp4 reference render",
-      "cost": "browser render, seconds per frame",
-      "status": "available"
-    },
-    {
-      "id": "claude-anim",
-      "name": "ClaudeAnimationBase (p5.brush)",
-      "kind": "engine",
-      "repo": "JohnHeibel/ClaudeAnimationBase",
-      "license": "MIT",
-      "path": "/opt/data/workspace/claude-anim-base",
-      "makes": "hand-drawn character acting (31 emotions) and soft painted stills",
-      "when": "a mascot must emote, or a thumbnail needs a painted look",
-      "cmd": "node render.mjs --stills=3.0 --w=1280 --soft-gl --chrome=$CHROME_HEADLESS",
-      "cost": "~18 s per 1280px still; full video ~19 s per frame — nightly only",
-      "status": "available"
-    },
-    {
-      "id": "case-file",
-      "name": "CASE FILE longform",
-      "kind": "pipeline",
-      "repo": null,
-      "license": "ours",
-      "path": "/opt/data/workspace/case-file",
-      "makes": "documentary-style long episodes (evidence boards, maps, timelines)",
-      "when": "a story with documents, dates and a verdict",
-      "cmd": "see cron_brief.md + motion_pass.py",
-      "cost": "long render, run twice a week",
-      "status": "in use"
-    },
-    {
-      "id": "microduck",
-      "name": "microduck-short",
-      "kind": "pipeline",
-      "repo": null,
-      "license": "ours",
-      "path": "/opt/data/workspace/microduck-short",
-      "makes": "short assembly from clips + audio (one build.py)",
-      "when": "you already have footage and only need the cut",
-      "cmd": "python build.py",
-      "cost": "seconds",
-      "status": "available"
-    },
-    {
-      "id": "ffmpeg",
-      "name": "ffmpeg",
-      "kind": "tool",
-      "repo": null,
-      "license": "LGPL/GPL",
-      "path": "/usr/bin",
-      "makes": "encode, concat, mux audio, burn cards, loudnorm, loop, trim",
-      "when": "always — it is the last step of every pipeline above",
-      "cmd": "ffmpeg -framerate 24 -i f%04d.png -i vo.mp3 -vf format=yuv420p -c:v libx264 -crf 20 -shortest out.mp4",
-      "cost": "seconds per clip",
-      "status": "in use"
-    },
-    {
-      "id": "ai-shorts-gen",
-      "name": "AI Shorts Generator (long -> 9:16)",
-      "kind": "pipeline",
-      "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
-      "license": "MIT",
-      "path": "/opt/data/workspace/ai-shorts-gen",
-      "makes": "whisper transcript + LLM highlight ranking + auto-cropped vertical shorts from one long video",
-      "when": "talking-head / interview footage only — the auto crop is centre/face based and cuts text off our kinetic-type longforms",
-      "cmd": "GEMINI_API_KEY=... LLM_PROVIDER=gemini python main.py <file> --mode local --num-clips 2",
-      "cost": "8.5 min source: ~2 min transcribe + ~3 min rank/render on CPU",
-      "status": "available"
-    }
-  ],
-  "mix_recipes": [
-    {
-      "job": "Character + physics + cards (the full mix)",
-      "use": "MuJoCo scene as background, Gabimaru PNGTuber (transparent frames) bottom-right with mouth from the VO envelope, drawtext cards on the VO timeline, one ffmpeg pass",
-      "example": "physics-broll/out/gabimaru-physics-de.mp4 — 32.7 s, 3 layers, German VO"
-    },
-    {
-      "job": "Concept that needs motion (queues, collapse, damping)",
-      "use": "physics-broll for the motion + faceless-youtube for narration/music + ffmpeg drawtext for the key line",
-      "example": "out/queue-collapse-de.mp4 — 3 scenes, 33 s, German VO, 4 caption cards"
-    },
-    {
-      "job": "A tool/repo review",
-      "use": "terminal cards (short_llmapps.py pattern) + real screen evidence, never stock b-roll",
-      "example": "out/llmapps-de.mp4 — 144,280 stars, 57 apps, the audit line"
-    },
-    {
-      "job": "Math derivation",
-      "use": "math-notes for the page, Manim when the geometry must move exactly",
-      "example": "notes_v27_short.mp4"
-    },
-    {
-      "job": "Presenter / in-character",
-      "use": "gabimaru-avatar or LivLiv for the face, faceless-youtube for the bed, captions from the VO envelope",
-      "example": "gabimaru-de-long.mp4"
-    }
-  ]
+ "updated": "2026-11-10",
+ "note": "Every project we can make a video with, what it is good for, and the exact command. Pick by job, then mix: one clip is rarely the video.",
+ "items": [
+  {
+   "id": "physics-broll",
+   "name": "MuJoCo B-roll",
+   "kind": "engine",
+   "repo": "google-deepmind/mujoco",
+   "license": "Apache-2.0",
+   "path": "/opt/data/workspace/physics-broll",
+   "makes": "real physics B-roll (domino chain, tower collapse, pendulum, collisions) and full mixes: physics + avatar + caption cards",
+   "when": "a claim needs motion you cannot film — saturation, cascades, damping, impact",
+   "cmd": "python render.py --scene tower ... && python build_mix.py",
+   "cost": "CPU only, ~2-3 min per 12 s at 720x1280",
+   "status": "in use"
+  },
+  {
+   "id": "livliv",
+   "name": "LivLiv Player (talking avatar)",
+   "kind": "engine",
+   "repo": "livliv-dev/player",
+   "license": "Apache-2.0 (core) / samples non-commercial",
+   "path": "/opt/data/workspace/avatar-video",
+   "makes": "2.5D character that speaks with lip-sync, no face, no GPU",
+   "when": "the video needs a presenter or a character voice instead of a narrator",
+   "cmd": "see skill livliv-avatar-video (stage.html + env.json + CDP capture)",
+   "cost": "~5 frames/s on CPU; a 12 s clip ≈ 3 min",
+   "status": "in use"
+  },
+  {
+   "id": "gabimaru-avatar",
+   "name": "Gabimaru PNGTuber",
+   "kind": "asset",
+   "repo": null,
+   "license": "ours",
+   "path": "/opt/data/workspace/avatar-gabimaru",
+   "makes": "our own masked-ninja avatar frames (closed/open/blink) + monologue renders",
+   "when": "channel identity videos, intros, in-character pieces",
+   "cmd": "python make_frames.py && python render_video.py",
+   "cost": "CPU; 2:19 clip ≈ 7 min",
+   "status": "in use"
+  },
+  {
+   "id": "math-notes",
+   "name": "Aesthetic notes shorts",
+   "kind": "pipeline",
+   "repo": null,
+   "license": "ours",
+   "path": "/opt/data/workspace/math-videos",
+   "makes": "handwritten-notebook math explainers (TTS + notes page + motion + music)",
+   "when": "math/education topic with a visual derivation",
+   "cmd": "python aesthetic_notes.py out/notes_vNN_short.mp4  (subject gate runs first)",
+   "cost": "CPU, a few minutes; 127 renders to date",
+   "status": "in use"
+  },
+  {
+   "id": "cs-videos",
+   "name": "ALGORHYTHM CS shorts",
+   "kind": "pipeline",
+   "repo": null,
+   "license": "ours",
+   "path": "/opt/data/workspace/cs-videos",
+   "makes": "computer-science shorts with diagrams, code and narration",
+   "when": "CS concept, system behaviour, algorithm intuition",
+   "cmd": "see run_cs_shorts.sh (cron) / build scripts in the folder",
+   "cost": "CPU; 533 renders to date",
+   "status": "in use"
+  },
+  {
+   "id": "faceless",
+   "name": "faceless-youtube pipeline",
+   "kind": "pipeline",
+   "repo": null,
+   "license": "ours",
+   "path": "/opt/data/workspace/faceless-youtube",
+   "makes": "the main long/short pipeline: script → TTS → scenes → motion → upload",
+   "when": "standard DOPEAK output; anything that must end up published",
+   "cmd": "see PLAYBOOK.md (the operating contract) and pipeline_v3.py",
+   "cost": "CPU; 88 renders to date",
+   "status": "in use"
+  },
+  {
+   "id": "manim",
+   "name": "Manim CE",
+   "kind": "engine",
+   "repo": "ManimCommunity/manim",
+   "license": "MIT",
+   "path": "/opt/data/workspace/manim-test",
+   "makes": "mathematical animation with exact geometry (3Blue1Brown style)",
+   "when": "the idea IS the geometry: circles, limits, transforms, graphs",
+   "cmd": "manim -pqh scene.py Scene (local-sys libs + TEXMFCNF needed)",
+   "cost": "CPU, slow; keep scenes under ~20 s",
+   "status": "in use"
+  },
+  {
+   "id": "animation-styles",
+   "name": "Animation styles library",
+   "kind": "style",
+   "repo": null,
+   "license": "mixed (see INDEX.md)",
+   "path": "/opt/data/workspace/animation-styles",
+   "makes": "13 coded motion styles (kinetic type, grid, glitch...) as JS samples",
+   "when": "the video needs a look, not a simulation — pick a style and drive it with our text",
+   "cmd": "see STYLES.md / dopeak_15s.mp4 reference render",
+   "cost": "browser render, seconds per frame",
+   "status": "available"
+  },
+  {
+   "id": "claude-anim",
+   "name": "ClaudeAnimationBase (p5.brush)",
+   "kind": "engine",
+   "repo": "JohnHeibel/ClaudeAnimationBase",
+   "license": "MIT",
+   "path": "/opt/data/workspace/claude-anim-base",
+   "makes": "hand-drawn character acting (31 emotions) and soft painted stills",
+   "when": "a mascot must emote, or a thumbnail needs a painted look",
+   "cmd": "node render.mjs --stills=3.0 --w=1280 --soft-gl --chrome=$CHROME_HEADLESS",
+   "cost": "~18 s per 1280px still; full video ~19 s per frame — nightly only",
+   "status": "available"
+  },
+  {
+   "id": "case-file",
+   "name": "CASE FILE longform",
+   "kind": "pipeline",
+   "repo": null,
+   "license": "ours",
+   "path": "/opt/data/workspace/case-file",
+   "makes": "documentary-style long episodes (evidence boards, maps, timelines)",
+   "when": "a story with documents, dates and a verdict",
+   "cmd": "see cron_brief.md + motion_pass.py",
+   "cost": "long render, run twice a week",
+   "status": "in use"
+  },
+  {
+   "id": "microduck",
+   "name": "microduck-short",
+   "kind": "pipeline",
+   "repo": null,
+   "license": "ours",
+   "path": "/opt/data/workspace/microduck-short",
+   "makes": "short assembly from clips + audio (one build.py)",
+   "when": "you already have footage and only need the cut",
+   "cmd": "python build.py",
+   "cost": "seconds",
+   "status": "available"
+  },
+  {
+   "id": "ffmpeg",
+   "name": "ffmpeg",
+   "kind": "tool",
+   "repo": null,
+   "license": "LGPL/GPL",
+   "path": "/usr/bin",
+   "makes": "encode, concat, mux audio, burn cards, loudnorm, loop, trim",
+   "when": "always — it is the last step of every pipeline above",
+   "cmd": "ffmpeg -framerate 24 -i f%04d.png -i vo.mp3 -vf format=yuv420p -c:v libx264 -crf 20 -shortest out.mp4",
+   "cost": "seconds per clip",
+   "status": "in use"
+  },
+  {
+   "id": "ai-shorts-gen",
+   "name": "AI Shorts Generator (long -> 9:16)",
+   "kind": "pipeline",
+   "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+   "license": "MIT",
+   "path": "/opt/data/workspace/ai-shorts-gen",
+   "makes": "whisper transcript + LLM highlight ranking + auto-cropped vertical shorts from one long video",
+   "when": "talking-head / interview footage only — the auto crop is centre/face based and cuts text off our kinetic-type longforms",
+   "cmd": "GEMINI_API_KEY=... LLM_PROVIDER=gemini python main.py <file> --mode local --num-clips 2",
+   "cost": "8.5 min source: ~2 min transcribe + ~3 min rank/render on CPU",
+   "status": "available"
+  },
+  {
+   "id": "replica-app-teardown",
+   "name": "Replica skill (app teardown / clone)",
+   "kind": "format + build",
+   "repo": "Jakeschincariol/replica-skill",
+   "license": "MIT",
+   "path": "/opt/data/skills/replica",
+   "makes": "the 'how this app really works' video format (recon map, screen inventory, data model drawn as cards) and the working clone that the video points at",
+   "when": "a reel/blog claims 'clone any app' or 'build this in a weekend' — prove or disprove it with a real parity score on screen",
+   "cmd": "python3 /opt/data/skills/replica/replica-diff/parity.py <project>/replica/features.csv",
+   "cost": "CPU, seconds — stdlib only, no keys",
+   "status": "in use"
+  }
+ ],
+ "mix_recipes": [
+  {
+   "job": "Character + physics + cards (the full mix)",
+   "use": "MuJoCo scene as background, Gabimaru PNGTuber (transparent frames) bottom-right with mouth from the VO envelope, drawtext cards on the VO timeline, one ffmpeg pass",
+   "example": "physics-broll/out/gabimaru-physics-de.mp4 — 32.7 s, 3 layers, German VO"
+  },
+  {
+   "job": "Concept that needs motion (queues, collapse, damping)",
+   "use": "physics-broll for the motion + faceless-youtube for narration/music + ffmpeg drawtext for the key line",
+   "example": "out/queue-collapse-de.mp4 — 3 scenes, 33 s, German VO, 4 caption cards"
+  },
+  {
+   "job": "A tool/repo review",
+   "use": "terminal cards (short_llmapps.py pattern) + real screen evidence, never stock b-roll",
+   "example": "out/llmapps-de.mp4 — 144,280 stars, 57 apps, the audit line"
+  },
+  {
+   "job": "Math derivation",
+   "use": "math-notes for the page, Manim when the geometry must move exactly",
+   "example": "notes_v27_short.mp4"
+  },
+  {
+   "job": "Presenter / in-character",
+   "use": "gabimaru-avatar or LivLiv for the face, faceless-youtube for the bed, captions from the VO envelope",
+   "example": "gabimaru-de-long.mp4"
+  },
+  {
+   "job": "App-teardown short (claim -> proof -> number)",
+   "use": "5 s claim card, 8 s recon map (screens/flows/data model as text cards), 12 s real tool output (parity score + missing list), 8 s the built screen as B-roll, CTA. Numbers come from parity.py/imgdiff.py, never invented.",
+   "example": "workspace/booking-clone — parity 79.0/100, 14/14 must-haves, 4/4 tests"
+  }
+ ]
 }
