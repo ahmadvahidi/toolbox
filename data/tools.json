@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 300322,
-      "forks": 44346,
+      "stars": 300706,
+      "forks": 44384,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -30,7 +30,7 @@
         "design",
         "video"
       ],
-      "stars": 1173,
+      "stars": 1176,
       "forks": 70,
       "license": "MIT",
       "pushed": "2026-11-08",
@@ -47,8 +47,8 @@
         "3d",
         "gpu"
       ],
-      "stars": 1633,
-      "forks": 164,
+      "stars": 1640,
+      "forks": 166,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
       "archived": false
@@ -65,8 +65,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 2811,
-      "forks": 263,
+      "stars": 2845,
+      "forks": 268,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -81,8 +81,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 6633,
-      "forks": 658,
+      "stars": 6694,
+      "forks": 662,
       "license": "MIT",
       "pushed": "2026-11-10",
       "archived": false
@@ -97,8 +97,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 1543,
-      "forks": 140,
+      "stars": 1584,
+      "forks": 143,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
       "archived": false
@@ -114,8 +114,8 @@
         "animation",
         "design"
       ],
-      "stars": 893,
-      "forks": 206,
+      "stars": 930,
+      "forks": 214,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -130,10 +130,10 @@
       "tags": [
         "desktop"
       ],
-      "stars": 3849,
-      "forks": 296,
+      "stars": 3886,
+      "forks": 298,
       "license": "GPL-3.0",
-      "pushed": "2026-11-09",
+      "pushed": "2026-11-10",
       "archived": false
     },
     {
@@ -163,7 +163,7 @@
       "tags": [
         "network"
       ],
-      "stars": 17,
+      "stars": 19,
       "forks": 13,
       "license": "GPL-3.0",
       "pushed": "2026-11-06",
@@ -211,7 +211,7 @@
       "tags": [
         "network"
       ],
-      "stars": 1529,
+      "stars": 1531,
       "forks": 200,
       "license": "MIT",
       "pushed": "2026-07-20",
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 133865,
-      "forks": 25316,
+      "stars": 133942,
+      "forks": 25341,
       "license": "MIT",
       "pushed": "2026-11-10",
       "archived": false
@@ -256,8 +256,8 @@
       "tags": [
         "video"
       ],
-      "stars": 97957,
-      "forks": 9776,
+      "stars": 98028,
+      "forks": 9788,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 106374,
-      "forks": 11806,
+      "stars": 107104,
+      "forks": 11871,
       "license": "AGPL-3.0",
       "pushed": "2026-11-10",
       "archived": false
@@ -289,10 +289,10 @@
       "tags": [
         "business"
       ],
-      "stars": 49870,
-      "forks": 15591,
+      "stars": 49895,
+      "forks": 15601,
       "license": "MIT",
-      "pushed": "2026-11-03",
+      "pushed": "2026-11-10",
       "archived": false
     },
     {
@@ -305,8 +305,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 78602,
-      "forks": 6231,
+      "stars": 78651,
+      "forks": 6239,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,10 +321,10 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62224,
-      "forks": 6358,
+      "stars": 62268,
+      "forks": 6373,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-09",
+      "pushed": "2026-11-10",
       "archived": false
     },
     {
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39528,
-      "forks": 9597,
+      "stars": 39570,
+      "forks": 9608,
       "license": "NOASSERTION",
       "pushed": "2026-11-10",
       "archived": false
@@ -353,8 +353,8 @@
       "tags": [
         "video"
       ],
-      "stars": 24756,
-      "forks": 2313,
+      "stars": 24794,
+      "forks": 2318,
       "license": "NOASSERTION",
       "pushed": "2026-11-10",
       "archived": false
@@ -369,10 +369,10 @@
       "tags": [
         "dev"
       ],
-      "stars": 22251,
-      "forks": 2809,
+      "stars": 22258,
+      "forks": 2810,
       "license": "NOASSERTION",
-      "pushed": "2026-11-09",
+      "pushed": "2026-11-10",
       "archived": false
     },
     {
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1172,
+      "stars": 1188,
       "forks": 157,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -479,7 +479,7 @@
         "agents",
         "research"
       ],
-      "stars": 7983,
+      "stars": 7989,
       "forks": 938,
       "license": "MIT",
       "pushed": "2026-11-06",
@@ -499,8 +499,8 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1417,
-      "forks": 147,
+      "stars": 1452,
+      "forks": 152,
       "license": "Apache-2.0",
       "pushed": "2026-11-09",
       "archived": false
@@ -520,8 +520,8 @@
         "urdf",
         "animation"
       ],
-      "stars": 17015,
-      "forks": 2005,
+      "stars": 17282,
+      "forks": 2138,
       "license": "Apache-2.0",
       "pushed": "2026-11-10",
       "archived": false
@@ -541,8 +541,8 @@
         "templates",
         "content"
       ],
-      "stars": 144320,
-      "forks": 21231,
+      "stars": 144366,
+      "forks": 21239,
       "license": "Apache-2.0",
       "pushed": "2026-11-10",
       "archived": false
@@ -584,10 +584,32 @@
         "video",
         "crop"
       ],
-      "stars": 5875,
-      "forks": 1068,
+      "stars": 5900,
+      "forks": 1071,
       "license": "MIT",
-      "pushed": "2026-11-09",
+      "pushed": "2026-11-10",
+      "archived": false
+    },
+    {
+      "name": "Replica skill",
+      "repo": "Jakeschincariol/replica-skill",
+      "what": "Eleven Claude skills that clone any app clean-room: recon -> architect -> design -> build -> backend -> test -> diff -> entrepreneur -> brand -> launch -> deploy, with six stdlib-only Python tools",
+      "verdict": "use",
+      "why": "Installed 2026-11-10 as 11 Hermes skills (category replica: replica-recon/replica-architect/replica-design/replica-build/replica-backend/replica-test/replica-diff/replica-entrepreneur/replica-brand/replica-launch/replica-deploy) from the mirror at /opt/data/workspace/replica-skill; its own 57 unit tests pass and every tool was run on real data (imgdiff layout 52.7 on two renders, parity + contrast on a feature matrix and tokens, sweep exited 1 to block a launch, listing linted a store copy). First real use: workspace/booking-clone (نوبت‌یار) — a working Persian salon-booking MVP with Jalali dates, atomic no-double-booking and an admin panel, parity 79.0/100 with all 14 must-haves done, 4/4 node tests green. Use it for app/UI builds and for the reverse-engineer-a-tool format of the videos; never ship a clone without the brand sweep clean.",
+      "date": "2026-11-10",
+      "tags": [
+        "skills",
+        "claude-skills",
+        "clone",
+        "app",
+        "frontend",
+        "product",
+        "video-format"
+      ],
+      "stars": 8777,
+      "forks": 1579,
+      "license": "MIT",
+      "pushed": "2026-10-03",
       "archived": false
     }
   ]
