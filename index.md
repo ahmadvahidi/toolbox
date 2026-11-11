@@ -1,6 +1,6 @@
 # index — one line per entry
 
-checked 2026-11-10
+checked 2026-11-11
 
 - `use     ` **llama.cpp** — CPU/GPU inference for GGUF models · ggml-org/llama.cpp · Runs on this box (build b12064); 0.8B-2B models are usable for batch work, 30B on 6 cores gives 2 tok/s and is not.
 - `use     ` **MuJoCo** — Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0 · google-deepmind/mujoco · Installed 2026-11-08 (pip mujoco 4.0.0) and measured on this CPU-only box: 212,162 steps/s single-thread on a small free-joint scene, so a 6 s 24 fps clip simulates in well under a second. Its own OpenGL renderer does NOT start here (no EGL/OSMesa: 'an OpenGL platform library has not been loaded into this process'), so visuals are drawn from body poses with matplotlib and piped to ffmpeg - that path shipped a 720x1280 domino-chain B-roll clip (out/mujoco-dominoes.mp4). Real use for us: physics-visual shorts for ALGORHYTHM/DOPEAK and validating URDF/MJCF before robot work. Not a CAD/print tool. Reusable CLI now at /opt/data/workspace/physics-broll/render.py (scenes: dominoes, pendulum, balls; 24 fps 720x1280, silent) and it is wired into faceless-youtube/PLAYBOOK.md as a B-roll source.
