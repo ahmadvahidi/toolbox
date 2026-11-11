@@ -190,10 +190,10 @@
    "kind": "local AI / subject",
    "repo": "Edge0-AI/Edge0",
    "license": "Apache-2.0",
-   "path": "/opt/data/workspace/edge0 (source) · ki:~/edge0 (build) · ki:~/edge0-assets (model)",
+   "path": "/opt/data/workspace/edge0",
    "makes": "on-screen proof that a 35B MoE decodes in 3 GB of RAM: terminal run, tok/s counter, RSS readout, SSD read counter",
    "when": "a reel claims 'runs a huge model on your phone/laptop' and we want to prove or disprove it with our own hardware",
-   "cmd": "ssh ki 'cd ~/edge0/edge0-infer && ./build/cpu/bin/edge0-infer run --model ~/edge0-assets/assets-35b --device cpu --user \"...\" --max-tokens 80'",
+   "cmd": "ssh ki 'cd ~/edge0/edge0-infer && ./build/cpu/bin/edge0-infer run --model ~/edge0-assets/assets-35b --device cpu --user \"...\" --max-tokens 80'  # build lives on ki:~/edge0, assets on ki:~/edge0-assets",
    "cost": "CPU only; 6 tok/s on i5-10500T; 42 GB disk for the assets",
    "status": "in use"
   }
