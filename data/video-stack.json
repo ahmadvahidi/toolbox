@@ -195,7 +195,8 @@
    "when": "a reel claims 'runs a huge model on your phone/laptop' and we want to prove or disprove it with our own hardware",
    "cmd": "ssh ki 'cd ~/edge0/edge0-infer && ./build/cpu/bin/edge0-infer run --model ~/edge0-assets/assets-35b --device cpu --user \"...\" --max-tokens 80'  # build lives on ki:~/edge0, assets on ki:~/edge0-assets",
    "cost": "CPU only; 6 tok/s on i5-10500T; 42 GB disk for the assets",
-   "status": "in use"
+   "status": "in use",
+   "shipped": "ALGORHYTHM 2026-11-11 · https://youtube.com/shorts/0YF6DU4SJsk (EN) · DOPEAK cut ready in edge0-video/out/edge0-de.mp4"
   }
  ],
  "mix_recipes": [
