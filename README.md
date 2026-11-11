@@ -31,7 +31,7 @@ Stars are a snapshot, not a quality score.
 | 🟡 consider | **[anidoodle](https://github.com/alexgreensh/anidoodle)** | Animated doodle/sketch skill for Claude | 1,621 | Apache-2.0 | 2026-11-05 |
 | 🟡 consider | **[rVPN](https://github.com/PDG-Global/rVPN-core)** | Stealth VPN protocol in Rust: TLS 1.3 + WebSocket transport, X3DH + Double Ratchet, pooled multiplexing, decoy website behind the endpoint | 81 | NOASSERTION | 2026-09-26 |
 | 🟡 consider | **[Masque Config Generator](https://github.com/DarknessShade/Masque-Generator)** | One-page generator for Xray WARP-over-MASQUE configs (P-256 keys) | 27 | MIT | 2026-11-03 |
-| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 107,816 | AGPL-3.0 | 2026-11-11 |
+| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 107,817 | AGPL-3.0 | 2026-11-11 |
 | 👀 watch | **[AgentPilot](https://github.com/HKUDS/AgentPilot)** | 9B strategy model that picks the next move for a bigger agent, plus a skill workspace and an RSI benchmark arena | 7,992 | MIT | 2026-11-06 |
 | 👀 watch | **[StableGen](https://github.com/sakalond/stablegen)** | Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold) | 1,645 | GPL-3.0 | 2026-11-04 |
 | 👀 watch | **[Weight-Space Programming](https://github.com/RikiyaT/lm_understand-logs)** | MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops | 1,198 | NOASSERTION | 2026-10-29 |
