@@ -655,6 +655,21 @@
       "license": "Apache-2.0",
       "pushed": "2026-11-11",
       "archived": false
+    },
+    {
+      "name": "prompts.chat",
+      "repo": "f/prompts.chat",
+      "what": "Open prompt + agent-skill library (2,916 prompts incl. 650 image and 89 video, 177 multi-file agent skills) with a stateless MCP endpoint and a Claude Code plugin",
+      "verdict": "use",
+      "why": "Verified 2026-11-11 by hand, not from the reel. GitHub f/prompts.chat: 176,920 stars, created 2022-12-05, pushed same day; licence is dual - MIT for code, CC0 for the prompt content, so prompts are commercially usable (GitHub metadata says NOASSERTION, read LICENSE). REST /api/prompts?perPage=1 gives total 2,916 (TEXT 1,906 / IMAGE 650 / VIDEO 89 / AUDIO 4); the site showed 177 skills and 47 workflows. The Persian reel (saeedkhorsandi0, 2026-11-10) claims '10,000+ prompts' - that is inflated ~3.4x and the 'comment LIBRARY' funnel never delivered a link (10 comments, all the word 'library', no reply, no pinned comment); the link is just the free site. MCP is real and needs no key: POST https://prompts.chat/api/mcp answers stateless JSON-RPC with 17 tools (search_prompts, get_prompt, search_skills, get_skill, save_*, bots/teams); get_skill returns every file of a skill. Local stdio: npx -y @fkadev/prompts.chat-mcp 1.0.9. Catch: both search_prompts and REST q AND every word, so multi-word queries return 0 - our CLI splits and merges. prompts/list caps at ~420 entries, so it is not the catalogue. Skill-library keyword search is noisy (youtube/thumbnail/hook return dev skills); the prompt catalogue is the part worth using. Wired: workspace/prompts-cli/pmcp.py (search/get/count/skills/skill --install), skill prompts-chat v2 with references/mcp.md, and mcp_servers.prompts-chat in config. First real use: cloned srt-subtitle-quality-checker (6 files) and ran its stdlib checker on our own ep01 SRT - 120 cues, 0 HIGH, 115 WARN, all line-length above 42 chars, i.e. a real gate for the burned-in captions.",
+      "date": "2026-11-11",
+      "tags": [
+        "prompts",
+        "images",
+        "video",
+        "mcp",
+        "writing"
+      ]
     }
   ]
 }
