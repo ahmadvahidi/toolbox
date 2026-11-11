@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "note": "Every project we can make a video with, what it is good for, and the exact command. Pick by job, then mix: one clip is rarely the video.",
  "items": [
   {
@@ -183,6 +183,19 @@
    "cmd": "python3 /opt/data/skills/replica/replica-diff/parity.py <project>/replica/features.csv",
    "cost": "CPU, seconds — stdlib only, no keys",
    "status": "in use"
+  },
+  {
+   "id": "edge0-local-35b",
+   "name": "Edge0 — 35B on 3 GB RAM",
+   "kind": "local AI / subject",
+   "repo": "Edge0-AI/Edge0",
+   "license": "Apache-2.0",
+   "path": "/opt/data/workspace/edge0 (source) · ki:~/edge0 (build) · ki:~/edge0-assets (model)",
+   "makes": "on-screen proof that a 35B MoE decodes in 3 GB of RAM: terminal run, tok/s counter, RSS readout, SSD read counter",
+   "when": "a reel claims 'runs a huge model on your phone/laptop' and we want to prove or disprove it with our own hardware",
+   "cmd": "ssh ki 'cd ~/edge0/edge0-infer && ./build/cpu/bin/edge0-infer run --model ~/edge0-assets/assets-35b --device cpu --user \"...\" --max-tokens 80'",
+   "cost": "CPU only; 6 tok/s on i5-10500T; 42 GB disk for the assets",
+   "status": "in use"
   }
  ],
  "mix_recipes": [
@@ -215,6 +228,11 @@
    "job": "App-teardown short (claim -> proof -> number)",
    "use": "5 s claim card, 8 s recon map (screens/flows/data model as text cards), 12 s real tool output (parity score + missing list), 8 s the built screen as B-roll, CTA. Numbers come from parity.py/imgdiff.py, never invented.",
    "example": "workspace/booking-clone — parity 79.0/100, 14/14 must-haves, 4/4 tests"
+  },
+  {
+   "job": "Claim-check short: '35B in 3 GB' ",
+   "use": "3 s cover claim, 5 s what a MoE is (two cards), 12 s real terminal: prefill timer, decode speed ticking, RSS from /usr/bin/time, 6 s the same model answering in Persian, CTA. Numbers from our own run, never the reel's.",
+   "example": "ki box 2026-11-11 — 6.07 tok/s, TTFT 6.39 s, peak RSS 3.09 GB, 42.3% expert hit rate"
   }
  ]
 }
