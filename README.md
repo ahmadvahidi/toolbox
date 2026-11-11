@@ -14,38 +14,39 @@ Stars are a snapshot, not a quality score.
 
 | | Tool | What it is | ★ | Licence | Last push |
 |---|---|---|---:|---|---|
-| ✅ in use | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | CPU/GPU inference for GGUF models | 133,991 | MIT | 2026-11-11 |
-| ✅ in use | **[MuJoCo](https://github.com/google-deepmind/mujoco)** | Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0 | 17,463 | Apache-2.0 | 2026-11-10 |
-| ✅ in use | **[Replica skill](https://github.com/Jakeschincariol/replica-skill)** | Eleven Claude skills that clone any app clean-room: recon -> architect -> design -> build -> backend -> test -> diff -> entrepreneur -> brand -> launch -> deploy, with six stdlib-only Python tools | 8,828 | MIT | 2026-10-03 |
-| ✅ in use | **[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)** | Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE | 2,867 | MIT | 2026-09-24 |
+| ✅ in use | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | CPU/GPU inference for GGUF models | 134,060 | MIT | 2026-11-11 |
+| ✅ in use | **[MuJoCo](https://github.com/google-deepmind/mujoco)** | Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0 | 17,569 | Apache-2.0 | 2026-11-11 |
+| ✅ in use | **[Edge0 (edge0-infer)](https://github.com/Edge0-AI/Edge0)** | Streaming MoE inference engine: 35B-A3B (Qwen3.6-35B-A3B, 4-bit) with expert weights on SSD, a trained prerouter and Recover-LoRA | 9,691 | Apache-2.0 | 2026-11-11 |
+| ✅ in use | **[Replica skill](https://github.com/Jakeschincariol/replica-skill)** | Eleven Claude skills that clone any app clean-room: recon -> architect -> design -> build -> backend -> test -> diff -> entrepreneur -> brand -> launch -> deploy, with six stdlib-only Python tools | 8,866 | MIT | 2026-10-03 |
+| ✅ in use | **[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)** | Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE | 2,875 | MIT | 2026-09-24 |
 | ✅ in use | **[usque](https://github.com/Diniboy1123/usque)** | Open-source Cloudflare WARP MASQUE client | 1,531 | MIT | 2026-07-20 |
-| ✅ in use | **[LivLiv Player](https://github.com/livliv-dev/player)** | 2.5D avatar player for the web: WebGL2, ~30KB core, lip sync + MediaPipe face tracking in-browser, VRM/PNGTuber support, 21 sample characters | 1,470 | Apache-2.0 | 2026-11-09 |
-| ✅ in use | **[ascii.rest](https://github.com/bas3line/ascii)** | 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT | 1,180 | MIT | 2026-11-08 |
-| ✅ in use | **[code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts)** | 341 code-rendered animation styles with prompts | 939 | NOASSERTION | 2026-11-05 |
-| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review) | 300,908 | MIT | 2026-11-09 |
-| 🟡 consider | **[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** | 57 runnable AI app folders (agents, RAG, voice): Streamlit demos, ~17.7k Python lines total, Apache-2.0 | 144,388 | Apache-2.0 | 2026-11-10 |
-| 🟡 consider | **[Cal.com (cal.diy)](https://github.com/calcom/cal.diy)** | Self-hosted scheduling pages (Calendly alternative) | 49,912 | MIT | 2026-11-11 |
-| 🟡 consider | **[huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** | Claude skill collection for hand-drawn and painterly motion | 6,709 | MIT | 2026-11-10 |
-| 🟡 consider | **[AI-Youtube-Shorts-Generator](https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator)** | Long-form -> 9:16 shorts: faster-whisper transcription, LLM highlight ranking (OpenAI/Gemini), OpenCV face-tracking crop | 5,926 | MIT | 2026-11-10 |
-| 🟡 consider | **[anidoodle](https://github.com/alexgreensh/anidoodle)** | Animated doodle/sketch skill for Claude | 1,603 | Apache-2.0 | 2026-11-05 |
-| 🟡 consider | **[rVPN](https://github.com/PDG-Global/rVPN-core)** | Stealth VPN protocol in Rust: TLS 1.3 + WebSocket transport, X3DH + Double Ratchet, pooled multiplexing, decoy website behind the endpoint | 66 | NOASSERTION | 2026-09-26 |
-| 🟡 consider | **[Masque Config Generator](https://github.com/DarknessShade/Masque-Generator)** | One-page generator for Xray WARP-over-MASQUE configs (P-256 keys) | 26 | MIT | 2026-11-03 |
-| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 107,466 | AGPL-3.0 | 2026-11-10 |
-| 👀 watch | **[AgentPilot](https://github.com/HKUDS/AgentPilot)** | 9B strategy model that picks the next move for a bigger agent, plus a skill workspace and an RSI benchmark arena | 7,990 | MIT | 2026-11-06 |
-| 👀 watch | **[StableGen](https://github.com/sakalond/stablegen)** | Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold) | 1,642 | GPL-3.0 | 2026-11-04 |
-| 👀 watch | **[Weight-Space Programming](https://github.com/RikiyaT/lm_understand-logs)** | MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops | 1,193 | NOASSERTION | 2026-10-29 |
+| ✅ in use | **[LivLiv Player](https://github.com/livliv-dev/player)** | 2.5D avatar player for the web: WebGL2, ~30KB core, lip sync + MediaPipe face tracking in-browser, VRM/PNGTuber support, 21 sample characters | 1,483 | Apache-2.0 | 2026-11-09 |
+| ✅ in use | **[ascii.rest](https://github.com/bas3line/ascii)** | 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT | 1,184 | MIT | 2026-11-08 |
+| ✅ in use | **[code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts)** | 341 code-rendered animation styles with prompts | 954 | NOASSERTION | 2026-11-05 |
+| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review) | 301,040 | MIT | 2026-11-09 |
+| 🟡 consider | **[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** | 57 runnable AI app folders (agents, RAG, voice): Streamlit demos, ~17.7k Python lines total, Apache-2.0 | 144,402 | Apache-2.0 | 2026-11-11 |
+| 🟡 consider | **[Cal.com (cal.diy)](https://github.com/calcom/cal.diy)** | Self-hosted scheduling pages (Calendly alternative) | 49,925 | MIT | 2026-11-11 |
+| 🟡 consider | **[huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** | Claude skill collection for hand-drawn and painterly motion | 6,729 | MIT | 2026-11-10 |
+| 🟡 consider | **[AI-Youtube-Shorts-Generator](https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator)** | Long-form -> 9:16 shorts: faster-whisper transcription, LLM highlight ranking (OpenAI/Gemini), OpenCV face-tracking crop | 5,944 | MIT | 2026-11-10 |
+| 🟡 consider | **[anidoodle](https://github.com/alexgreensh/anidoodle)** | Animated doodle/sketch skill for Claude | 1,621 | Apache-2.0 | 2026-11-05 |
+| 🟡 consider | **[rVPN](https://github.com/PDG-Global/rVPN-core)** | Stealth VPN protocol in Rust: TLS 1.3 + WebSocket transport, X3DH + Double Ratchet, pooled multiplexing, decoy website behind the endpoint | 81 | NOASSERTION | 2026-09-26 |
+| 🟡 consider | **[Masque Config Generator](https://github.com/DarknessShade/Masque-Generator)** | One-page generator for Xray WARP-over-MASQUE configs (P-256 keys) | 27 | MIT | 2026-11-03 |
+| 👀 watch | **[VoiceStudio](https://github.com/debpalash/VoiceStudio)** | Local voice cloning and dubbing (ElevenLabs alternative) | 107,816 | AGPL-3.0 | 2026-11-11 |
+| 👀 watch | **[AgentPilot](https://github.com/HKUDS/AgentPilot)** | 9B strategy model that picks the next move for a bigger agent, plus a skill workspace and an RSI benchmark arena | 7,992 | MIT | 2026-11-06 |
+| 👀 watch | **[StableGen](https://github.com/sakalond/stablegen)** | Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold) | 1,645 | GPL-3.0 | 2026-11-04 |
+| 👀 watch | **[Weight-Space Programming](https://github.com/RikiyaT/lm_understand-logs)** | MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops | 1,198 | NOASSERTION | 2026-10-29 |
 | 👀 watch | **[Avatar Creator (AVC Suite)](https://www.avcsuite.com/)** | Commercial Blender add-on: build / wrap / sync characters, convert AI meshes and retarget to MetaHuman or Genesis 9 | — | Commercial | 2026-10-14 |
-| 🅿️ park | **[OpenCut](https://github.com/OpenCut-app/OpenCut)** | Browser timeline video editor (CapCut alternative) | 98,052 | MIT | 2026-09-24 |
-| 🅿️ park | **[Plane](https://github.com/makeplane/plane)** | Self-hosted Jira/Linear alternative | 62,277 | AGPL-3.0 | 2026-11-10 |
-| 🅿️ park | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | Self-hosted Intercom alternative | 39,602 | NOASSERTION | 2026-11-11 |
-| 🅿️ park | **[Cap](https://github.com/CapSoftware/Cap)** | Open-source Loom alternative for screen recording | 24,820 | NOASSERTION | 2026-11-11 |
-| 🅿️ park | **[Dyad](https://github.com/dyad-sh/dyad)** | Local Lovable-style app builder | 22,260 | NOASSERTION | 2026-11-10 |
+| 🅿️ park | **[OpenCut](https://github.com/OpenCut-app/OpenCut)** | Browser timeline video editor (CapCut alternative) | 98,076 | MIT | 2026-09-24 |
+| 🅿️ park | **[Plane](https://github.com/makeplane/plane)** | Self-hosted Jira/Linear alternative | 62,285 | AGPL-3.0 | 2026-11-11 |
+| 🅿️ park | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | Self-hosted Intercom alternative | 39,623 | NOASSERTION | 2026-11-11 |
+| 🅿️ park | **[Cap](https://github.com/CapSoftware/Cap)** | Open-source Loom alternative for screen recording | 24,841 | NOASSERTION | 2026-11-11 |
+| 🅿️ park | **[Dyad](https://github.com/dyad-sh/dyad)** | Local Lovable-style app builder | 22,263 | NOASSERTION | 2026-11-10 |
 | 🅿️ park | **[TWP-CF](https://github.com/MHDLabs/TWP-CF)** | Telegram web proxy on Cloudflare Workers (MTProto over websocket) | 19 | GPL-3.0 | 2026-11-06 |
 | 🅿️ park | **Muse-Glimmer-30B** | Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB | — | — | — |
 | 🅿️ park | **[Cinemap](https://github.com/cinemap.video (TapNow))** | 3D previs from text: build an editable set, keyframe props/actors, phone-as-camera via QR, then hand the clip to Seedance 2.5 as a camera reference | — | None | None |
 | 🅿️ park | **[ClipUtils](https://github.com/cliputils.com)** | 32 browser tools: trim/compress/convert, remove music keeping the voice, auto subtitles, video translation/dubbing, TTS, HEIC/WebP conversion, background removal | — | None | None |
-| ⏭️ skip | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | Self-hosted Notion alternative | 78,679 | AGPL-3.0 | 2026-11-02 |
-| ⏭️ skip | **[TwinDesk](https://github.com/inukaasith/twindesk)** | Share mouse, keyboard, files and clipboard across machines (KVM) | 3,909 | GPL-3.0 | 2026-11-11 |
+| ⏭️ skip | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | Self-hosted Notion alternative | 78,707 | AGPL-3.0 | 2026-11-02 |
+| ⏭️ skip | **[TwinDesk](https://github.com/inukaasith/twindesk)** | Share mouse, keyboard, files and clipboard across machines (KVM) | 3,922 | GPL-3.0 | 2026-11-11 |
 | ⏭️ skip | **[FloMorphic getting-started](https://github.com/FloMorphic/getting-started)** | Low-code graph platform for agent pipelines, MCP + RAG + human oversight | 13 | Apache-2.0 | 2026-10-26 |
 | ⏭️ skip | **[tree-of-neuron](https://github.com/fermow/tree-of-neuron)** | Interactive 47-milestone history of neuroscience | 4 | none | 2026-10-15 |
 | ⚰️ dead | **OpenSEO (claim)** | Supposed free Semrush alternative from the same carousel | — | — | — |

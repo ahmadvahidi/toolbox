@@ -1,660 +1,660 @@
 {
- "checked": "2026-11-11",
- "tools": [
-  {
-   "name": "ECC",
-   "repo": "affaan-m/ECC",
-   "what": "299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review)",
-   "verdict": "consider",
-   "why": "Real and huge, but the useful parts are the skills — 12 imported as Hermes skills and all 483 items catalogued. Re-checked 2026-11-08 after @moeen_valpr's reel (cover claims 290K★; actual 299,217, so the claim is honest): upstream advanced 6 commits since b38be6a but only CI/PR-moderation files — zero skill changes, mirror still current. Not a model upgrade; gain is phase discipline + checklists.",
-   "date": "2026-11-08",
-   "tags": [
-    "agents",
-    "skills"
-   ],
-   "stars": 300908,
-   "forks": 44407,
-   "license": "MIT",
-   "pushed": "2026-11-09",
-   "archived": false
-  },
-  {
-   "name": "ascii.rest",
-   "repo": "bas3line/ascii",
-   "what": "240 animated ASCII pieces for the web, one <ascii-art> tag, MIT",
-   "verdict": "use",
-   "why": "Wired in: ascii_bumper.mjs captures any piece in headless Chrome and encodes an MP4 — a 2.5s vertical 1080x1920 bumper renders in 2.5s. Used as the short intro; page also renders live for landing pages.",
-   "date": "2026-11-04",
-   "tags": [
-    "web",
-    "design",
-    "video"
-   ],
-   "stars": 1180,
-   "forks": 70,
-   "license": "MIT",
-   "pushed": "2026-11-08",
-   "archived": false
-  },
-  {
-   "name": "StableGen",
-   "repo": "sakalond/stablegen",
-   "what": "Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold)",
-   "verdict": "watch",
-   "why": "Needs Blender plus a ComfyUI GPU server; no /dev/dri here. One rented GPU hour could ship a brand mascot without buying hardware.",
-   "date": "2026-11-04",
-   "tags": [
-    "3d",
-    "gpu"
-   ],
-   "stars": 1642,
-   "forks": 166,
-   "license": "GPL-3.0",
-   "pushed": "2026-11-04",
-   "archived": false
-  },
-  {
-   "name": "ClaudeAnimationBase",
-   "repo": "JohnHeibel/ClaudeAnimationBase",
-   "what": "Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE",
-   "verdict": "use",
-   "why": "Split verdict: 17.8s per 1280px still makes it a thumbnail/painting tool today (wired in the playbook), while its own video path costs ~19s/frame — a 11s clip is an 80-minute overnight job.",
-   "date": "2026-11-04",
-   "tags": [
-    "animation",
-    "thumbnails",
-    "gpu"
-   ],
-   "stars": 2867,
-   "forks": 270,
-   "license": "MIT",
-   "pushed": "2026-09-24",
-   "archived": false
-  },
-  {
-   "name": "huashu-art-motion",
-   "repo": "alchaincyf/huashu-art-motion",
-   "what": "Claude skill collection for hand-drawn and painterly motion",
-   "verdict": "consider",
-   "why": "MIT and small; the p5.brush watercolour path costs ~40 s/frame here, so use it for keyframes only.",
-   "date": "2026-11-03",
-   "tags": [
-    "animation"
-   ],
-   "stars": 6709,
-   "forks": 664,
-   "license": "MIT",
-   "pushed": "2026-11-10",
-   "archived": false
-  },
-  {
-   "name": "anidoodle",
-   "repo": "alexgreensh/anidoodle",
-   "what": "Animated doodle/sketch skill for Claude",
-   "verdict": "consider",
-   "why": "Apache-2.0, ~1.2k stars, lighter than p5.brush; candidate for short-form illustration once tested end to end.",
-   "date": "2026-11-03",
-   "tags": [
-    "animation"
-   ],
-   "stars": 1603,
-   "forks": 144,
-   "license": "Apache-2.0",
-   "pushed": "2026-11-05",
-   "archived": false
-  },
-  {
-   "name": "code-animation-prompts",
-   "repo": "XiaoyeCodes/code-animation-prompts",
-   "what": "341 code-rendered animation styles with prompts",
-   "verdict": "use",
-   "why": "Mirrored to workspace/animation-styles and published as code-animation-atlas; 28 runnable on Canvas + headless Chrome with no GPU.",
-   "date": "2026-11-03",
-   "tags": [
-    "animation",
-    "design"
-   ],
-   "stars": 939,
-   "forks": 214,
-   "license": "NOASSERTION",
-   "pushed": "2026-11-05",
-   "archived": false
-  },
-  {
-   "name": "TwinDesk",
-   "repo": "inukaasith/twindesk",
-   "what": "Share mouse, keyboard, files and clipboard across machines (KVM)",
-   "verdict": "skip",
-   "why": "Needs a human at a physical desk; does nothing for a headless server fleet. fleet.py already syncs and dispatches over ssh.",
-   "date": "2026-11-03",
-   "tags": [
-    "desktop"
-   ],
-   "stars": 3909,
-   "forks": 303,
-   "license": "GPL-3.0",
-   "pushed": "2026-11-11",
-   "archived": false
-  },
-  {
-   "name": "FloMorphic getting-started",
-   "req": "",
-   "repo": "FloMorphic/getting-started",
-   "what": "Low-code graph platform for agent pipelines, MCP + RAG + human oversight",
-   "verdict": "skip",
-   "why": "Eight repos at 0-1 stars, commercial licence, no runnable core — a landing page, not a platform yet.",
-   "date": "2026-11-03",
-   "tags": [
-    "agents"
-   ],
-   "stars": 13,
-   "forks": 3,
-   "license": "Apache-2.0",
-   "pushed": "2026-10-26",
-   "archived": false
-  },
-  {
-   "name": "TWP-CF",
-   "repo": "MHDLabs/TWP-CF",
-   "what": "Telegram web proxy on Cloudflare Workers (MTProto over websocket)",
-   "verdict": "park",
-   "why": "11 stars, custom licence and a security warning in its own README; Telegram Web already reaches us from Iran via the existing tunnel.",
-   "date": "2026-11-03",
-   "tags": [
-    "network"
-   ],
-   "stars": 19,
-   "forks": 13,
-   "license": "GPL-3.0",
-   "pushed": "2026-11-06",
-   "archived": false
-  },
-  {
-   "name": "tree-of-neuron",
-   "repo": "fermow/tree-of-neuron",
-   "what": "Interactive 47-milestone history of neuroscience",
-   "verdict": "skip",
-   "why": "Nice one-off educational toy, 1 star, no licence; nothing to reuse in our pipeline.",
-   "date": "2026-11-03",
-   "tags": [
-    "education"
-   ],
-   "stars": 4,
-   "forks": 0,
-   "license": "none",
-   "pushed": "2026-10-15",
-   "archived": false
-  },
-  {
-   "name": "Masque Config Generator",
-   "repo": "DarknessShade/Masque-Generator",
-   "what": "One-page generator for Xray WARP-over-MASQUE configs (P-256 keys)",
-   "verdict": "consider",
-   "why": "Technically correct (MASQUE on TCP/443, H2 default for MCI, 162.159.198.0/24 for Irancell) but its fallback posts to an unknown Worker — generate keys locally with usque instead.",
-   "date": "2026-11-03",
-   "tags": [
-    "network"
-   ],
-   "stars": 26,
-   "forks": 4,
-   "license": "MIT",
-   "pushed": "2026-11-03",
-   "archived": false
-  },
-  {
-   "name": "usque",
-   "repo": "Diniboy1123/usque",
-   "what": "Open-source Cloudflare WARP MASQUE client",
-   "verdict": "use",
-   "why": "Local key generation and a real client — the safe half of the MASQUE generator workflow; 1.5k stars, MIT.",
-   "date": "2026-11-03",
-   "tags": [
-    "network"
-   ],
-   "stars": 1531,
-   "forks": 200,
-   "license": "MIT",
-   "pushed": "2026-07-20",
-   "archived": false
-  },
-  {
-   "name": "llama.cpp",
-   "repo": "ggml-org/llama.cpp",
-   "what": "CPU/GPU inference for GGUF models",
-   "verdict": "use",
-   "why": "Runs on this box (build b12064); 0.8B-2B models are usable for batch work, 30B on 6 cores gives 2 tok/s and is not.",
-   "date": "2026-11-03",
-   "tags": [
-    "llm",
-    "local"
-   ],
-   "stars": 133991,
-   "forks": 25356,
-   "license": "MIT",
-   "pushed": "2026-11-11",
-   "archived": false
-  },
-  {
-   "name": "Muse-Glimmer-30B",
-   "repo": null,
-   "what": "Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB",
-   "verdict": "park",
-   "why": "Measured on ki: 8.5 tok/s prompt, 2.07 tok/s generation, 28.6 GB peak RAM with default context — overnight batch only, never interactive.",
-   "date": "2026-11-03",
-   "tags": [
-    "llm",
-    "local"
-   ]
-  },
-  {
-   "name": "OpenCut",
-   "repo": "OpenCut-app/OpenCut",
-   "what": "Browser timeline video editor (CapCut alternative)",
-   "verdict": "park",
-   "why": "97k stars but a GUI timeline for humans; our videos are rendered from code, so an editor adds a step without adding capability.",
-   "date": "2026-11-03",
-   "tags": [
-    "video"
-   ],
-   "stars": 98052,
-   "forks": 9789,
-   "license": "MIT",
-   "pushed": "2026-09-24",
-   "archived": false
-  },
-  {
-   "name": "VoiceStudio",
-   "repo": "debpalash/VoiceStudio",
-   "what": "Local voice cloning and dubbing (ElevenLabs alternative)",
-   "verdict": "watch",
-   "why": "100k stars, AGPL; needs GPU/Apple Silicon. The moment the rig exists this is the German voice for DOPEAK.",
-   "date": "2026-11-03",
-   "tags": [
-    "audio",
-    "gpu"
-   ],
-   "stars": 107466,
-   "forks": 11909,
-   "license": "AGPL-3.0",
-   "pushed": "2026-11-10",
-   "archived": false
-  },
-  {
-   "name": "Cal.com (cal.diy)",
-   "repo": "calcom/cal.diy",
-   "what": "Self-hosted scheduling pages (Calendly alternative)",
-   "verdict": "consider",
-   "why": "MIT and real, but it wants a domain, TLS and email before it is useful — worth it when the IT work gets its own booking link.",
-   "date": "2026-11-03",
-   "tags": [
-    "business"
-   ],
-   "stars": 49912,
-   "forks": 15606,
-   "license": "MIT",
-   "pushed": "2026-11-11",
-   "archived": false
-  },
-  {
-   "name": "AppFlowy",
-   "repo": "AppFlowy-IO/AppFlowy",
-   "what": "Self-hosted Notion alternative",
-   "verdict": "skip",
-   "why": "Desktop-plus-server product for teams of humans; our notes are markdown in the vault and the bots already read them.",
-   "date": "2026-11-03",
-   "tags": [
-    "productivity"
-   ],
-   "stars": 78679,
-   "forks": 6245,
-   "license": "AGPL-3.0",
-   "pushed": "2026-11-02",
-   "archived": false
-  },
-  {
-   "name": "Plane",
-   "repo": "makeplane/plane",
-   "what": "Self-hosted Jira/Linear alternative",
-   "verdict": "park",
-   "why": "Postgres plus Redis plus a worker; too much server for one person's task list. The kanban tool in Hermes already covers it.",
-   "date": "2026-11-03",
-   "tags": [
-    "productivity"
-   ],
-   "stars": 62277,
-   "forks": 6373,
-   "license": "AGPL-3.0",
-   "pushed": "2026-11-10",
-   "archived": false
-  },
-  {
-   "name": "Chatwoot",
-   "repo": "chatwoot/chatwoot",
-   "what": "Self-hosted Intercom alternative",
-   "verdict": "park",
-   "why": "No OSI licence, and a support inbox only pays off after there are customers to support.",
-   "date": "2026-11-03",
-   "tags": [
-    "business"
-   ],
-   "stars": 39602,
-   "forks": 9614,
-   "license": "NOASSERTION",
-   "pushed": "2026-11-11",
-   "archived": false
-  },
-  {
-   "name": "Cap",
-   "repo": "CapSoftware/Cap",
-   "what": "Open-source Loom alternative for screen recording",
-   "verdict": "park",
-   "why": "Non-OSI licence and a desktop app; screen capture on a headless server is ffmpeg, which we already use.",
-   "date": "2026-11-03",
-   "tags": [
-    "video"
-   ],
-   "stars": 24820,
-   "forks": 2319,
-   "license": "NOASSERTION",
-   "pushed": "2026-11-11",
-   "archived": false
-  },
-  {
-   "name": "Dyad",
-   "repo": "dyad-sh/dyad",
-   "what": "Local Lovable-style app builder",
-   "verdict": "park",
-   "why": "Non-OSI licence, GUI-first; writing the code directly with an agent is faster than clicking a builder.",
-   "date": "2026-11-03",
-   "tags": [
-    "dev"
-   ],
-   "stars": 22260,
-   "forks": 2810,
-   "license": "NOASSERTION",
-   "pushed": "2026-11-10",
-   "archived": false
-  },
-  {
-   "name": "OpenSEO (claim)",
-   "repo": null,
-   "what": "Supposed free Semrush alternative from the same carousel",
-   "verdict": "dead",
-   "why": "No repository at the claimed size — the name lands on a 2016 and a 2023 project, and the only live one has 27 stars and a week of history.",
-   "date": "2026-11-03",
-   "tags": [
-    "seo",
-    "unverified"
-   ]
-  },
-  {
-   "name": "OpenWhispr (claim)",
-   "repo": null,
-   "what": "Supposed open-source Wispr Flow dictation app",
-   "verdict": "dead",
-   "why": "Claim did not survive a repo search; no canonical project found to install.",
-   "date": "2026-11-03",
-   "tags": [
-    "audio",
-    "unverified"
-   ]
-  },
-  {
-   "name": "Weight-Space Programming",
-   "repo": "RikiyaT/lm_understand-logs",
-   "what": "MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops",
-   "verdict": "watch",
-   "why": "Artifacts are real (logs, edited Qwen3.5-0.8B, eval files) but the headline 6x compares 25 base problems against 500 edited ones, with 95% of base outputs truncated — direction yes, multiplier no. Needs the unreleased GPT-6 Astra.",
-   "date": "2026-11-04",
-   "tags": [
-    "llm",
-    "research"
-   ],
-   "stars": 1193,
-   "forks": 158,
-   "license": "NOASSERTION",
-   "pushed": "2026-10-29",
-   "archived": false
-  },
-  {
-   "name": "Cinemap",
-   "repo": "cinemap.video (TapNow)",
-   "what": "3D previs from text: build an editable set, keyframe props/actors, phone-as-camera via QR, then hand the clip to Seedance 2.5 as a camera reference",
-   "verdict": "park",
-   "why": "Real product (cinemap.video, run by TapNow). Pricing now verified via the TapNow pricing page: Basic $15/mo ($7.5/mo billed yearly, 1500 Tapies), Pro $60/mo (6000, top-up $1=107), Ultimate $360/mo, Max $720/mo; 1 Tapie ≈ $0.01 of credit. The camera-reference trick works because Seedance 2.5 ships camera-perspective reference (ByteDance launch post, 2026-07-31). Parked, not skipped: it targets cinematic previs, not our chart-driven shorts, and the reel is a paid ad. Revisit for a film-style piece.",
-   "date": "2026-11-06",
-   "tags": [
-    "video",
-    "previs",
-    "3d",
-    "seedance"
-   ],
-   "stars": null,
-   "forks": null,
-   "license": null,
-   "pushed": null,
-   "archived": false,
-   "pricing": {
-    "basic_usd_month": 15,
-    "basic_yearly_usd_month": 7.5,
-    "credits_basic": 1500,
-    "credit_rate": "$1 = 100 Tapies",
-    "verified": "2026-11-06"
-   }
-  },
-  {
-   "name": "ClipUtils",
-   "repo": "cliputils.com",
-   "what": "32 browser tools: trim/compress/convert, remove music keeping the voice, auto subtitles, video translation/dubbing, TTS, HEIC/WebP conversion, background removal",
-   "verdict": "park",
-   "why": "Real and genuinely free at the core: no signup, no watermark on local tools, and trimming/compressing/converting/removing music run on-device (nothing uploaded). The 'free' claim has limits the homepage buries: video translator 8 min, dubbing 2 min and German is Pro-only, auto subtitles 15 min, TTS 5 min, Text-to-Video adds a cliputils tag. Pro is cheap ($1.49/mo most countries, $2.99 US/Europe). No API, so it cannot be automated into our pipeline. For Ahmad's phone it is a useful one-off tool (remove music, Dub German); for the channel pipeline ffmpeg/whisper/edge-tts stay the answer.",
-   "date": "2026-11-06",
-   "tags": [
-    "video",
-    "audio",
-    "subtitles",
-    "dubbing",
-    "browser"
-   ],
-   "stars": null,
-   "forks": null,
-   "license": null,
-   "pushed": null,
-   "archived": false,
-   "pricing": {
-    "pro_usd_month": 1.49,
-    "pro_usd_month_us_eu": 2.99,
-    "verified": "2026-11-06"
-   },
-   "status": "gone"
-  },
-  {
-   "name": "AgentPilot",
-   "repo": "HKUDS/AgentPilot",
-   "what": "9B strategy model that picks the next move for a bigger agent, plus a skill workspace and an RSI benchmark arena",
-   "verdict": "watch",
-   "why": "Real (7.9k stars, MIT, HKUDS, pushed 06.11.2026) and it lists Hermes as a supported executor, so the hook exists. But it optimises *improvement policy* over many trials on benchmarks (AIME, SWE-bench, BrowseComp) and needs the 9B policy model itself — on this CPU-only box that means either a slow local model or a second API bill. Our bottleneck is content and distribution, not search over strategies; the honest use case is auto-tuning the render/upgrade loop once the GPU rig exists. Revisit then; not a dependency now.",
-   "date": "2026-11-08",
-   "tags": [
-    "agents",
-    "research"
-   ],
-   "stars": 7990,
-   "forks": 939,
-   "license": "MIT",
-   "pushed": "2026-11-06",
-   "archived": false
-  },
-  {
-   "name": "LivLiv Player",
-   "repo": "livliv-dev/player",
-   "what": "2.5D avatar player for the web: WebGL2, ~30KB core, lip sync + MediaPipe face tracking in-browser, VRM/PNGTuber support, 21 sample characters",
-   "verdict": "use",
-   "why": "Shipped a real talking-avatar clip on 2026-11-08 (720x1280, 30fps, German VO, Sena/k01) fully headless on CPU via browser_exec + CDP screenshots; skill livliv-avatar-video holds the pipeline. Apache-2.0 core is clean, but the 21 sample characters are non-commercial with a burned-in livliv mark -> monetised channels need our own VRM/PNGTuber. speech.say() does not drive the mouth headless; drive mouthOpen from a Python amplitude envelope. Render speed ~5 fps on CPU (12s clip ~3min).",
-   "date": "2026-11-08",
-   "tags": [
-    "avatar",
-    "vtuber",
-    "video",
-    "webgl",
-    "lip-sync"
-   ],
-   "stars": 1470,
-   "forks": 154,
-   "license": "Apache-2.0",
-   "pushed": "2026-11-09",
-   "archived": false
-  },
-  {
-   "name": "MuJoCo",
-   "repo": "google-deepmind/mujoco",
-   "what": "Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0",
-   "verdict": "use",
-   "why": "Installed 2026-11-08 (pip mujoco 4.0.0) and measured on this CPU-only box: 212,162 steps/s single-thread on a small free-joint scene, so a 6 s 24 fps clip simulates in well under a second. Its own OpenGL renderer does NOT start here (no EGL/OSMesa: 'an OpenGL platform library has not been loaded into this process'), so visuals are drawn from body poses with matplotlib and piped to ffmpeg - that path shipped a 720x1280 domino-chain B-roll clip (out/mujoco-dominoes.mp4). Real use for us: physics-visual shorts for ALGORHYTHM/DOPEAK and validating URDF/MJCF before robot work. Not a CAD/print tool. Reusable CLI now at /opt/data/workspace/physics-broll/render.py (scenes: dominoes, pendulum, balls; 24 fps 720x1280, silent) and it is wired into faceless-youtube/PLAYBOOK.md as a B-roll source.",
-   "date": "2026-11-08",
-   "tags": [
-    "physics",
-    "simulation",
-    "robotics",
-    "video",
-    "urdf",
-    "animation"
-   ],
-   "stars": 17463,
-   "forks": 2153,
-   "license": "Apache-2.0",
-   "pushed": "2026-11-10",
-   "archived": false
-  },
-  {
-   "name": "awesome-llm-apps",
-   "repo": "Shubhamsaboo/awesome-llm-apps",
-   "what": "57 runnable AI app folders (agents, RAG, voice): Streamlit demos, ~17.7k Python lines total, Apache-2.0",
-   "verdict": "consider",
-   "why": "The reel's claims check out: 144,280 stars (reel said 142K+), Apache-2.0, 100+ apps. But the audit says tutorial-grade: 57 folders with requirements.txt, 45 of them Streamlit, 29 need OpenAI keys, ~310 lines per app on average - demos, not products. The real use for us is the CONTENT mine (each app is a working demo for a 30-45 s short) plus one app productised with auth+billing via stdlib-saas-wrapper, not the whole collection. 'You can sell them' is legally true under Apache-2.0; it is commercially true only with hosting, keys and support. Cloned to /opt/data/workspace/awesome-llm-apps (163 MB).",
-   "date": "2026-11-09",
-   "tags": [
-    "ai",
-    "agents",
-    "rag",
-    "streamlit",
-    "templates",
-    "content"
-   ],
-   "stars": 144388,
-   "forks": 21244,
-   "license": "Apache-2.0",
-   "pushed": "2026-11-10",
-   "archived": false
-  },
-  {
-   "name": "Avatar Creator (AVC Suite)",
-   "what": "Commercial Blender add-on: build / wrap / sync characters, convert AI meshes and retarget to MetaHuman or Genesis 9",
-   "verdict": "watch",
-   "why": "Closed-source paid add-on (launch $99, regular $149; bundle with the wrap/sync tool $149 vs $299), sold via Superhive. Relevant to our 3D-avatar plan but blocked on hardware: no Blender on this box, no GPU, 7 GB RAM, and a character pipeline is GPU work. It outputs DCC characters (MetaHuman / Genesis 9), not VRM - our LivLiv PNGTuber path needs VRM or two PNGs, so even with the tool there is an export step. Revisit after the GPU rig; until then LivLiv + our own art stays the cheap route.",
-   "date": "2026-11-09",
-   "tags": [
-    "blender",
-    "avatar",
-    "character",
-    "3d",
-    "paid",
-    "metahuman"
-   ],
-   "stars": null,
-   "forks": null,
-   "license": "Commercial",
-   "pushed": "2026-10-14",
-   "archived": false,
-   "status": "gone",
-   "url": "https://www.avcsuite.com/"
-  },
-  {
-   "name": "AI-Youtube-Shorts-Generator",
-   "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
-   "what": "Long-form -> 9:16 shorts: faster-whisper transcription, LLM highlight ranking (OpenAI/Gemini), OpenCV face-tracking crop",
-   "verdict": "consider",
-   "why": "Ran it end-to-end on our own case-file/ep01 (502 s) in local mode: transcription 120 segments in ~2 min on CPU, Gemini picked 6 candidates and rendered 2 shorts (23.8 s and 38.5 s, 606x1080 mpeg4). Real numbers, no credits, MIT. Four breakages had to be fixed first, all pinned: faster-whisper 1.2.1 needs PyAV 13 (av 19 rejects metadata_errors), opencv-python-headless 5.x dropped CascadeClassifier (use 4.10), and gemini's JSON mode answers 400 on v1 so the client must use api_version=v1beta. LIMIT: its auto-crop is a centre/face crop - on our kinetic-type longforms it cuts the text off both sides (verified on a frame), so it fits talking-head footage, not our motion-graphic docs. The genuinely reusable half is the highlight ranking + SRT cache; our own 9:16 rendering should do the crop.",
-   "date": "2026-11-09",
-   "tags": [
-    "shorts",
-    "transcription",
-    "whisper",
-    "llm",
-    "video",
-    "crop"
-   ],
-   "stars": 5926,
-   "forks": 1079,
-   "license": "MIT",
-   "pushed": "2026-11-10",
-   "archived": false
-  },
-  {
-   "name": "Replica skill",
-   "repo": "Jakeschincariol/replica-skill",
-   "what": "Eleven Claude skills that clone any app clean-room: recon -> architect -> design -> build -> backend -> test -> diff -> entrepreneur -> brand -> launch -> deploy, with six stdlib-only Python tools",
-   "verdict": "use",
-   "why": "Installed 2026-11-10 as 11 Hermes skills (category replica: replica-recon/replica-architect/replica-design/replica-build/replica-backend/replica-test/replica-diff/replica-entrepreneur/replica-brand/replica-launch/replica-deploy) from the mirror at /opt/data/workspace/replica-skill; its own 57 unit tests pass and every tool was run on real data (imgdiff layout 52.7 on two renders, parity + contrast on a feature matrix and tokens, sweep exited 1 to block a launch, listing linted a store copy). First real use: workspace/booking-clone (نوبت‌یار) — a working Persian salon-booking MVP with Jalali dates, atomic no-double-booking and an admin panel, parity 79.0/100 with all 14 must-haves done, 4/4 node tests green. Use it for app/UI builds and for the reverse-engineer-a-tool format of the videos; never ship a clone without the brand sweep clean.",
-   "date": "2026-11-10",
-   "tags": [
-    "skills",
-    "claude-skills",
-    "clone",
-    "app",
-    "frontend",
-    "product",
-    "video-format"
-   ],
-   "stars": 8828,
-   "forks": 1589,
-   "license": "MIT",
-   "pushed": "2026-10-03",
-   "archived": false
-  },
-  {
-   "name": "rVPN",
-   "repo": "PDG-Global/rVPN-core",
-   "what": "Stealth VPN protocol in Rust: TLS 1.3 + WebSocket transport, X3DH + Double Ratchet, pooled multiplexing, decoy website behind the endpoint",
-   "verdict": "consider",
-   "why": "Checked 2026-11-11 after Ahmad's link to rvpn.org. Real and open: 75,236 lines of Rust across 6 crates (core/client/server/mobile/split-tunnel/tls), AGPLv3 (dual-licensed), 442 locked deps, release v1.3.6 with signed-ecosystem binaries — I downloaded rvpn-x86_64-linux-gnu and its sha256 matched. Server runs (plain-WS mode for a reverse proxy) on a local port; the client needs a real TLS cert, so a full tunnel test needs a domain. MEASURED CLAIM CHECK: captured the ClientHello of the client with --fingerprint chrome, firefox and none set, with SNI configured — all three send the IDENTICAL hello (JA3 ae182ac85a70abc053529488dd3d3a1c, 3 TLS1.3 ciphers, 7 extensions: SNI/groups/ALPN/sigalgs/key_share/psk_modes/supported_versions), while real Chrome 145 sends 15 ciphers and 16 extensions (JA3 2bcd7848d91e9a7908f369fe6a8dbf91, GREASE, ECH). So 'looks exactly like Chrome/Firefox' does not hold at the hello in v1.3.6 — the flag changes nothing on this path. It is still ordinary TLS 1.3 on :443 with a real SNI and a decoy site (that part is true and useful), but the fingerprint is distinctive and Iran's DPI can match it. Marketing also says 'git checkout v1.4.0' while the newest tag is v1.3.6, and the site's sha256/0xA13F signature lines are decoration until verified per-release. Verdict: a legitimately interesting protocol to experiment with (self-host a node behind Caddy with a real domain), not the 'indistinguishable' drop-in the page sells. Artifacts: workspace/rvpn-test.",
-   "date": "2026-11-11",
-   "tags": [
-    "vpn",
-    "protocol",
-    "iran",
-    "tls",
-    "dpi",
-    "rust",
-    "censorship"
-   ],
-   "stars": 66,
-   "forks": 3,
-   "license": "NOASSERTION",
-   "pushed": "2026-09-26",
-   "archived": false
-  },
-  {
-   "name": "Edge0 (edge0-infer)",
-   "repo": "Edge0-AI/Edge0",
-   "what": "Streaming MoE inference engine: 35B-A3B (Qwen3.6-35B-A3B, 4-bit) with expert weights on SSD, a trained prerouter and Recover-LoRA",
-   "verdict": "use",
-   "why": "Ran it for real on 2026-11-11, not just read the page. Reel link -> repo (9,689 stars, Apache-2.0, C++, arXiv 2609.18063, weights on HF, 19.7 GB source + 22 GB converted). NoLinux preset exists, but the generic `cmake --preset cpu` builds on Ubuntu with two local changes only: drop -Werror in cmake/MoeTargets.cmake (gcc 15 promotes warnings clang did not) and -DMOE_BUILD_TESTS=OFF (a test file misses <algorithm>). Deployed on the ki box (i5-10500T, 6c/12t, 32 GB, SATA/NVMe SSD, no GPU), 12-core build. MEASURED: 6.07 decode tok/s, 6.39 s to first token, 68 tokens in 11.2 s, peak RSS 3.09 GB (matches their 2.9-3.4 GB claim), decode read 12.67 GB from SSD for those 68 tokens with a 42.3% expert-cache hit rate (prerouter: 8,976 prefetches, only 67 late). Quality: coherent two-sentence answers in English and Persian on Qwen3.6-35B-A3B. So the headline is TRUE: a 35B MoE really runs in ~3 GB of RAM on a 6-core office CPU; the cost is 6 tok/s (their Windows i5-12400 reference is 7.3-8.2). Use it for local experiments and for the '35B in 3 GB' video with our own numbers; not for interactive chat or anything latency-sensitive.",
-   "date": "2026-11-11",
-   "tags": [
-    "llm",
-    "local-ai",
-    "moe",
-    "inference",
-    "ssd-offload",
-    "quantization",
-    "video-subject"
-   ],
-   "stars": 9691,
-   "forks": 1459,
-   "license": "Apache-2.0",
-   "pushed": "2026-11-11",
-   "archived": false
-  }
- ]
+  "checked": "2026-11-11",
+  "tools": [
+    {
+      "name": "ECC",
+      "repo": "affaan-m/ECC",
+      "what": "299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review)",
+      "verdict": "consider",
+      "why": "Real and huge, but the useful parts are the skills — 12 imported as Hermes skills and all 483 items catalogued. Re-checked 2026-11-08 after @moeen_valpr's reel (cover claims 290K★; actual 299,217, so the claim is honest): upstream advanced 6 commits since b38be6a but only CI/PR-moderation files — zero skill changes, mirror still current. Not a model upgrade; gain is phase discipline + checklists.",
+      "date": "2026-11-08",
+      "tags": [
+        "agents",
+        "skills"
+      ],
+      "stars": 301040,
+      "forks": 44418,
+      "license": "MIT",
+      "pushed": "2026-11-09",
+      "archived": false
+    },
+    {
+      "name": "ascii.rest",
+      "repo": "bas3line/ascii",
+      "what": "240 animated ASCII pieces for the web, one <ascii-art> tag, MIT",
+      "verdict": "use",
+      "why": "Wired in: ascii_bumper.mjs captures any piece in headless Chrome and encodes an MP4 — a 2.5s vertical 1080x1920 bumper renders in 2.5s. Used as the short intro; page also renders live for landing pages.",
+      "date": "2026-11-04",
+      "tags": [
+        "web",
+        "design",
+        "video"
+      ],
+      "stars": 1184,
+      "forks": 71,
+      "license": "MIT",
+      "pushed": "2026-11-08",
+      "archived": false
+    },
+    {
+      "name": "StableGen",
+      "repo": "sakalond/stablegen",
+      "what": "Blender add-on: prompt to textured, rigged 3D character (TRELLIS.2 + SkinTokens + Marigold)",
+      "verdict": "watch",
+      "why": "Needs Blender plus a ComfyUI GPU server; no /dev/dri here. One rented GPU hour could ship a brand mascot without buying hardware.",
+      "date": "2026-11-04",
+      "tags": [
+        "3d",
+        "gpu"
+      ],
+      "stars": 1645,
+      "forks": 166,
+      "license": "GPL-3.0",
+      "pushed": "2026-11-04",
+      "archived": false
+    },
+    {
+      "name": "ClaudeAnimationBase",
+      "repo": "JohnHeibel/ClaudeAnimationBase",
+      "what": "Clawd character kit for p5.brush: 31 acted emotions, an 11s demo, ANIMATION_GUIDE",
+      "verdict": "use",
+      "why": "Split verdict: 17.8s per 1280px still makes it a thumbnail/painting tool today (wired in the playbook), while its own video path costs ~19s/frame — a 11s clip is an 80-minute overnight job.",
+      "date": "2026-11-04",
+      "tags": [
+        "animation",
+        "thumbnails",
+        "gpu"
+      ],
+      "stars": 2875,
+      "forks": 271,
+      "license": "MIT",
+      "pushed": "2026-09-24",
+      "archived": false
+    },
+    {
+      "name": "huashu-art-motion",
+      "repo": "alchaincyf/huashu-art-motion",
+      "what": "Claude skill collection for hand-drawn and painterly motion",
+      "verdict": "consider",
+      "why": "MIT and small; the p5.brush watercolour path costs ~40 s/frame here, so use it for keyframes only.",
+      "date": "2026-11-03",
+      "tags": [
+        "animation"
+      ],
+      "stars": 6729,
+      "forks": 665,
+      "license": "MIT",
+      "pushed": "2026-11-10",
+      "archived": false
+    },
+    {
+      "name": "anidoodle",
+      "repo": "alexgreensh/anidoodle",
+      "what": "Animated doodle/sketch skill for Claude",
+      "verdict": "consider",
+      "why": "Apache-2.0, ~1.2k stars, lighter than p5.brush; candidate for short-form illustration once tested end to end.",
+      "date": "2026-11-03",
+      "tags": [
+        "animation"
+      ],
+      "stars": 1621,
+      "forks": 145,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-05",
+      "archived": false
+    },
+    {
+      "name": "code-animation-prompts",
+      "repo": "XiaoyeCodes/code-animation-prompts",
+      "what": "341 code-rendered animation styles with prompts",
+      "verdict": "use",
+      "why": "Mirrored to workspace/animation-styles and published as code-animation-atlas; 28 runnable on Canvas + headless Chrome with no GPU.",
+      "date": "2026-11-03",
+      "tags": [
+        "animation",
+        "design"
+      ],
+      "stars": 954,
+      "forks": 219,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-05",
+      "archived": false
+    },
+    {
+      "name": "TwinDesk",
+      "repo": "inukaasith/twindesk",
+      "what": "Share mouse, keyboard, files and clipboard across machines (KVM)",
+      "verdict": "skip",
+      "why": "Needs a human at a physical desk; does nothing for a headless server fleet. fleet.py already syncs and dispatches over ssh.",
+      "date": "2026-11-03",
+      "tags": [
+        "desktop"
+      ],
+      "stars": 3922,
+      "forks": 304,
+      "license": "GPL-3.0",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "FloMorphic getting-started",
+      "req": "",
+      "repo": "FloMorphic/getting-started",
+      "what": "Low-code graph platform for agent pipelines, MCP + RAG + human oversight",
+      "verdict": "skip",
+      "why": "Eight repos at 0-1 stars, commercial licence, no runnable core — a landing page, not a platform yet.",
+      "date": "2026-11-03",
+      "tags": [
+        "agents"
+      ],
+      "stars": 13,
+      "forks": 3,
+      "license": "Apache-2.0",
+      "pushed": "2026-10-26",
+      "archived": false
+    },
+    {
+      "name": "TWP-CF",
+      "repo": "MHDLabs/TWP-CF",
+      "what": "Telegram web proxy on Cloudflare Workers (MTProto over websocket)",
+      "verdict": "park",
+      "why": "11 stars, custom licence and a security warning in its own README; Telegram Web already reaches us from Iran via the existing tunnel.",
+      "date": "2026-11-03",
+      "tags": [
+        "network"
+      ],
+      "stars": 19,
+      "forks": 13,
+      "license": "GPL-3.0",
+      "pushed": "2026-11-06",
+      "archived": false
+    },
+    {
+      "name": "tree-of-neuron",
+      "repo": "fermow/tree-of-neuron",
+      "what": "Interactive 47-milestone history of neuroscience",
+      "verdict": "skip",
+      "why": "Nice one-off educational toy, 1 star, no licence; nothing to reuse in our pipeline.",
+      "date": "2026-11-03",
+      "tags": [
+        "education"
+      ],
+      "stars": 4,
+      "forks": 0,
+      "license": "none",
+      "pushed": "2026-10-15",
+      "archived": false
+    },
+    {
+      "name": "Masque Config Generator",
+      "repo": "DarknessShade/Masque-Generator",
+      "what": "One-page generator for Xray WARP-over-MASQUE configs (P-256 keys)",
+      "verdict": "consider",
+      "why": "Technically correct (MASQUE on TCP/443, H2 default for MCI, 162.159.198.0/24 for Irancell) but its fallback posts to an unknown Worker — generate keys locally with usque instead.",
+      "date": "2026-11-03",
+      "tags": [
+        "network"
+      ],
+      "stars": 27,
+      "forks": 4,
+      "license": "MIT",
+      "pushed": "2026-11-03",
+      "archived": false
+    },
+    {
+      "name": "usque",
+      "repo": "Diniboy1123/usque",
+      "what": "Open-source Cloudflare WARP MASQUE client",
+      "verdict": "use",
+      "why": "Local key generation and a real client — the safe half of the MASQUE generator workflow; 1.5k stars, MIT.",
+      "date": "2026-11-03",
+      "tags": [
+        "network"
+      ],
+      "stars": 1531,
+      "forks": 200,
+      "license": "MIT",
+      "pushed": "2026-07-20",
+      "archived": false
+    },
+    {
+      "name": "llama.cpp",
+      "repo": "ggml-org/llama.cpp",
+      "what": "CPU/GPU inference for GGUF models",
+      "verdict": "use",
+      "why": "Runs on this box (build b12064); 0.8B-2B models are usable for batch work, 30B on 6 cores gives 2 tok/s and is not.",
+      "date": "2026-11-03",
+      "tags": [
+        "llm",
+        "local"
+      ],
+      "stars": 134060,
+      "forks": 25393,
+      "license": "MIT",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "Muse-Glimmer-30B",
+      "repo": null,
+      "what": "Apache-2.0 27.85B MoE GGUF, Q4_K_M 16.76 GB",
+      "verdict": "park",
+      "why": "Measured on ki: 8.5 tok/s prompt, 2.07 tok/s generation, 28.6 GB peak RAM with default context — overnight batch only, never interactive.",
+      "date": "2026-11-03",
+      "tags": [
+        "llm",
+        "local"
+      ]
+    },
+    {
+      "name": "OpenCut",
+      "repo": "OpenCut-app/OpenCut",
+      "what": "Browser timeline video editor (CapCut alternative)",
+      "verdict": "park",
+      "why": "97k stars but a GUI timeline for humans; our videos are rendered from code, so an editor adds a step without adding capability.",
+      "date": "2026-11-03",
+      "tags": [
+        "video"
+      ],
+      "stars": 98076,
+      "forks": 9791,
+      "license": "MIT",
+      "pushed": "2026-09-24",
+      "archived": false
+    },
+    {
+      "name": "VoiceStudio",
+      "repo": "debpalash/VoiceStudio",
+      "what": "Local voice cloning and dubbing (ElevenLabs alternative)",
+      "verdict": "watch",
+      "why": "100k stars, AGPL; needs GPU/Apple Silicon. The moment the rig exists this is the German voice for DOPEAK.",
+      "date": "2026-11-03",
+      "tags": [
+        "audio",
+        "gpu"
+      ],
+      "stars": 107816,
+      "forks": 11939,
+      "license": "AGPL-3.0",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "Cal.com (cal.diy)",
+      "repo": "calcom/cal.diy",
+      "what": "Self-hosted scheduling pages (Calendly alternative)",
+      "verdict": "consider",
+      "why": "MIT and real, but it wants a domain, TLS and email before it is useful — worth it when the IT work gets its own booking link.",
+      "date": "2026-11-03",
+      "tags": [
+        "business"
+      ],
+      "stars": 49925,
+      "forks": 15611,
+      "license": "MIT",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "AppFlowy",
+      "repo": "AppFlowy-IO/AppFlowy",
+      "what": "Self-hosted Notion alternative",
+      "verdict": "skip",
+      "why": "Desktop-plus-server product for teams of humans; our notes are markdown in the vault and the bots already read them.",
+      "date": "2026-11-03",
+      "tags": [
+        "productivity"
+      ],
+      "stars": 78707,
+      "forks": 6248,
+      "license": "AGPL-3.0",
+      "pushed": "2026-11-02",
+      "archived": false
+    },
+    {
+      "name": "Plane",
+      "repo": "makeplane/plane",
+      "what": "Self-hosted Jira/Linear alternative",
+      "verdict": "park",
+      "why": "Postgres plus Redis plus a worker; too much server for one person's task list. The kanban tool in Hermes already covers it.",
+      "date": "2026-11-03",
+      "tags": [
+        "productivity"
+      ],
+      "stars": 62285,
+      "forks": 6376,
+      "license": "AGPL-3.0",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "Chatwoot",
+      "repo": "chatwoot/chatwoot",
+      "what": "Self-hosted Intercom alternative",
+      "verdict": "park",
+      "why": "No OSI licence, and a support inbox only pays off after there are customers to support.",
+      "date": "2026-11-03",
+      "tags": [
+        "business"
+      ],
+      "stars": 39623,
+      "forks": 9619,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "Cap",
+      "repo": "CapSoftware/Cap",
+      "what": "Open-source Loom alternative for screen recording",
+      "verdict": "park",
+      "why": "Non-OSI licence and a desktop app; screen capture on a headless server is ffmpeg, which we already use.",
+      "date": "2026-11-03",
+      "tags": [
+        "video"
+      ],
+      "stars": 24841,
+      "forks": 2320,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "Dyad",
+      "repo": "dyad-sh/dyad",
+      "what": "Local Lovable-style app builder",
+      "verdict": "park",
+      "why": "Non-OSI licence, GUI-first; writing the code directly with an agent is faster than clicking a builder.",
+      "date": "2026-11-03",
+      "tags": [
+        "dev"
+      ],
+      "stars": 22263,
+      "forks": 2810,
+      "license": "NOASSERTION",
+      "pushed": "2026-11-10",
+      "archived": false
+    },
+    {
+      "name": "OpenSEO (claim)",
+      "repo": null,
+      "what": "Supposed free Semrush alternative from the same carousel",
+      "verdict": "dead",
+      "why": "No repository at the claimed size — the name lands on a 2016 and a 2023 project, and the only live one has 27 stars and a week of history.",
+      "date": "2026-11-03",
+      "tags": [
+        "seo",
+        "unverified"
+      ]
+    },
+    {
+      "name": "OpenWhispr (claim)",
+      "repo": null,
+      "what": "Supposed open-source Wispr Flow dictation app",
+      "verdict": "dead",
+      "why": "Claim did not survive a repo search; no canonical project found to install.",
+      "date": "2026-11-03",
+      "tags": [
+        "audio",
+        "unverified"
+      ]
+    },
+    {
+      "name": "Weight-Space Programming",
+      "repo": "RikiyaT/lm_understand-logs",
+      "what": "MIT CSAIL experiment: an LLM edits another model's raw weights to fix reasoning loops",
+      "verdict": "watch",
+      "why": "Artifacts are real (logs, edited Qwen3.5-0.8B, eval files) but the headline 6x compares 25 base problems against 500 edited ones, with 95% of base outputs truncated — direction yes, multiplier no. Needs the unreleased GPT-6 Astra.",
+      "date": "2026-11-04",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "stars": 1198,
+      "forks": 158,
+      "license": "NOASSERTION",
+      "pushed": "2026-10-29",
+      "archived": false
+    },
+    {
+      "name": "Cinemap",
+      "repo": "cinemap.video (TapNow)",
+      "what": "3D previs from text: build an editable set, keyframe props/actors, phone-as-camera via QR, then hand the clip to Seedance 2.5 as a camera reference",
+      "verdict": "park",
+      "why": "Real product (cinemap.video, run by TapNow). Pricing now verified via the TapNow pricing page: Basic $15/mo ($7.5/mo billed yearly, 1500 Tapies), Pro $60/mo (6000, top-up $1=107), Ultimate $360/mo, Max $720/mo; 1 Tapie ≈ $0.01 of credit. The camera-reference trick works because Seedance 2.5 ships camera-perspective reference (ByteDance launch post, 2026-07-31). Parked, not skipped: it targets cinematic previs, not our chart-driven shorts, and the reel is a paid ad. Revisit for a film-style piece.",
+      "date": "2026-11-06",
+      "tags": [
+        "video",
+        "previs",
+        "3d",
+        "seedance"
+      ],
+      "stars": null,
+      "forks": null,
+      "license": null,
+      "pushed": null,
+      "archived": false,
+      "pricing": {
+        "basic_usd_month": 15,
+        "basic_yearly_usd_month": 7.5,
+        "credits_basic": 1500,
+        "credit_rate": "$1 = 100 Tapies",
+        "verified": "2026-11-06"
+      }
+    },
+    {
+      "name": "ClipUtils",
+      "repo": "cliputils.com",
+      "what": "32 browser tools: trim/compress/convert, remove music keeping the voice, auto subtitles, video translation/dubbing, TTS, HEIC/WebP conversion, background removal",
+      "verdict": "park",
+      "why": "Real and genuinely free at the core: no signup, no watermark on local tools, and trimming/compressing/converting/removing music run on-device (nothing uploaded). The 'free' claim has limits the homepage buries: video translator 8 min, dubbing 2 min and German is Pro-only, auto subtitles 15 min, TTS 5 min, Text-to-Video adds a cliputils tag. Pro is cheap ($1.49/mo most countries, $2.99 US/Europe). No API, so it cannot be automated into our pipeline. For Ahmad's phone it is a useful one-off tool (remove music, Dub German); for the channel pipeline ffmpeg/whisper/edge-tts stay the answer.",
+      "date": "2026-11-06",
+      "tags": [
+        "video",
+        "audio",
+        "subtitles",
+        "dubbing",
+        "browser"
+      ],
+      "stars": null,
+      "forks": null,
+      "license": null,
+      "pushed": null,
+      "archived": false,
+      "pricing": {
+        "pro_usd_month": 1.49,
+        "pro_usd_month_us_eu": 2.99,
+        "verified": "2026-11-06"
+      },
+      "status": "gone"
+    },
+    {
+      "name": "AgentPilot",
+      "repo": "HKUDS/AgentPilot",
+      "what": "9B strategy model that picks the next move for a bigger agent, plus a skill workspace and an RSI benchmark arena",
+      "verdict": "watch",
+      "why": "Real (7.9k stars, MIT, HKUDS, pushed 06.11.2026) and it lists Hermes as a supported executor, so the hook exists. But it optimises *improvement policy* over many trials on benchmarks (AIME, SWE-bench, BrowseComp) and needs the 9B policy model itself — on this CPU-only box that means either a slow local model or a second API bill. Our bottleneck is content and distribution, not search over strategies; the honest use case is auto-tuning the render/upgrade loop once the GPU rig exists. Revisit then; not a dependency now.",
+      "date": "2026-11-08",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "stars": 7992,
+      "forks": 940,
+      "license": "MIT",
+      "pushed": "2026-11-06",
+      "archived": false
+    },
+    {
+      "name": "LivLiv Player",
+      "repo": "livliv-dev/player",
+      "what": "2.5D avatar player for the web: WebGL2, ~30KB core, lip sync + MediaPipe face tracking in-browser, VRM/PNGTuber support, 21 sample characters",
+      "verdict": "use",
+      "why": "Shipped a real talking-avatar clip on 2026-11-08 (720x1280, 30fps, German VO, Sena/k01) fully headless on CPU via browser_exec + CDP screenshots; skill livliv-avatar-video holds the pipeline. Apache-2.0 core is clean, but the 21 sample characters are non-commercial with a burned-in livliv mark -> monetised channels need our own VRM/PNGTuber. speech.say() does not drive the mouth headless; drive mouthOpen from a Python amplitude envelope. Render speed ~5 fps on CPU (12s clip ~3min).",
+      "date": "2026-11-08",
+      "tags": [
+        "avatar",
+        "vtuber",
+        "video",
+        "webgl",
+        "lip-sync"
+      ],
+      "stars": 1483,
+      "forks": 155,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-09",
+      "archived": false
+    },
+    {
+      "name": "MuJoCo",
+      "repo": "google-deepmind/mujoco",
+      "what": "Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0",
+      "verdict": "use",
+      "why": "Installed 2026-11-08 (pip mujoco 4.0.0) and measured on this CPU-only box: 212,162 steps/s single-thread on a small free-joint scene, so a 6 s 24 fps clip simulates in well under a second. Its own OpenGL renderer does NOT start here (no EGL/OSMesa: 'an OpenGL platform library has not been loaded into this process'), so visuals are drawn from body poses with matplotlib and piped to ffmpeg - that path shipped a 720x1280 domino-chain B-roll clip (out/mujoco-dominoes.mp4). Real use for us: physics-visual shorts for ALGORHYTHM/DOPEAK and validating URDF/MJCF before robot work. Not a CAD/print tool. Reusable CLI now at /opt/data/workspace/physics-broll/render.py (scenes: dominoes, pendulum, balls; 24 fps 720x1280, silent) and it is wired into faceless-youtube/PLAYBOOK.md as a B-roll source.",
+      "date": "2026-11-08",
+      "tags": [
+        "physics",
+        "simulation",
+        "robotics",
+        "video",
+        "urdf",
+        "animation"
+      ],
+      "stars": 17569,
+      "forks": 2160,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "awesome-llm-apps",
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "what": "57 runnable AI app folders (agents, RAG, voice): Streamlit demos, ~17.7k Python lines total, Apache-2.0",
+      "verdict": "consider",
+      "why": "The reel's claims check out: 144,280 stars (reel said 142K+), Apache-2.0, 100+ apps. But the audit says tutorial-grade: 57 folders with requirements.txt, 45 of them Streamlit, 29 need OpenAI keys, ~310 lines per app on average - demos, not products. The real use for us is the CONTENT mine (each app is a working demo for a 30-45 s short) plus one app productised with auth+billing via stdlib-saas-wrapper, not the whole collection. 'You can sell them' is legally true under Apache-2.0; it is commercially true only with hosting, keys and support. Cloned to /opt/data/workspace/awesome-llm-apps (163 MB).",
+      "date": "2026-11-09",
+      "tags": [
+        "ai",
+        "agents",
+        "rag",
+        "streamlit",
+        "templates",
+        "content"
+      ],
+      "stars": 144402,
+      "forks": 21247,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-11",
+      "archived": false
+    },
+    {
+      "name": "Avatar Creator (AVC Suite)",
+      "what": "Commercial Blender add-on: build / wrap / sync characters, convert AI meshes and retarget to MetaHuman or Genesis 9",
+      "verdict": "watch",
+      "why": "Closed-source paid add-on (launch $99, regular $149; bundle with the wrap/sync tool $149 vs $299), sold via Superhive. Relevant to our 3D-avatar plan but blocked on hardware: no Blender on this box, no GPU, 7 GB RAM, and a character pipeline is GPU work. It outputs DCC characters (MetaHuman / Genesis 9), not VRM - our LivLiv PNGTuber path needs VRM or two PNGs, so even with the tool there is an export step. Revisit after the GPU rig; until then LivLiv + our own art stays the cheap route.",
+      "date": "2026-11-09",
+      "tags": [
+        "blender",
+        "avatar",
+        "character",
+        "3d",
+        "paid",
+        "metahuman"
+      ],
+      "stars": null,
+      "forks": null,
+      "license": "Commercial",
+      "pushed": "2026-10-14",
+      "archived": false,
+      "status": "gone",
+      "url": "https://www.avcsuite.com/"
+    },
+    {
+      "name": "AI-Youtube-Shorts-Generator",
+      "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
+      "what": "Long-form -> 9:16 shorts: faster-whisper transcription, LLM highlight ranking (OpenAI/Gemini), OpenCV face-tracking crop",
+      "verdict": "consider",
+      "why": "Ran it end-to-end on our own case-file/ep01 (502 s) in local mode: transcription 120 segments in ~2 min on CPU, Gemini picked 6 candidates and rendered 2 shorts (23.8 s and 38.5 s, 606x1080 mpeg4). Real numbers, no credits, MIT. Four breakages had to be fixed first, all pinned: faster-whisper 1.2.1 needs PyAV 13 (av 19 rejects metadata_errors), opencv-python-headless 5.x dropped CascadeClassifier (use 4.10), and gemini's JSON mode answers 400 on v1 so the client must use api_version=v1beta. LIMIT: its auto-crop is a centre/face crop - on our kinetic-type longforms it cuts the text off both sides (verified on a frame), so it fits talking-head footage, not our motion-graphic docs. The genuinely reusable half is the highlight ranking + SRT cache; our own 9:16 rendering should do the crop.",
+      "date": "2026-11-09",
+      "tags": [
+        "shorts",
+        "transcription",
+        "whisper",
+        "llm",
+        "video",
+        "crop"
+      ],
+      "stars": 5944,
+      "forks": 1083,
+      "license": "MIT",
+      "pushed": "2026-11-10",
+      "archived": false
+    },
+    {
+      "name": "Replica skill",
+      "repo": "Jakeschincariol/replica-skill",
+      "what": "Eleven Claude skills that clone any app clean-room: recon -> architect -> design -> build -> backend -> test -> diff -> entrepreneur -> brand -> launch -> deploy, with six stdlib-only Python tools",
+      "verdict": "use",
+      "why": "Installed 2026-11-10 as 11 Hermes skills (category replica: replica-recon/replica-architect/replica-design/replica-build/replica-backend/replica-test/replica-diff/replica-entrepreneur/replica-brand/replica-launch/replica-deploy) from the mirror at /opt/data/workspace/replica-skill; its own 57 unit tests pass and every tool was run on real data (imgdiff layout 52.7 on two renders, parity + contrast on a feature matrix and tokens, sweep exited 1 to block a launch, listing linted a store copy). First real use: workspace/booking-clone (نوبت‌یار) — a working Persian salon-booking MVP with Jalali dates, atomic no-double-booking and an admin panel, parity 79.0/100 with all 14 must-haves done, 4/4 node tests green. Use it for app/UI builds and for the reverse-engineer-a-tool format of the videos; never ship a clone without the brand sweep clean.",
+      "date": "2026-11-10",
+      "tags": [
+        "skills",
+        "claude-skills",
+        "clone",
+        "app",
+        "frontend",
+        "product",
+        "video-format"
+      ],
+      "stars": 8866,
+      "forks": 1599,
+      "license": "MIT",
+      "pushed": "2026-10-03",
+      "archived": false
+    },
+    {
+      "name": "rVPN",
+      "repo": "PDG-Global/rVPN-core",
+      "what": "Stealth VPN protocol in Rust: TLS 1.3 + WebSocket transport, X3DH + Double Ratchet, pooled multiplexing, decoy website behind the endpoint",
+      "verdict": "consider",
+      "why": "Checked 2026-11-11 after Ahmad's link to rvpn.org. Real and open: 75,236 lines of Rust across 6 crates (core/client/server/mobile/split-tunnel/tls), AGPLv3 (dual-licensed), 442 locked deps, release v1.3.6 with signed-ecosystem binaries — I downloaded rvpn-x86_64-linux-gnu and its sha256 matched. Server runs (plain-WS mode for a reverse proxy) on a local port; the client needs a real TLS cert, so a full tunnel test needs a domain. MEASURED CLAIM CHECK: captured the ClientHello of the client with --fingerprint chrome, firefox and none set, with SNI configured — all three send the IDENTICAL hello (JA3 ae182ac85a70abc053529488dd3d3a1c, 3 TLS1.3 ciphers, 7 extensions: SNI/groups/ALPN/sigalgs/key_share/psk_modes/supported_versions), while real Chrome 145 sends 15 ciphers and 16 extensions (JA3 2bcd7848d91e9a7908f369fe6a8dbf91, GREASE, ECH). So 'looks exactly like Chrome/Firefox' does not hold at the hello in v1.3.6 — the flag changes nothing on this path. It is still ordinary TLS 1.3 on :443 with a real SNI and a decoy site (that part is true and useful), but the fingerprint is distinctive and Iran's DPI can match it. Marketing also says 'git checkout v1.4.0' while the newest tag is v1.3.6, and the site's sha256/0xA13F signature lines are decoration until verified per-release. Verdict: a legitimately interesting protocol to experiment with (self-host a node behind Caddy with a real domain), not the 'indistinguishable' drop-in the page sells. Artifacts: workspace/rvpn-test.",
+      "date": "2026-11-11",
+      "tags": [
+        "vpn",
+        "protocol",
+        "iran",
+        "tls",
+        "dpi",
+        "rust",
+        "censorship"
+      ],
+      "stars": 81,
+      "forks": 3,
+      "license": "NOASSERTION",
+      "pushed": "2026-09-26",
+      "archived": false
+    },
+    {
+      "name": "Edge0 (edge0-infer)",
+      "repo": "Edge0-AI/Edge0",
+      "what": "Streaming MoE inference engine: 35B-A3B (Qwen3.6-35B-A3B, 4-bit) with expert weights on SSD, a trained prerouter and Recover-LoRA",
+      "verdict": "use",
+      "why": "Ran it for real on 2026-11-11, not just read the page. Reel link -> repo (9,689 stars, Apache-2.0, C++, arXiv 2609.18063, weights on HF, 19.7 GB source + 22 GB converted). NoLinux preset exists, but the generic `cmake --preset cpu` builds on Ubuntu with two local changes only: drop -Werror in cmake/MoeTargets.cmake (gcc 15 promotes warnings clang did not) and -DMOE_BUILD_TESTS=OFF (a test file misses <algorithm>). Deployed on the ki box (i5-10500T, 6c/12t, 32 GB, SATA/NVMe SSD, no GPU), 12-core build. MEASURED: 6.07 decode tok/s, 6.39 s to first token, 68 tokens in 11.2 s, peak RSS 3.09 GB (matches their 2.9-3.4 GB claim), decode read 12.67 GB from SSD for those 68 tokens with a 42.3% expert-cache hit rate (prerouter: 8,976 prefetches, only 67 late). Quality: coherent two-sentence answers in English and Persian on Qwen3.6-35B-A3B. So the headline is TRUE: a 35B MoE really runs in ~3 GB of RAM on a 6-core office CPU; the cost is 6 tok/s (their Windows i5-12400 reference is 7.3-8.2). Use it for local experiments and for the '35B in 3 GB' video with our own numbers; not for interactive chat or anything latency-sensitive.",
+      "date": "2026-11-11",
+      "tags": [
+        "llm",
+        "local-ai",
+        "moe",
+        "inference",
+        "ssd-offload",
+        "quantization",
+        "video-subject"
+      ],
+      "stars": 9691,
+      "forks": 1459,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-11",
+      "archived": false
+    }
+  ]
 }
