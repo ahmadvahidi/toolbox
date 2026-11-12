@@ -1,0 +1,143 @@
+{
+ "box": {
+  "name": "ki",
+  "os": "Ubuntu 26.04.1 LTS",
+  "cpu": "Intel Core i5-10500T (6C/12T, 2.3-3.8 GHz)",
+  "ram_gb": 30,
+  "ram_reported_gb": 32.8,
+  "disk_total_gb": 936,
+  "disk_free_gb": 766,
+  "disk": "SSD (ROTA=0)",
+  "gpu": "none"
+ },
+ "model": {
+  "id": "qwen36-35b",
+  "hf": "Kreuzzelg/qwen36-35b-a3b-colibri-i4-gs64",
+  "params": "Qwen3.6-35B-A3B",
+  "quant": "int4 (gs64)",
+  "size_gb": 23,
+  "engine": "qwen36, built ARCH=native (gcc 15.2)"
+ },
+ "measured": [
+  {
+   "name": "short_en",
+   "prompt": "In one sentence: what does streaming experts from an SSD buy a 35B model?",
+   "tokens_in": 31,
+   "tokens_out": 45,
+   "ttft_s": 0.717,
+   "decode_tok_s": 11.56,
+   "e2e_tok_s": 9.76,
+   "tokens_per_min": 585.7,
+   "prefill_tok_s": 43.2,
+   "disk_read_mb": 54.04,
+   "rss_mb": 14491.0
+  },
+  {
+   "name": "german",
+   "prompt": "Antworte auf Deutsch in zwei Saetzen: Was ist ein Mixture-of-Experts Modell?",
+   "tokens_in": 32,
+   "tokens_out": 62,
+   "ttft_s": 0.53,
+   "decode_tok_s": 11.57,
+   "e2e_tok_s": 10.53,
+   "tokens_per_min": 631.6,
+   "prefill_tok_s": 60.4,
+   "disk_read_mb": 54.04,
+   "rss_mb": 14494.8
+  },
+  {
+   "name": "long_en",
+   "prompt": "List five concrete differences between keeping a model in RAM and streaming experts from NVMe.",
+   "tokens_in": 34,
+   "tokens_out": 160,
+   "ttft_s": 0.766,
+   "decode_tok_s": 11.46,
+   "e2e_tok_s": 10.86,
+   "tokens_per_min": 651.7,
+   "prefill_tok_s": 44.4,
+   "disk_read_mb": 155.77,
+   "rss_mb": 14928.9
+  }
+ ],
+ "fit": [
+  [
+   "qwen36-35b",
+   "23 GB",
+   "good",
+   "کل مدل در رم جا میشود (۲۰ GB)"
+  ],
+  [
+   "qwen3-coder-30b",
+   "19 GB",
+   "good",
+   "کل مدل در رم (۱۸ GB)"
+  ],
+  [
+   "deepseek-v4-flash-reap",
+   "85 GB",
+   "good",
+   "dense 7.9 GB در رم، expertها از SSD"
+  ],
+  [
+   "deepseek-v4-flash",
+   "167 GB",
+   "good",
+   "dense 7.9 GB در رم"
+  ],
+  [
+   "mimo-v2.6-flash",
+   "172 GB",
+   "tight",
+   "رم کم (۳۲ از ۵۲ GB)"
+  ],
+  [
+   "qwen38-flash-next",
+   "186 GB",
+   "good",
+   "dense 8 GB در رم"
+  ],
+  [
+   "glm-5.3",
+   "419 GB",
+   "good",
+   "dense 9.9 GB در رم"
+  ],
+  [
+   "glm-5.2 (744B)",
+   "429 GB",
+   "good",
+   "dense 9.9 GB در رم"
+  ],
+  [
+   "inkling",
+   "514 GB",
+   "needs-ram",
+   "۱۲۰ GB رم لازم دارد"
+  ],
+  [
+   "mimo-v2.6-pro",
+   "564 GB",
+   "needs-ram",
+   "۵۴ GB رم لازم دارد"
+  ],
+  [
+   "kimi-k3",
+   "1,561 GB",
+   "needs-disk",
+   "۱۵۹۴ GB دیسک لازم دارد"
+  ]
+ ],
+ "glm52": {
+  "size_gb": 429,
+  "rate_mb_s": 38.5,
+  "eta_h": 3.0,
+  "status": "downloading",
+  "done_gb": 12.7
+ },
+ "meta": {
+  "date": "2026-11-12",
+  "measured_by": "Gabimaru on ki (ssh)",
+  "api": "http://127.0.0.1:8000/v1 (OpenAI-compatible), model id qwen3.6-colibri",
+  "bench": "workspace/colibri-moe/bench_api.py, temperature 0, streaming with include_usage"
+ }
+}

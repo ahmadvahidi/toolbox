@@ -679,22 +679,17 @@
     {
       "name": "colibri",
       "repo": "JustVugg/colibri",
-      "what": "C engine that streams MoE expert weights from NVMe, so 300B-1.5T models (GLM-5.2 744B, DeepSeek V4, Kimi K3) run on CPU-only machines; OpenAI/Anthropic API, dashboard with expert map, MCP server",
-      "verdict": "consider",
-      "why": "Reel claim (Abrha Media, 2026-10-26, 5.9k likes) checked 2026-11-11 and TRUE on all four points, which is rare. Built it here: single C file per model family, `make -C c portable` took 24 s on 6 cores with gcc 14, no GPU, no BLAS, Python only for the launcher. `python3 c/coli setup --list` on this host (8.2 GB RAM, 148 GB free) marks every family needs-ram except qwen3-coder-30b (19 GB, 'tight, small expert cache'); GLM-5.2 is 429 GB on disk and needs 16 GB RAM (dense part 9.9 GB), Kimi K3 is 1,561 GB. So the 744B-on-a-normal-PC claim holds - and the vendor is honest about the cost: 0.05-0.1 tok/s cold on a 25 GB laptop, 1.83 tok/s CPU-only on 128 GB, 5.8-9.2 on 6x RTX 5090. Mechanism verified in the README/code: dense part in RAM, routed experts from disk through a per-layer LRU + pinned hot set learned from own chats (.coli_usage), router-lookahead prefetch (GLM-5.2 routing 71.6% predictable one layer ahead, their number), dashboard expert map + live monitor - all four reel claims. Apache-2.0 engine, but each model keeps its own licence. Why consider and not use: nothing in our pipeline calls it yet. This box cannot: RAM 8.2 GB total, ~5 GB already used by the agent, so the 19 GB model's dense part + cache would OOM the gateway - deliberately not downloaded. The ki home box (i5-10500T, 30 GB, SSD, no GPU) is the right target (GLM-5.2 ~0.1 tok/s, deepseek-v4-flash 167 GB ~0.9 tok/s on a comparable 5800X) and it was unreachable that day (frp tunnel down). Decision to take: deploy on ki when it is back, and/or use the 744B-on-a-laptop demo as a verified short - Edge0 (35B, 6.07 tok/s measured) stays the interactive option.",
-      "date": "2026-11-11",
+      "what": "C engine that streams MoE expert weights from NVMe, so 300B-1.5T models (GLM-5.2 744B, DeepSeek V4, Kimi K3) run on CPU-only machines; OpenAI/Anthropic API, dashboard, MCP server",
+      "verdict": "use",
+      "why": "Installed and measured on the ki home box 2026-11-12 (Ubuntu 26.04.1, i5-10500T 6C/12T, 30 GB RAM, SSD, no GPU), not just read: make -C c portable built with gcc 15.2 in seconds, the per-family engine with ARCH=native, and Qwen3.6-35B-A3B (int4, 23 GB) served on 127.0.0.1:8000/v1. MEASURED via the OpenAI API at temperature 0, three prompts: TTFT 0.53-0.77 s, decode 11.46-11.57 tok/s, end-to-end 9.8-10.9 tok/s, 586-652 tokens/min, prefill 43-60 tok/s, RSS 14.5-14.9 GB, MemAvailable 16.3->15.5 GB, disk reads only 54 MB short / 156 MB long because the model is resident. That is 1.9x the vendor's 6.0 tok/s CPU figure for the same model, thanks to 12 threads and a 30 GB RAM cache. Fit on this box (the tool's own setup --list, 32.8 GB seen, 753 GB free): glm-5.2 (744B, 429 GB) is 'good' because only 9.9 GB must stay in RAM; deepseek-v4-flash 167 GB and mimo-v2.6-flash 172 GB fit; kimi-k3 (1.5 T) needs 1594 GB disk and does not. The reel's claim (744B on an ordinary PC, no expensive GPU) is therefore TRUE, with the honest cost: vendor numbers are 0.05-0.1 tok/s on a 25 GB laptop, 1.83 tok/s CPU-only on 128 GB. GLM-5.2 download (429 GB) started on the same box at a measured 38.5 MB/s; its benchmark is appended to docs/reports/colibri-ki-2026-11-12.pdf when it lands. Report + raw data: docs/reports/colibri-ki-2026-11-12.pdf / .md, data/colibri-ki.json. Skill: devops/colibri-local-moe. Install: clone, make -C c portable -j$(nproc), python3 c/coli setup --list, setup --model qwen36-35b --yes.",
+      "date": "2026-11-12",
       "tags": [
         "local-llm",
         "moe",
         "inference",
         "cpu",
         "no-gpu"
-      ],
-      "stars": 50043,
-      "forks": 5893,
-      "license": "Apache-2.0",
-      "pushed": "2026-11-12",
-      "archived": false
+      ]
     }
   ]
 }
