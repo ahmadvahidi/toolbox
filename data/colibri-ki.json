@@ -129,10 +129,62 @@
  ],
  "glm52": {
   "size_gb": 429,
-  "rate_mb_s": 38.5,
-  "eta_h": 3.0,
-  "status": "downloading",
-  "done_gb": 12.7
+  "rate_mb_s": 36.9,
+  "status": "complete",
+  "done_gb": 429,
+  "started_utc": "2026-11-12T08:01:29Z",
+  "finished_utc": "2026-11-12T11:15:00Z",
+  "download_hours": 3.23
+ },
+ "glm52_measured": {
+  "model_id": "glm-5.2-colibri",
+  "measured_at": "2026-11-12T12:50:04Z",
+  "decode_tok_s": 0.03,
+  "tokens_per_min": 1.4,
+  "ttft_s": 281.96,
+  "rss_mb": 17874.1,
+  "tokens_out": 33,
+  "tokens_in": 24,
+  "total_s": 1378.8,
+  "disk_read_mb": 632003.93,
+  "max_tokens": 48,
+  "prompt": "short_en",
+  "placement": "dense 11.9 GB in RAM, expert cache capped to 2 slots/layer (21.5 MB avg x 76 layers), 0.5 GB pinned hot set, KV16 latent, 32768 ctx",
+  "prompts": [
+   {
+    "name": "short_en",
+    "tokens_in": 24,
+    "tokens_out": 33,
+    "ttft_s": 281.96,
+    "decode_tok_s": 0.03,
+    "tokens_per_min": 1.4,
+    "total_s": 1378.8,
+    "disk_read_mb": 632003.93,
+    "rss_mb": 17874.1
+   },
+   {
+    "name": "german",
+    "tokens_in": 26,
+    "tokens_out": 48,
+    "ttft_s": 272.28,
+    "decode_tok_s": 0.03,
+    "tokens_per_min": 1.7,
+    "total_s": 1671.64,
+    "disk_read_mb": 1392117.61,
+    "rss_mb": 18044.5
+   },
+   {
+    "name": "long_en",
+    "tokens_in": 28,
+    "tokens_out": 48,
+    "ttft_s": 323.27,
+    "decode_tok_s": 0.03,
+    "tokens_per_min": 1.5,
+    "total_s": 1863.08,
+    "disk_read_mb": 2229520.0,
+    "rss_mb": 18389.4
+   }
+  ]
  },
  "meta": {
   "date": "2026-11-12",
