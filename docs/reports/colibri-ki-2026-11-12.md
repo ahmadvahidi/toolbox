@@ -44,3 +44,5 @@ curl -s http://127.0.0.1:8000/v1/models
 
 Benchmark script: `/opt/data/workspace/colibri-moe/bench_api.py` (stdlib only; reads
 `/proc/<pid>/io` and RSS; streams with `stream_options.include_usage`).
+
+German edition of the same report: `docs/reports/colibri-ki-2026-11-12-de.pdf` (2 pages, LTR, same numbers).
