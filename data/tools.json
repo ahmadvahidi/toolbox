@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-12",
+  "checked": "2026-11-11",
   "tools": [
     {
       "name": "ECC",
@@ -675,6 +675,21 @@
       "license": "NOASSERTION",
       "pushed": "2026-11-12",
       "archived": false
+    },
+    {
+      "name": "colibri",
+      "repo": "JustVugg/colibri",
+      "what": "C engine that streams MoE expert weights from NVMe, so 300B-1.5T models (GLM-5.2 744B, DeepSeek V4, Kimi K3) run on CPU-only machines; OpenAI/Anthropic API, dashboard with expert map, MCP server",
+      "verdict": "consider",
+      "why": "Reel claim (Abrha Media, 2026-10-26, 5.9k likes) checked 2026-11-11 and TRUE on all four points, which is rare. Built it here: single C file per model family, `make -C c portable` took 24 s on 6 cores with gcc 14, no GPU, no BLAS, Python only for the launcher. `python3 c/coli setup --list` on this host (8.2 GB RAM, 148 GB free) marks every family needs-ram except qwen3-coder-30b (19 GB, 'tight, small expert cache'); GLM-5.2 is 429 GB on disk and needs 16 GB RAM (dense part 9.9 GB), Kimi K3 is 1,561 GB. So the 744B-on-a-normal-PC claim holds - and the vendor is honest about the cost: 0.05-0.1 tok/s cold on a 25 GB laptop, 1.83 tok/s CPU-only on 128 GB, 5.8-9.2 on 6x RTX 5090. Mechanism verified in the README/code: dense part in RAM, routed experts from disk through a per-layer LRU + pinned hot set learned from own chats (.coli_usage), router-lookahead prefetch (GLM-5.2 routing 71.6% predictable one layer ahead, their number), dashboard expert map + live monitor - all four reel claims. Apache-2.0 engine, but each model keeps its own licence. Why consider and not use: nothing in our pipeline calls it yet. This box cannot: RAM 8.2 GB total, ~5 GB already used by the agent, so the 19 GB model's dense part + cache would OOM the gateway - deliberately not downloaded. The ki home box (i5-10500T, 30 GB, SSD, no GPU) is the right target (GLM-5.2 ~0.1 tok/s, deepseek-v4-flash 167 GB ~0.9 tok/s on a comparable 5800X) and it was unreachable that day (frp tunnel down). Decision to take: deploy on ki when it is back, and/or use the 744B-on-a-laptop demo as a verified short - Edge0 (35B, 6.07 tok/s measured) stays the interactive option.",
+      "date": "2026-11-11",
+      "tags": [
+        "local-llm",
+        "moe",
+        "inference",
+        "cpu",
+        "no-gpu"
+      ]
     }
   ]
 }
