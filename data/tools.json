@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 301568,
-      "forks": 44485,
+      "stars": 301582,
+      "forks": 44486,
       "license": "MIT",
       "pushed": "2026-11-09",
       "archived": false
@@ -30,7 +30,7 @@
         "design",
         "video"
       ],
-      "stars": 1199,
+      "stars": 1200,
       "forks": 73,
       "license": "MIT",
       "pushed": "2026-11-08",
@@ -81,7 +81,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 6775,
+      "stars": 6777,
       "forks": 668,
       "license": "MIT",
       "pushed": "2026-11-10",
@@ -114,7 +114,7 @@
         "animation",
         "design"
       ],
-      "stars": 986,
+      "stars": 987,
       "forks": 225,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
@@ -228,8 +228,8 @@
         "llm",
         "local"
       ],
-      "stars": 134196,
-      "forks": 25459,
+      "stars": 134200,
+      "forks": 25461,
       "license": "MIT",
       "pushed": "2026-11-12",
       "archived": false
@@ -256,7 +256,7 @@
       "tags": [
         "video"
       ],
-      "stars": 98158,
+      "stars": 98161,
       "forks": 9803,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -273,8 +273,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 108599,
-      "forks": 12029,
+      "stars": 108619,
+      "forks": 12030,
       "license": "AGPL-3.0",
       "pushed": "2026-11-12",
       "archived": false
@@ -289,8 +289,8 @@
       "tags": [
         "business"
       ],
-      "stars": 49959,
-      "forks": 15627,
+      "stars": 49960,
+      "forks": 15628,
       "license": "MIT",
       "pushed": "2026-11-11",
       "archived": false
@@ -306,7 +306,7 @@
         "productivity"
       ],
       "stars": 78771,
-      "forks": 6255,
+      "forks": 6256,
       "license": "AGPL-3.0",
       "pushed": "2026-11-02",
       "archived": false
@@ -321,7 +321,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62339,
+      "stars": 62342,
       "forks": 6386,
       "license": "AGPL-3.0",
       "pushed": "2026-11-12",
@@ -337,8 +337,8 @@
       "tags": [
         "business"
       ],
-      "stars": 39693,
-      "forks": 9648,
+      "stars": 39695,
+      "forks": 9650,
       "license": "NOASSERTION",
       "pushed": "2026-11-12",
       "archived": false
@@ -353,8 +353,8 @@
       "tags": [
         "video"
       ],
-      "stars": 24893,
-      "forks": 2334,
+      "stars": 24895,
+      "forks": 2336,
       "license": "NOASSERTION",
       "pushed": "2026-11-12",
       "archived": false
@@ -410,7 +410,7 @@
         "llm",
         "research"
       ],
-      "stars": 1211,
+      "stars": 1212,
       "forks": 158,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -520,8 +520,8 @@
         "urdf",
         "animation"
       ],
-      "stars": 17697,
-      "forks": 2175,
+      "stars": 17698,
+      "forks": 2176,
       "license": "Apache-2.0",
       "pushed": "2026-11-11",
       "archived": false
@@ -541,8 +541,8 @@
         "templates",
         "content"
       ],
-      "stars": 144463,
-      "forks": 21256,
+      "stars": 144465,
+      "forks": 21258,
       "license": "Apache-2.0",
       "pushed": "2026-11-11",
       "archived": false
@@ -606,7 +606,7 @@
         "product",
         "video-format"
       ],
-      "stars": 9016,
+      "stars": 9018,
       "forks": 1622,
       "license": "MIT",
       "pushed": "2026-10-03",
@@ -650,8 +650,8 @@
         "quantization",
         "video-subject"
       ],
-      "stars": 10059,
-      "forks": 1520,
+      "stars": 10064,
+      "forks": 1524,
       "license": "Apache-2.0",
       "pushed": "2026-11-12",
       "archived": false
@@ -670,8 +670,8 @@
         "mcp",
         "writing"
       ],
-      "stars": 176950,
-      "forks": 22569,
+      "stars": 176952,
+      "forks": 22570,
       "license": "NOASSERTION",
       "pushed": "2026-11-12",
       "archived": false
@@ -690,8 +690,8 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 50058,
-      "forks": 5894,
+      "stars": 50065,
+      "forks": 5897,
       "license": "Apache-2.0",
       "pushed": "2026-11-12",
       "archived": false
