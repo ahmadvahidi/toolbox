@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "tools": [
     {
       "name": "ECC",
@@ -12,8 +12,8 @@
         "agents",
         "skills"
       ],
-      "stars": 305405,
-      "forks": 44972,
+      "stars": 305711,
+      "forks": 44994,
       "license": "MIT",
       "pushed": "2026-11-17",
       "archived": false
@@ -30,7 +30,7 @@
         "design",
         "video"
       ],
-      "stars": 1251,
+      "stars": 1253,
       "forks": 76,
       "license": "MIT",
       "pushed": "2026-11-15",
@@ -47,7 +47,7 @@
         "3d",
         "gpu"
       ],
-      "stars": 1675,
+      "stars": 1679,
       "forks": 169,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
@@ -66,8 +66,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 3072,
-      "forks": 299,
+      "stars": 3077,
+      "forks": 301,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -82,8 +82,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 7131,
-      "forks": 703,
+      "stars": 7162,
+      "forks": 704,
       "license": "MIT",
       "pushed": "2026-11-15",
       "archived": false
@@ -98,7 +98,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1796,
+      "stars": 1807,
       "forks": 163,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -115,7 +115,7 @@
         "animation",
         "design"
       ],
-      "stars": 1254,
+      "stars": 1264,
       "forks": 268,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
@@ -131,8 +131,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 4191,
-      "forks": 329,
+      "stars": 4198,
+      "forks": 331,
       "license": "GPL-3.0",
       "pushed": "2026-11-16",
       "archived": false
@@ -212,7 +212,7 @@
       "tags": [
         "network"
       ],
-      "stars": 1540,
+      "stars": 1541,
       "forks": 200,
       "license": "MIT",
       "pushed": "2026-07-20",
@@ -229,10 +229,10 @@
         "llm",
         "local"
       ],
-      "stars": 135661,
+      "stars": 135695,
       "forks": 25771,
       "license": "MIT",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -257,8 +257,8 @@
       "tags": [
         "video"
       ],
-      "stars": 98763,
-      "forks": 9889,
+      "stars": 98784,
+      "forks": 9894,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -274,10 +274,10 @@
         "audio",
         "gpu"
       ],
-      "stars": 112760,
-      "forks": 12520,
+      "stars": 112978,
+      "forks": 12553,
       "license": "AGPL-3.0",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -290,8 +290,8 @@
       "tags": [
         "business"
       ],
-      "stars": 50138,
-      "forks": 15664,
+      "stars": 50151,
+      "forks": 15665,
       "license": "MIT",
       "pushed": "2026-11-13",
       "archived": false
@@ -306,8 +306,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 79099,
-      "forks": 6308,
+      "stars": 79113,
+      "forks": 6310,
       "license": "AGPL-3.0",
       "pushed": "2026-11-15",
       "archived": false
@@ -322,8 +322,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 62618,
-      "forks": 6435,
+      "stars": 62655,
+      "forks": 6444,
       "license": "AGPL-3.0",
       "pushed": "2026-11-17",
       "archived": false
@@ -338,10 +338,10 @@
       "tags": [
         "business"
       ],
-      "stars": 40047,
-      "forks": 9739,
+      "stars": 40072,
+      "forks": 9743,
       "license": "NOASSERTION",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -354,10 +354,10 @@
       "tags": [
         "video"
       ],
-      "stars": 25185,
-      "forks": 2371,
+      "stars": 25201,
+      "forks": 2372,
       "license": "NOASSERTION",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -370,7 +370,7 @@
       "tags": [
         "dev"
       ],
-      "stars": 22314,
+      "stars": 22315,
       "forks": 2824,
       "license": "NOASSERTION",
       "pushed": "2026-11-17",
@@ -411,8 +411,8 @@
         "llm",
         "research"
       ],
-      "stars": 1269,
-      "forks": 165,
+      "stars": 1272,
+      "forks": 166,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
       "archived": false
@@ -480,7 +480,7 @@
         "agents",
         "research"
       ],
-      "stars": 8069,
+      "stars": 8070,
       "forks": 949,
       "license": "MIT",
       "pushed": "2026-11-12",
@@ -500,7 +500,7 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1580,
+      "stars": 1583,
       "forks": 163,
       "license": "Apache-2.0",
       "pushed": "2026-11-16",
@@ -521,10 +521,10 @@
         "urdf",
         "animation"
       ],
-      "stars": 18237,
-      "forks": 2210,
+      "stars": 18256,
+      "forks": 2211,
       "license": "Apache-2.0",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -542,8 +542,8 @@
         "templates",
         "content"
       ],
-      "stars": 144961,
-      "forks": 21348,
+      "stars": 144978,
+      "forks": 21354,
       "license": "Apache-2.0",
       "pushed": "2026-11-15",
       "archived": false
@@ -586,8 +586,8 @@
         "video",
         "crop"
       ],
-      "stars": 6193,
-      "forks": 1129,
+      "stars": 6204,
+      "forks": 1130,
       "license": "MIT",
       "pushed": "2026-11-12",
       "archived": false
@@ -608,8 +608,8 @@
         "product",
         "video-format"
       ],
-      "stars": 9721,
-      "forks": 1771,
+      "stars": 9754,
+      "forks": 1777,
       "license": "MIT",
       "pushed": "2026-10-03",
       "archived": false
@@ -630,10 +630,10 @@
         "rust",
         "censorship"
       ],
-      "stars": 256,
+      "stars": 258,
       "forks": 15,
       "license": "NOASSERTION",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -652,10 +652,10 @@
         "quantization",
         "video-subject"
       ],
-      "stars": 11985,
-      "forks": 1868,
+      "stars": 12002,
+      "forks": 1870,
       "license": "Apache-2.0",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -672,10 +672,10 @@
         "mcp",
         "writing"
       ],
-      "stars": 177755,
-      "forks": 22668,
+      "stars": 177765,
+      "forks": 22672,
       "license": "NOASSERTION",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -692,10 +692,10 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 51747,
-      "forks": 6264,
+      "stars": 51795,
+      "forks": 6270,
       "license": "Apache-2.0",
-      "pushed": "2026-11-17",
+      "pushed": "2026-11-18",
       "archived": false
     },
     {
@@ -705,7 +705,7 @@
       "what": "94 specialist Blender skills for Cursor, Claude Code, Kiro and Codex, plus an MCP route from blockout to engine export.",
       "verdict": "use",
       "verdict_note": "2026-11-17: shipped the 40 s tool-promo built from this repo - ALGORHYTHM youtube NuwRsp-nPRw, Instagram 18159702259524741. Facts re-verified on api.github.com (4,097 stars, MIT, 94 skills, last push 2026-11-06). Blender is not installed here, so the piece is a format-and-facts review, not a hands-on test.",
-      "stars": 4097,
+      "stars": 4150,
       "license": "MIT",
       "pushed": "2026-11-06",
       "tags": [
@@ -716,7 +716,7 @@
       ],
       "status": "shipped",
       "date": "2026-11-17",
-      "forks": 364,
+      "forks": 373,
       "archived": false
     }
   ]
