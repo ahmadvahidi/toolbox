@@ -7,12 +7,17 @@
       "what": "299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review)",
       "verdict": "consider",
       "why": "Real and huge, but the useful parts are the skills — 12 imported as Hermes skills and all 483 items catalogued. Re-checked 2026-11-08 after @moeen_valpr's reel (cover claims 290K★; actual 299,217, so the claim is honest): upstream advanced 6 commits since b38be6a but only CI/PR-moderation files — zero skill changes, mirror still current. Not a model upgrade; gain is phase discipline + checklists.",
-      "date": "2026-11-08",
+      "verdict_note": "2026-11-18: shipped the 37 s tool-promo built from this repo — ALGORHYTHM youtube KNgTV4Tbsqw (public), Instagram reel 18124259641935963 / instagram.com/reel/Df4PumdCqp_. Facts re-verified on api.github.com at build time (305,958 stars, MIT, last push 2026-11-17). Hands-on, unlike the Blender piece: 483 items catalogued and 12 skills imported into Hermes, so the mechanism beat comes from our own use, not the README.",
+      "status": "shipped",
+      "date": "2026-11-18",
       "tags": [
         "agents",
-        "skills"
+        "skills",
+        "coding-agent",
+        "mcp",
+        "harness"
       ],
-      "stars": 305742,
+      "stars": 305958,
       "forks": 44999,
       "license": "MIT",
       "pushed": "2026-11-17",
