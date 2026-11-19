@@ -45,8 +45,3 @@ checked 2026-11-19
 - `skip    ` **tree-of-neuron** — Interactive 47-milestone history of neuroscience · fermow/tree-of-neuron · Nice one-off educational toy, 1 star, no licence; nothing to reuse in our pipeline.
 - `dead    ` **OpenSEO (claim)** — Supposed free Semrush alternative from the same carousel · No repository at the claimed size — the name lands on a 2016 and a 2023 project, and the only live one has 27 stars and a week of history.
 - `dead    ` **OpenWhispr (claim)** — Supposed open-source Wispr Flow dictation app · Claim did not survive a repo search; no canonical project found to install.
-
-## Deep notes
-
-- **InferSSD** — full reference: install path, every benchmark row, why it is `watch` on a GPU-less box,
-  and the "two engines, one SSD" content angle → [docs/notes/inferssd.md](docs/notes/inferssd.md)
