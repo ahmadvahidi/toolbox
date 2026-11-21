@@ -658,11 +658,13 @@
         "quantization",
         "video-subject"
       ],
-      "stars": 12160,
+      "stars": 12167,
       "forks": 1884,
       "license": "Apache-2.0",
       "pushed": "2026-11-20",
-      "archived": false
+      "archived": false,
+      "verdict_note": "2026-11-21: shipped a SECOND short from this repo. The 2026-11-11 piece covered the 35B-A3B CPU tier (our own measured 6 tok/s, 3 GB RSS); the repo has since released the 145B/120B latent-MoE tier (13 Nov), so the new one is 'The 145B model that streams itself from an SSD' — ALGORHYTHM https://youtu.be/pYuItgbAliQ (public, 36.8 s) + Instagram reel 18014511033004186 (instagram.com/reel/Df_-MNAkk3h/). Facts re-verified on api.github.com at build time: 12,167 stars, Apache-2.0, pushed 2026-11-20. Numbers quoted are the REPO's own table (3554.9 tok/s 16K prefill, 121.2 tok/s agent decode on a 5090 D 24 GB), attributed on screen and in the description — we have no CUDA box, so nothing here was measured by us. Cards kept in team/formats/demo-edge0/.",
+      "status": "shipped"
     },
     {
       "name": "prompts.chat",
