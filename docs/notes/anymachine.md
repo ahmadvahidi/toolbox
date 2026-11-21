@@ -70,6 +70,32 @@ Environment kept at `workspace/bpy-test` (venv + glvnd shims) and `workspace/any
 3. **Stills are cheap today.** Product-style stills and turntables are seconds per frame on CPU; that alone
    is usable for thumbnails, B-roll and cover frames now.
 
+## Measured: what a 3D mechanism short costs here (2026-11-21)
+
+Built a two-plate hinge by script (`workspace/hinge-test/hinge.py`: base plate, three knuckles, pin, lid on an
+empty pivot, 0-135 deg over 48 frames) and rendered it on CPU. Numbers, not estimates:
+
+| Setting (540x960, Cycles CPU, OIDN denoise) | seconds / frame |
+|---|---|
+| 16 spp | 4.09 |
+| 8 spp | 2.95 |
+| 4 spp | 2.34 |
+| 1 still, 540x960, 16 spp | ~3 s |
+
+- 2 s clip (48 frames @ 24 fps, 8 spp) rendered end to end in **141 s** = 70 s of machine time per second of
+  finished video, and the encode is instant (`hinge-2s.mp4`, 540x960).
+- A 20 s short at 8 spp is therefore **~24 min**; at 4 spp **~19 min**. That is one short per machine per hour,
+  which fits a daily lane next to the math renders.
+- 540x960 is half of 1080x1920: either render 720x1280 at ~2x the time, or upscale (we have a
+  video-super-resolution path). Do not promise full-res Cycles animation before that choice is made.
+
+**EEVEE does not start on this box.** With the glvnd loader, the mesa DRI drivers extracted from Debian
+(`libgl1-mesa-dri`) and `LIBGL_ALWAYS_SOFTWARE=1 GALLIUM_DRIVER=llvmpipe`, bpy still aborts with
+"No OpenGL vendor detected / Couldn't find current GLX or EGL context". Cycles CPU is the only engine here.
+
+**Blender 5.x API note:** `Action.fcurves` no longer exists (layered actions). Any script that walks fcurves to
+set interpolation has to be rewritten; keyframe_insert with the default BEZIER is fine.
+
 ## Caveats
 
 - 536 MB clone; the example assets (4K textures, videos, FBX) are the bulk and are not needed to run the method.
