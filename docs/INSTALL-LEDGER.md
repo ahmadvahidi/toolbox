@@ -19,7 +19,7 @@ entry that is *not* installed with `[not installed]`; the verdict vocabulary is 
   produced a real still (61.5 s at 800x600 previs). Skill `media/vork-rendering`. Verdict moved to `watch`:
   one still is fine, but std/draft OOMs on 8 GB and the lavapipe image carries an artifact, so nothing
   watchable comes out of this host. **Trigger to revisit: a machine with an NVIDIA/AMD RTX-class GPU** (or the
-  ki box with more RAM) — then it becomes the thumbnail/product-shot renderer.
+  a CPU box with more RAM) — then it becomes the thumbnail/product-shot renderer.
 - **AI-Youtube-Shorts-Generator** — already ran end to end on our own case-file ep01 (transcription 120
   segments in ~2 min, 2 shorts rendered, four breakages pinned). Moved to `use`: the reusable half is the
   highlight ranking, not its centre-crop.
