@@ -24,6 +24,18 @@ entry that is *not* installed with `[not installed]`; the verdict vocabulary is 
   segments in ~2 min, 2 shorts rendered, four breakages pinned). Moved to `use`: the reusable half is the
   highlight ranking, not its centre-crop.
 
+## Ran and used today (2026-11-23)
+
+- **AI Video Factory 0.6.8** (ersinkoc/AI-Video-Factory) — installed at `/opt/data/workspace/ai-video-factory`
+  and ran the documented no-key path end to end: `render-demo` (3-shot synthetic episode) →
+  `episode approve … preview` → `--only render` / `--only package` / `--only short`. Out came 1080p30
+  9.8 s H.264+AAC, a 304 B `.srt`, a 1280x720 thumbnail and a 1080x1920 Short in ~2.5 min, with the
+  repo's own video audit reporting 0 findings and $0.0000 agent cost. Verdict `consider`, **not** `use`:
+  the generation stages need `FAL_KEY`/`GEMINI_API_KEY` + `ELEVENLABS_API_KEY` + a Claude/ACP agent and
+  this box holds only `OPENROUTER_API_KEY`. **Trigger: one paid provider set + one episode we want to
+  publish** — then run it against our faceless-youtube pipeline on the same topic and keep the cheaper
+  per finished minute.
+
 ## Recommendation list — install when the trigger fires
 
 | Tool | Verdict | Trigger / what installing it buys |
