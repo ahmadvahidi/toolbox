@@ -2,6 +2,28 @@
   "checked": "2026-11-23",
   "tools": [
     {
+      "name": "Animation Handbook",
+      "repo": "matinmonshizadeh/animation-handbook",
+      "what": "176 web-animation techniques as standalone, dependency-free HTML/CSS/JS pages: scroll effects, entrances, page transitions, micro-interactions, text, 3D/advanced, ambient backgrounds — each with a live demo, settings, a README explaining the mechanism and a copy-paste prompt",
+      "verdict": "use",
+      "why": "Verified by counting, cloning and rendering, not from the reel. api.github.com 2026-11-23: 93 stars / 7 forks, MIT (Matin Monshizadeh), created 2026-05-19, pushed 2026-11-21, HTML, 32 MB, 642 files. The claim 176 is EXACT: git tree has 176 animations/<category>/<id>/index.html pages across 7 categories (27 scroll, 15 entrance/exit, 17 page transitions, 44 micro-interactions, 19 text, 28 3D/advanced, 26 ambient). Zero dependencies, no build step, no CDN - every page runs from a local clone. Cloned to /opt/data/workspace/animation-handbook. Built workspace/animation-handbook-kit/effect_plate.py which turns any effect into a full-bleed 1080x1920 plate: it hides the tutorial chrome, fixes .stage to the viewport, strips the demo's caption card and border box, then records in real time (CSS runs off the wall clock, so no virtual clock is needed - the opposite of codevember). MEASURED: aurora still in ~8 s, 120 frames (4 s) in 18 s, 1080x1920 h264; fire-effect renders to a dense plate (std 105/76/46). Use for: landing pages and client sites (replica lane), and as B-roll/transition plates for short-form - it is the cheapest motion source we have because nothing compiles. Reel (githubsignals, 2026-11-23, 68 likes) is the usual README scroll, no footage.",
+      "status": "used",
+      "date": "2026-11-23",
+      "tags": [
+        "css",
+        "animation",
+        "web",
+        "broll",
+        "landing-page",
+        "html"
+      ],
+      "stars": 93,
+      "forks": 7,
+      "license": "MIT",
+      "pushed": "2026-11-21",
+      "archived": false
+    },
+    {
       "name": "Codevember 2026",
       "repo": "acher249/codevember-2026",
       "what": "One word, one interactive 3D scene per day through November: 23 scenes so far (fold, shatter, melt, tangle, moss, orrery, hollow, tesseract, membrane, caustic, rust, feather, labyrinth, tension, mirage, spore, kelp, pendulum, erosion, cocoon, bolt, echo, magma) in Next.js + three.js/React Three Fiber on WebGPU, with a WebGL fallback",
@@ -61,8 +83,8 @@
         "mcp",
         "harness"
       ],
-      "stars": 309378,
-      "forks": 45513,
+      "stars": 309383,
+      "forks": 45515,
       "license": "MIT",
       "pushed": "2026-11-23",
       "archived": false
@@ -279,7 +301,7 @@
         "local"
       ],
       "stars": 136160,
-      "forks": 25966,
+      "forks": 25965,
       "license": "MIT",
       "pushed": "2026-11-23",
       "archived": false
@@ -306,7 +328,7 @@
       "tags": [
         "video"
       ],
-      "stars": 99239,
+      "stars": 99240,
       "forks": 9939,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -323,8 +345,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 117012,
-      "forks": 13039,
+      "stars": 117019,
+      "forks": 13040,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -355,7 +377,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 79426,
+      "stars": 79427,
       "forks": 6352,
       "license": "AGPL-3.0",
       "pushed": "2026-11-15",
@@ -371,7 +393,7 @@
       "tags": [
         "productivity"
       ],
-      "stars": 63024,
+      "stars": 63026,
       "forks": 6506,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
@@ -570,7 +592,7 @@
         "urdf",
         "animation"
       ],
-      "stars": 18427,
+      "stars": 18428,
       "forks": 2229,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
@@ -591,7 +613,7 @@
         "templates",
         "content"
       ],
-      "stars": 145502,
+      "stars": 145503,
       "forks": 21411,
       "license": "Apache-2.0",
       "pushed": "2026-11-18",
@@ -658,7 +680,7 @@
         "product",
         "video-format"
       ],
-      "stars": 10409,
+      "stars": 10416,
       "forks": 1914,
       "license": "MIT",
       "pushed": "2026-10-03",
@@ -724,7 +746,7 @@
         "mcp",
         "writing"
       ],
-      "stars": 178320,
+      "stars": 178321,
       "forks": 22728,
       "license": "NOASSERTION",
       "pushed": "2026-11-23",
@@ -744,8 +766,8 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 53087,
-      "forks": 6440,
+      "stars": 53093,
+      "forks": 6441,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -768,7 +790,7 @@
       ],
       "status": "shipped",
       "date": "2026-11-17",
-      "forks": 427,
+      "forks": 428,
       "archived": false
     },
     {
@@ -778,7 +800,7 @@
       "what": "Topic or keyword in, finished 9:16 video out: LLM script -> footage search keywords -> stock clips -> subtitles -> BGM -> render. WebUI plus HTTP API; provider-agnostic (many LLM keys, Pexels/Pixabay/Coverr or local material for footage).",
       "verdict": "consider",
       "verdict_note": "Checked 2026-11-18 by cloning it (341 MB, 359 py files, deps: moviepy 2.2.1, streamlit, faster-whisper, edge-tts, openai). Verified on api.github.com: 144,268 stars, MIT, created 2024-03-11, pushed 2026-11-18, not archived. NOT adopted as our engine, and the reason is measured, not aesthetic: it produces stock-footage explainers, and our channel's own retention data says the format that holds viewers is a made-up-looking claim proven by motion (35 s clip 53 % retention, 1038 views), not a stock-clip montage. Volume was never our bottleneck - topic consistency and retention were. It needs one free key we do not have (Pexels/Pixabay) OR video_source='local' with our own clips. Its 29 bundled mp3 beds under resource/songs are NOT usable: the repo is MIT for CODE, the audio provenance is unstated, so lifting them into monetised videos is a copyright risk. BEST POSITION: content. It is a strong dev-lane story (144k stars, one-keyword-to-video) and the cards for that short are built at team/formats/demo-moneyprinter/.",
-      "stars": 145199,
+      "stars": 145202,
       "license": "MIT",
       "pushed": "2026-11-23",
       "tags": [
@@ -790,7 +812,7 @@
       ],
       "status": "carded",
       "date": "2026-11-18",
-      "forks": 23357,
+      "forks": 23358,
       "archived": false
     },
     {
