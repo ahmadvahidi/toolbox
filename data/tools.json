@@ -60,8 +60,8 @@
         "mcp",
         "harness"
       ],
-      "stars": 309264,
-      "forks": 45501,
+      "stars": 309268,
+      "forks": 45503,
       "license": "MIT",
       "pushed": "2026-11-23",
       "archived": false
@@ -78,7 +78,7 @@
         "design",
         "video"
       ],
-      "stars": 1277,
+      "stars": 1278,
       "forks": 78,
       "license": "MIT",
       "pushed": "2026-11-15",
@@ -277,7 +277,7 @@
         "llm",
         "local"
       ],
-      "stars": 136175,
+      "stars": 136177,
       "forks": 25955,
       "license": "MIT",
       "pushed": "2026-11-23",
@@ -305,7 +305,7 @@
       "tags": [
         "video"
       ],
-      "stars": 99225,
+      "stars": 99226,
       "forks": 9933,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -322,8 +322,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 116866,
-      "forks": 13012,
+      "stars": 116874,
+      "forks": 13015,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -371,7 +371,7 @@
         "productivity"
       ],
       "stars": 63013,
-      "forks": 6503,
+      "forks": 6504,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -386,8 +386,8 @@
       "tags": [
         "business"
       ],
-      "stars": 40398,
-      "forks": 9832,
+      "stars": 40399,
+      "forks": 9833,
       "license": "NOASSERTION",
       "pushed": "2026-11-23",
       "archived": false
@@ -402,7 +402,7 @@
       "tags": [
         "video"
       ],
-      "stars": 25463,
+      "stars": 25464,
       "forks": 2415,
       "license": "NOASSERTION",
       "pushed": "2026-11-23",
@@ -590,8 +590,8 @@
         "templates",
         "content"
       ],
-      "stars": 145480,
-      "forks": 21408,
+      "stars": 145482,
+      "forks": 21409,
       "license": "Apache-2.0",
       "pushed": "2026-11-18",
       "archived": false,
@@ -635,8 +635,8 @@
         "video",
         "crop"
       ],
-      "stars": 6498,
-      "forks": 1192,
+      "stars": 6499,
+      "forks": 1193,
       "license": "MIT",
       "pushed": "2026-11-21",
       "archived": false
@@ -657,8 +657,8 @@
         "product",
         "video-format"
       ],
-      "stars": 10379,
-      "forks": 1910,
+      "stars": 10381,
+      "forks": 1911,
       "license": "MIT",
       "pushed": "2026-10-03",
       "archived": false
@@ -723,7 +723,7 @@
         "mcp",
         "writing"
       ],
-      "stars": 178310,
+      "stars": 178311,
       "forks": 22728,
       "license": "NOASSERTION",
       "pushed": "2026-11-23",
@@ -743,7 +743,7 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 53039,
+      "stars": 53040,
       "forks": 6431,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
@@ -756,7 +756,7 @@
       "what": "94 specialist Blender skills for Cursor, Claude Code, Kiro and Codex, plus an MCP route from blockout to engine export.",
       "verdict": "use",
       "verdict_note": "2026-11-17: shipped the 40 s tool-promo built from this repo - ALGORHYTHM youtube NuwRsp-nPRw, Instagram 18159702259524741. Facts re-verified on api.github.com (4,097 stars, MIT, 94 skills, last push 2026-11-06). Blender is not installed here, so the piece is a format-and-facts review, not a hands-on test.",
-      "stars": 4706,
+      "stars": 4705,
       "license": "MIT",
       "pushed": "2026-11-06",
       "tags": [
@@ -777,7 +777,7 @@
       "what": "Topic or keyword in, finished 9:16 video out: LLM script -> footage search keywords -> stock clips -> subtitles -> BGM -> render. WebUI plus HTTP API; provider-agnostic (many LLM keys, Pexels/Pixabay/Coverr or local material for footage).",
       "verdict": "consider",
       "verdict_note": "Checked 2026-11-18 by cloning it (341 MB, 359 py files, deps: moviepy 2.2.1, streamlit, faster-whisper, edge-tts, openai). Verified on api.github.com: 144,268 stars, MIT, created 2024-03-11, pushed 2026-11-18, not archived. NOT adopted as our engine, and the reason is measured, not aesthetic: it produces stock-footage explainers, and our channel's own retention data says the format that holds viewers is a made-up-looking claim proven by motion (35 s clip 53 % retention, 1038 views), not a stock-clip montage. Volume was never our bottleneck - topic consistency and retention were. It needs one free key we do not have (Pexels/Pixabay) OR video_source='local' with our own clips. Its 29 bundled mp3 beds under resource/songs are NOT usable: the repo is MIT for CODE, the audio provenance is unstated, so lifting them into monetised videos is a copyright risk. BEST POSITION: content. It is a strong dev-lane story (144k stars, one-keyword-to-video) and the cards for that short are built at team/formats/demo-moneyprinter/.",
-      "stars": 145176,
+      "stars": 145180,
       "license": "MIT",
       "pushed": "2026-11-23",
       "tags": [
@@ -851,7 +851,7 @@
         "sound-design",
         "skills"
       ],
-      "stars": 192,
+      "stars": 193,
       "forks": 34,
       "license": "MIT",
       "pushed": "2026-10-25",
@@ -871,7 +871,7 @@
         "agents",
         "faceless"
       ],
-      "stars": 626,
+      "stars": 627,
       "forks": 83,
       "license": "MIT",
       "pushed": "2026-11-23",
