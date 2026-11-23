@@ -2,6 +2,28 @@
   "checked": "2026-11-23",
   "tools": [
     {
+      "name": "Codevember 2026",
+      "repo": "acher249/codevember-2026",
+      "what": "One word, one interactive 3D scene per day through November: 23 scenes so far (fold, shatter, melt, tangle, moss, orrery, hollow, tesseract, membrane, caustic, rust, feather, labyrinth, tension, mirage, spore, kelp, pendulum, erosion, cocoon, bolt, echo, magma) in Next.js + three.js/React Three Fiber on WebGPU, with a WebGL fallback",
+      "verdict": "consider",
+      "why": "Verified by running it, not by the reel. api.github.com 2026-11-23: 112 stars / 28 forks, MIT (Adam Chernick), created 2026-11-06, pushed same day as the check - a genuinely daily build, 622 MB repo (mostly per-day GIF recordings), one directory per day plus shared/engine (renderer, post-processing, grabbing, wind) and a GPU-drawn calendar hub. MEASURED on this GPU-less box: navigator.gpu exists but requestAdapter() returns null, so the page auto-drops to its own WebGL software path ('WebGL fallback - low'), and Day 01 Fold still renders correctly - a folded low-poly farmland diorama with sheep, red-roofed cottages, a stepped blue river, bird silhouettes, at 1280x577 with the real controls (Pleats/Roll/Wave/Stair/Facets/Plane/Box, Amount 0.62, Hour Gold, Wind 1.00). Frame rate is the honest limit: 7 rAF frames in 5 s, ~1.4 fps, so 300 frames for a 10 s 30 fps clip costs ~3.5 min of wall clock AND the result is a ~21x time-lapse because the animation is clock-driven - good for ambient/looping B-roll and stills, wrong for anything that has to match real time; a GPU makes it real-time. Reel hygiene: githubsignals (2026-11-19, 41 s, 93 likes / 4 comments) is a README scroll with kinetic captions over it - no full-screen scene anywhere, the 3D only appears as the README's small animated thumbnails, so the caption's claims were checked against the live site instead. Relevant to our diorama lane (creative/diorama, diorama-episodes) as both a style source and a still/B-roll generator: render one frame per 0.7 s headless, no GPU needed.",
+      "status": "tested",
+      "date": "2026-11-23",
+      "tags": [
+        "threejs",
+        "webgpu",
+        "creative-coding",
+        "diorama",
+        "b-roll",
+        "nextjs"
+      ],
+      "stars": 112,
+      "forks": 28,
+      "license": "MIT",
+      "pushed": "2026-11-23",
+      "archived": false
+    },
+    {
       "name": "Latent Library",
       "repo": "erroralex/Latent-Library",
       "what": "Local-first desktop asset manager for AI image generations: ComfyUI/A1111 metadata parsing, SQLite FTS search, duplicate detection, offline WD14 ONNX auto-tagging (Java 21 + Spring Boot 3.3 + Vue3/Electron)",
@@ -38,8 +60,8 @@
         "mcp",
         "harness"
       ],
-      "stars": 309250,
-      "forks": 45498,
+      "stars": 309253,
+      "forks": 45499,
       "license": "MIT",
       "pushed": "2026-11-23",
       "archived": false
@@ -108,7 +130,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 7512,
+      "stars": 7513,
       "forks": 737,
       "license": "MIT",
       "pushed": "2026-11-18",
@@ -124,7 +146,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1963,
+      "stars": 1964,
       "forks": 171,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -255,7 +277,7 @@
         "llm",
         "local"
       ],
-      "stars": 136170,
+      "stars": 136174,
       "forks": 25954,
       "license": "MIT",
       "pushed": "2026-11-23",
@@ -300,8 +322,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 116845,
-      "forks": 13009,
+      "stars": 116854,
+      "forks": 13010,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -380,7 +402,7 @@
       "tags": [
         "video"
       ],
-      "stars": 25462,
+      "stars": 25461,
       "forks": 2416,
       "license": "NOASSERTION",
       "pushed": "2026-11-23",
@@ -568,7 +590,7 @@
         "templates",
         "content"
       ],
-      "stars": 145476,
+      "stars": 145477,
       "forks": 21408,
       "license": "Apache-2.0",
       "pushed": "2026-11-18",
@@ -613,7 +635,7 @@
         "video",
         "crop"
       ],
-      "stars": 6494,
+      "stars": 6496,
       "forks": 1192,
       "license": "MIT",
       "pushed": "2026-11-21",
@@ -679,7 +701,7 @@
         "quantization",
         "video-subject"
       ],
-      "stars": 12237,
+      "stars": 12239,
       "forks": 1896,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
@@ -721,8 +743,8 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 53030,
-      "forks": 6429,
+      "stars": 53033,
+      "forks": 6430,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -734,7 +756,7 @@
       "what": "94 specialist Blender skills for Cursor, Claude Code, Kiro and Codex, plus an MCP route from blockout to engine export.",
       "verdict": "use",
       "verdict_note": "2026-11-17: shipped the 40 s tool-promo built from this repo - ALGORHYTHM youtube NuwRsp-nPRw, Instagram 18159702259524741. Facts re-verified on api.github.com (4,097 stars, MIT, 94 skills, last push 2026-11-06). Blender is not installed here, so the piece is a format-and-facts review, not a hands-on test.",
-      "stars": 4705,
+      "stars": 4706,
       "license": "MIT",
       "pushed": "2026-11-06",
       "tags": [
@@ -849,7 +871,7 @@
         "agents",
         "faceless"
       ],
-      "stars": 623,
+      "stars": 625,
       "forks": 83,
       "license": "MIT",
       "pushed": "2026-11-23",
