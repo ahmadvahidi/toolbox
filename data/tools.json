@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-23",
+  "checked": "2026-11-24",
   "tools": [
     {
       "name": "Animation Handbook",
@@ -17,7 +17,7 @@
         "landing-page",
         "html"
       ],
-      "stars": 97,
+      "stars": 104,
       "forks": 7,
       "license": "MIT",
       "pushed": "2026-11-21",
@@ -42,7 +42,7 @@
       "stars": 114,
       "forks": 28,
       "license": "MIT",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     },
     {
@@ -83,8 +83,8 @@
         "mcp",
         "harness"
       ],
-      "stars": 309494,
-      "forks": 45530,
+      "stars": 309679,
+      "forks": 45550,
       "license": "MIT",
       "pushed": "2026-11-23",
       "archived": false
@@ -101,7 +101,7 @@
         "design",
         "video"
       ],
-      "stars": 1281,
+      "stars": 1284,
       "forks": 79,
       "license": "MIT",
       "pushed": "2026-11-15",
@@ -118,7 +118,7 @@
         "3d",
         "gpu"
       ],
-      "stars": 1715,
+      "stars": 1716,
       "forks": 174,
       "license": "GPL-3.0",
       "pushed": "2026-11-04",
@@ -137,8 +137,8 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 3215,
-      "forks": 313,
+      "stars": 3219,
+      "forks": 315,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -153,8 +153,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 7544,
-      "forks": 740,
+      "stars": 7560,
+      "forks": 741,
       "license": "MIT",
       "pushed": "2026-11-18",
       "archived": false
@@ -169,7 +169,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 1985,
+      "stars": 1990,
       "forks": 172,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
@@ -186,8 +186,8 @@
         "animation",
         "design"
       ],
-      "stars": 1459,
-      "forks": 310,
+      "stars": 1467,
+      "forks": 311,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -202,8 +202,8 @@
       "tags": [
         "desktop"
       ],
-      "stars": 4470,
-      "forks": 357,
+      "stars": 4485,
+      "forks": 358,
       "license": "GPL-3.0",
       "pushed": "2026-11-18",
       "archived": false
@@ -267,7 +267,7 @@
       "tags": [
         "network"
       ],
-      "stars": 45,
+      "stars": 46,
       "forks": 6,
       "license": "MIT",
       "pushed": "2026-11-23",
@@ -283,7 +283,7 @@
       "tags": [
         "network"
       ],
-      "stars": 1558,
+      "stars": 1559,
       "forks": 201,
       "license": "MIT",
       "pushed": "2026-07-20",
@@ -300,10 +300,10 @@
         "llm",
         "local"
       ],
-      "stars": 136069,
-      "forks": 25976,
+      "stars": 136106,
+      "forks": 26000,
       "license": "MIT",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     },
     {
@@ -328,8 +328,8 @@
       "tags": [
         "video"
       ],
-      "stars": 99250,
-      "forks": 9938,
+      "stars": 99271,
+      "forks": 9941,
       "license": "MIT",
       "pushed": "2026-09-24",
       "archived": false
@@ -345,8 +345,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 117097,
-      "forks": 13056,
+      "stars": 117289,
+      "forks": 13081,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -361,8 +361,8 @@
       "tags": [
         "business"
       ],
-      "stars": 50338,
-      "forks": 15735,
+      "stars": 50347,
+      "forks": 15738,
       "license": "MIT",
       "pushed": "2026-11-13",
       "archived": false
@@ -377,8 +377,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 79434,
-      "forks": 6351,
+      "stars": 79451,
+      "forks": 6356,
       "license": "AGPL-3.0",
       "pushed": "2026-11-15",
       "archived": false
@@ -393,8 +393,8 @@
       "tags": [
         "productivity"
       ],
-      "stars": 63039,
-      "forks": 6506,
+      "stars": 63056,
+      "forks": 6513,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -409,10 +409,10 @@
       "tags": [
         "business"
       ],
-      "stars": 40424,
-      "forks": 9843,
+      "stars": 40444,
+      "forks": 9850,
       "license": "NOASSERTION",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     },
     {
@@ -425,10 +425,10 @@
       "tags": [
         "video"
       ],
-      "stars": 25481,
-      "forks": 2418,
+      "stars": 25497,
+      "forks": 2422,
       "license": "NOASSERTION",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     },
     {
@@ -441,10 +441,10 @@
       "tags": [
         "dev"
       ],
-      "stars": 22412,
-      "forks": 2840,
+      "stars": 22420,
+      "forks": 2843,
       "license": "NOASSERTION",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     },
     {
@@ -482,7 +482,7 @@
         "llm",
         "research"
       ],
-      "stars": 1289,
+      "stars": 1292,
       "forks": 167,
       "license": "NOASSERTION",
       "pushed": "2026-10-29",
@@ -551,7 +551,7 @@
         "agents",
         "research"
       ],
-      "stars": 8132,
+      "stars": 8134,
       "forks": 953,
       "license": "MIT",
       "pushed": "2026-11-12",
@@ -571,7 +571,7 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1621,
+      "stars": 1622,
       "forks": 167,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
@@ -592,10 +592,10 @@
         "urdf",
         "animation"
       ],
-      "stars": 18428,
-      "forks": 2230,
+      "stars": 18441,
+      "forks": 2232,
       "license": "Apache-2.0",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     },
     {
@@ -613,8 +613,8 @@
         "templates",
         "content"
       ],
-      "stars": 145518,
-      "forks": 21415,
+      "stars": 145546,
+      "forks": 21420,
       "license": "Apache-2.0",
       "pushed": "2026-11-18",
       "archived": false,
@@ -658,8 +658,8 @@
         "video",
         "crop"
       ],
-      "stars": 6513,
-      "forks": 1197,
+      "stars": 6522,
+      "forks": 1198,
       "license": "MIT",
       "pushed": "2026-11-21",
       "archived": false
@@ -680,8 +680,8 @@
         "product",
         "video-format"
       ],
-      "stars": 10440,
-      "forks": 1916,
+      "stars": 10460,
+      "forks": 1920,
       "license": "MIT",
       "pushed": "2026-10-03",
       "archived": false
@@ -702,7 +702,7 @@
         "rust",
         "censorship"
       ],
-      "stars": 283,
+      "stars": 284,
       "forks": 15,
       "license": "NOASSERTION",
       "pushed": "2026-11-21",
@@ -724,8 +724,8 @@
         "quantization",
         "video-subject"
       ],
-      "stars": 12252,
-      "forks": 1896,
+      "stars": 12268,
+      "forks": 1898,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
       "archived": false,
@@ -746,10 +746,10 @@
         "mcp",
         "writing"
       ],
-      "stars": 178327,
-      "forks": 22730,
+      "stars": 178340,
+      "forks": 22736,
       "license": "NOASSERTION",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     },
     {
@@ -766,8 +766,8 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 53125,
-      "forks": 6433,
+      "stars": 53185,
+      "forks": 6438,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -779,7 +779,7 @@
       "what": "94 specialist Blender skills for Cursor, Claude Code, Kiro and Codex, plus an MCP route from blockout to engine export.",
       "verdict": "use",
       "verdict_note": "2026-11-17: shipped the 40 s tool-promo built from this repo - ALGORHYTHM youtube NuwRsp-nPRw, Instagram 18159702259524741. Facts re-verified on api.github.com (4,097 stars, MIT, 94 skills, last push 2026-11-06). Blender is not installed here, so the piece is a format-and-facts review, not a hands-on test.",
-      "stars": 4734,
+      "stars": 4760,
       "license": "MIT",
       "pushed": "2026-11-06",
       "tags": [
@@ -790,7 +790,7 @@
       ],
       "status": "shipped",
       "date": "2026-11-17",
-      "forks": 430,
+      "forks": 433,
       "archived": false
     },
     {
@@ -800,9 +800,9 @@
       "what": "Topic or keyword in, finished 9:16 video out: LLM script -> footage search keywords -> stock clips -> subtitles -> BGM -> render. WebUI plus HTTP API; provider-agnostic (many LLM keys, Pexels/Pixabay/Coverr or local material for footage).",
       "verdict": "consider",
       "verdict_note": "Checked 2026-11-18 by cloning it (341 MB, 359 py files, deps: moviepy 2.2.1, streamlit, faster-whisper, edge-tts, openai). Verified on api.github.com: 144,268 stars, MIT, created 2024-03-11, pushed 2026-11-18, not archived. NOT adopted as our engine, and the reason is measured, not aesthetic: it produces stock-footage explainers, and our channel's own retention data says the format that holds viewers is a made-up-looking claim proven by motion (35 s clip 53 % retention, 1038 views), not a stock-clip montage. Volume was never our bottleneck - topic consistency and retention were. It needs one free key we do not have (Pexels/Pixabay) OR video_source='local' with our own clips. Its 29 bundled mp3 beds under resource/songs are NOT usable: the repo is MIT for CODE, the audio provenance is unstated, so lifting them into monetised videos is a copyright risk. BEST POSITION: content. It is a strong dev-lane story (144k stars, one-keyword-to-video) and the cards for that short are built at team/formats/demo-moneyprinter/.",
-      "stars": 145222,
+      "stars": 145279,
       "license": "MIT",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "tags": [
         "video",
         "automation",
@@ -812,7 +812,7 @@
       ],
       "status": "carded",
       "date": "2026-11-18",
-      "forks": 23362,
+      "forks": 23369,
       "archived": false
     },
     {
@@ -834,7 +834,7 @@
       ],
       "status": "documented",
       "date": "2026-11-18",
-      "forks": 55,
+      "forks": 56,
       "archived": false
     },
     {
@@ -844,9 +844,9 @@
       "what": "Streams MoE experts from SSD so models far larger than RAM/VRAM run on ordinary machines. Built on llama.cpp, standard GGUF, browser chat + OpenAI-compatible API. Runs DeepSeek-V4.1-Flash-1017 (763B total), Muse-Spark-Open (816B), Qwen3.6-35B-A3B, Gemma4 E4B.",
       "verdict": "watch",
       "verdict_note": "Checked 2026-11-19 after Ahmad's reel (@reporadarai, README-scroll format). api.github.com: 1,235 stars, Apache-2.0, created 2026-10-22, pushed 2026-11-19 - alive and shipping. It is a DIRECT competitor to colibri (which we already shipped a short about) and benchmarks itself against it. Every published hardware row is a GPU box or an M5 Max: RTX 5060 Ti 8+16 GB, RTX 5090 32+32 GB, DGX Spark 128 GB, MacBook 48-128 GB. Our box is 6 cores / 7 GB / no GPU, below every row, so the 164.5 tok/s headline is not reachable here and the 763B model is out of reach by an order of magnitude. BEST POSITION: content, not our stack - 'two engines, one SSD' head-to-head against colibri is a genuinely strong ALGORHYTHM short, and we have first-hand numbers for one side of that comparison.",
-      "stars": 1296,
+      "stars": 1297,
       "license": "Apache-2.0",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "tags": [
         "llm",
         "local-ai",
@@ -856,7 +856,7 @@
       ],
       "status": "documented",
       "date": "2026-11-19",
-      "forks": 120,
+      "forks": 121,
       "archived": false
     },
     {
@@ -874,7 +874,7 @@
         "sound-design",
         "skills"
       ],
-      "stars": 196,
+      "stars": 197,
       "forks": 34,
       "license": "MIT",
       "pushed": "2026-10-25",
@@ -894,10 +894,10 @@
         "agents",
         "faceless"
       ],
-      "stars": 656,
-      "forks": 89,
+      "stars": 664,
+      "forks": 91,
       "license": "MIT",
-      "pushed": "2026-11-23",
+      "pushed": "2026-11-24",
       "archived": false
     }
   ]
