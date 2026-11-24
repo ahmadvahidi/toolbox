@@ -2,6 +2,49 @@
   "checked": "2026-11-24",
   "tools": [
     {
+      "name": "Helios",
+      "repo": "PKU-YuanGroup/Helios",
+      "what": "14B real-time long-video generation model: minute-scale clips at 19.5 FPS on a SINGLE H100, without KV-cache/causal-masking/sparse-attention tricks; group offloading drops VRAM to ~6 GB, multi-GPU context parallelism supported",
+      "verdict": "watch",
+      "why": "The reel's numbers are TRUE but the hardware claim is not. README (PKU-YuanGroup, TPAMI 2026) states plainly: 19.5 FPS end-to-end on a single H100, ~10 FPS on one Ascend NPU; a user on better hardware hit 20.89 FPS. So 'standard hardware' means a data-centre GPU, not a gaming card. The genuinely useful part for us is group offloading: ~6 GB VRAM inference for a 14B video model, plus training batching that fits four 14B models in 80 GB. api.github.com: 2279 stars / 204 forks, Apache-2.0, created 2026-03-02, pushed 2026-11-01 - a real maintained research repo with a live HF Space. Reel hygiene: gitfinds.si, 39 likes but 17 comments, CTA is 'comment HELI and I will DM the link' and the caption never names the repo - the name had to be recovered from the audio track ('the repo is called Helios'). Verdict watch, not use: this box has no GPU, and renting an H100 to generate clips we cannot cut at 20 fps is a cost with no revenue attached yet. It becomes the right tool the day the rig exists or a H100 hour is cheaper than a stock-footage subscription.",
+      "status": "checked",
+      "date": "2026-11-23",
+      "tags": [
+        "video-generation",
+        "gpu",
+        "real-time",
+        "diffusion",
+        "helios"
+      ],
+      "stars": 2279,
+      "forks": 204,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-01",
+      "archived": false
+    },
+    {
+      "name": "PoseWear",
+      "repo": "atuizz/posewear",
+      "what": "Pose / outfit / portrait reference galleries (98 poses, 1760 anime outfits, portraits, expressions, hair, scenes, lighting, props) with bilingual CN/EN prompts, plus a bring-your-own-key AI try-on studio that runs in the browser (Cloudflare Pages, PWA, IndexedDB history)",
+      "verdict": "consider",
+      "why": "Checked live, not from the reel. api.github.com 2026-11-23: 1975 stars / 440 forks in 24 days (created 2026-10-30), MIT, Python+JS, pushed same day, 133 MB. Live site posewear.pages.dev loads a real populated gallery (98 poses with sequential ids P001-P004 visible, category counts, filters, sort, random) - not a mockup. Providers are bring-your-own-key: OpenAI gpt-image-1, Gemini gemini-2.5-flash-image (Nano Banana), Doubao Seedream, or any OpenAI-compatible relay - so generation costs OUR key per image, nothing is hosted. Reel (Github Signals, 140 likes, 9 comments) is the usual README scroll. The CJK 'tofu' boxes in my screenshot are a missing font in headless Chromium, not a site defect. Verdict consider: nothing of ours calls it, and our images are generated through APIs already - the real value is the 12 prompt galleries (a pose+outfit+lighting vocabulary we can feed to Gemini/Flux for consistent characters) and the possibility of a Persian white-label try-on page, which is a product decision, not a pipeline step.",
+      "status": "checked",
+      "date": "2026-11-23",
+      "tags": [
+        "ai-images",
+        "try-on",
+        "prompts",
+        "gallery",
+        "cloudflare",
+        "product-idea"
+      ],
+      "stars": 1976,
+      "forks": 440,
+      "license": "MIT",
+      "pushed": "2026-11-23",
+      "archived": false
+    },
+    {
       "name": "Animation Handbook",
       "repo": "matinmonshizadeh/animation-handbook",
       "what": "176 web-animation techniques as standalone, dependency-free HTML/CSS/JS pages: scroll effects, entrances, page transitions, micro-interactions, text, 3D/advanced, ambient backgrounds — each with a live demo, settings, a README explaining the mechanism and a copy-paste prompt",
@@ -83,8 +126,8 @@
         "mcp",
         "harness"
       ],
-      "stars": 309679,
-      "forks": 45550,
+      "stars": 309698,
+      "forks": 45551,
       "license": "MIT",
       "pushed": "2026-11-23",
       "archived": false
@@ -137,7 +180,7 @@
         "thumbnails",
         "gpu"
       ],
-      "stars": 3219,
+      "stars": 3220,
       "forks": 315,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -153,7 +196,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 7560,
+      "stars": 7561,
       "forks": 741,
       "license": "MIT",
       "pushed": "2026-11-18",
@@ -169,8 +212,8 @@
       "tags": [
         "animation"
       ],
-      "stars": 1990,
-      "forks": 172,
+      "stars": 1991,
+      "forks": 173,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
       "archived": false
@@ -186,8 +229,8 @@
         "animation",
         "design"
       ],
-      "stars": 1467,
-      "forks": 311,
+      "stars": 1470,
+      "forks": 312,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
       "archived": false
@@ -300,8 +343,8 @@
         "llm",
         "local"
       ],
-      "stars": 136106,
-      "forks": 26000,
+      "stars": 136108,
+      "forks": 26005,
       "license": "MIT",
       "pushed": "2026-11-24",
       "archived": false
@@ -328,7 +371,7 @@
       "tags": [
         "video"
       ],
-      "stars": 99271,
+      "stars": 99272,
       "forks": 9941,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -345,8 +388,8 @@
         "audio",
         "gpu"
       ],
-      "stars": 117289,
-      "forks": 13081,
+      "stars": 117313,
+      "forks": 13082,
       "license": "AGPL-3.0",
       "pushed": "2026-11-23",
       "archived": false
@@ -361,8 +404,8 @@
       "tags": [
         "business"
       ],
-      "stars": 50347,
-      "forks": 15738,
+      "stars": 50349,
+      "forks": 15741,
       "license": "MIT",
       "pushed": "2026-11-13",
       "archived": false
@@ -378,7 +421,7 @@
         "productivity"
       ],
       "stars": 79451,
-      "forks": 6356,
+      "forks": 6357,
       "license": "AGPL-3.0",
       "pushed": "2026-11-15",
       "archived": false
@@ -409,7 +452,7 @@
       "tags": [
         "business"
       ],
-      "stars": 40444,
+      "stars": 40446,
       "forks": 9850,
       "license": "NOASSERTION",
       "pushed": "2026-11-24",
@@ -425,8 +468,8 @@
       "tags": [
         "video"
       ],
-      "stars": 25497,
-      "forks": 2422,
+      "stars": 25499,
+      "forks": 2423,
       "license": "NOASSERTION",
       "pushed": "2026-11-24",
       "archived": false
@@ -441,7 +484,7 @@
       "tags": [
         "dev"
       ],
-      "stars": 22420,
+      "stars": 22421,
       "forks": 2843,
       "license": "NOASSERTION",
       "pushed": "2026-11-24",
@@ -571,7 +614,7 @@
         "webgl",
         "lip-sync"
       ],
-      "stars": 1622,
+      "stars": 1621,
       "forks": 167,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
@@ -592,7 +635,7 @@
         "urdf",
         "animation"
       ],
-      "stars": 18441,
+      "stars": 18443,
       "forks": 2232,
       "license": "Apache-2.0",
       "pushed": "2026-11-24",
@@ -613,7 +656,7 @@
         "templates",
         "content"
       ],
-      "stars": 145546,
+      "stars": 145548,
       "forks": 21420,
       "license": "Apache-2.0",
       "pushed": "2026-11-18",
@@ -658,7 +701,7 @@
         "video",
         "crop"
       ],
-      "stars": 6522,
+      "stars": 6523,
       "forks": 1198,
       "license": "MIT",
       "pushed": "2026-11-21",
@@ -680,7 +723,7 @@
         "product",
         "video-format"
       ],
-      "stars": 10460,
+      "stars": 10462,
       "forks": 1920,
       "license": "MIT",
       "pushed": "2026-10-03",
@@ -746,8 +789,8 @@
         "mcp",
         "writing"
       ],
-      "stars": 178340,
-      "forks": 22736,
+      "stars": 178342,
+      "forks": 22737,
       "license": "NOASSERTION",
       "pushed": "2026-11-24",
       "archived": false
@@ -766,7 +809,7 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 53185,
+      "stars": 53187,
       "forks": 6438,
       "license": "Apache-2.0",
       "pushed": "2026-11-23",
@@ -779,7 +822,7 @@
       "what": "94 specialist Blender skills for Cursor, Claude Code, Kiro and Codex, plus an MCP route from blockout to engine export.",
       "verdict": "use",
       "verdict_note": "2026-11-17: shipped the 40 s tool-promo built from this repo - ALGORHYTHM youtube NuwRsp-nPRw, Instagram 18159702259524741. Facts re-verified on api.github.com (4,097 stars, MIT, 94 skills, last push 2026-11-06). Blender is not installed here, so the piece is a format-and-facts review, not a hands-on test.",
-      "stars": 4760,
+      "stars": 4761,
       "license": "MIT",
       "pushed": "2026-11-06",
       "tags": [
@@ -790,7 +833,7 @@
       ],
       "status": "shipped",
       "date": "2026-11-17",
-      "forks": 433,
+      "forks": 434,
       "archived": false
     },
     {
@@ -800,7 +843,7 @@
       "what": "Topic or keyword in, finished 9:16 video out: LLM script -> footage search keywords -> stock clips -> subtitles -> BGM -> render. WebUI plus HTTP API; provider-agnostic (many LLM keys, Pexels/Pixabay/Coverr or local material for footage).",
       "verdict": "consider",
       "verdict_note": "Checked 2026-11-18 by cloning it (341 MB, 359 py files, deps: moviepy 2.2.1, streamlit, faster-whisper, edge-tts, openai). Verified on api.github.com: 144,268 stars, MIT, created 2024-03-11, pushed 2026-11-18, not archived. NOT adopted as our engine, and the reason is measured, not aesthetic: it produces stock-footage explainers, and our channel's own retention data says the format that holds viewers is a made-up-looking claim proven by motion (35 s clip 53 % retention, 1038 views), not a stock-clip montage. Volume was never our bottleneck - topic consistency and retention were. It needs one free key we do not have (Pexels/Pixabay) OR video_source='local' with our own clips. Its 29 bundled mp3 beds under resource/songs are NOT usable: the repo is MIT for CODE, the audio provenance is unstated, so lifting them into monetised videos is a copyright risk. BEST POSITION: content. It is a strong dev-lane story (144k stars, one-keyword-to-video) and the cards for that short are built at team/formats/demo-moneyprinter/.",
-      "stars": 145279,
+      "stars": 145287,
       "license": "MIT",
       "pushed": "2026-11-24",
       "tags": [
@@ -812,7 +855,7 @@
       ],
       "status": "carded",
       "date": "2026-11-18",
-      "forks": 23369,
+      "forks": 23371,
       "archived": false
     },
     {
@@ -894,7 +937,7 @@
         "agents",
         "faceless"
       ],
-      "stars": 664,
+      "stars": 665,
       "forks": 91,
       "license": "MIT",
       "pushed": "2026-11-24",
