@@ -14,7 +14,7 @@ Stars are a snapshot, not a quality score.
 
 | | Tool | What it is | ★ | Licence | Last push |
 |---|---|---|---:|---|---|
-| ✅ in use | **[prompts.chat](https://github.com/f/prompts.chat)** | Open prompt + agent-skill library (2,916 prompts incl. 650 image and 89 video, 177 multi-file agent skills) with a stateless MCP endpoint and a Claude Code plugin | 178,364 | NOASSERTION | 2026-11-24 |
+| ✅ in use | **[prompts.chat](https://github.com/f/prompts.chat)** | Open prompt + agent-skill library (2,916 prompts incl. 650 image and 89 video, 177 multi-file agent skills) with a stateless MCP endpoint and a Claude Code plugin | 178,365 | NOASSERTION | 2026-11-24 |
 | ✅ in use | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | CPU/GPU inference for GGUF models | 136,101 | MIT | 2026-11-24 |
 | ✅ in use | **[colibri](https://github.com/JustVugg/colibri)** | C engine that streams MoE expert weights from NVMe, so 300B-1.5T models (GLM-5.2 744B, DeepSeek V4, Kimi K3) run on CPU-only machines; OpenAI/Anthropic API, dashboard, MCP server | 53,243 | Apache-2.0 | 2026-11-24 |
 | ✅ in use | **[MuJoCo](https://github.com/google-deepmind/mujoco)** | Google DeepMind physics engine (rigid bodies, contacts, actuators): robot sim and physical animation, Python bindings, Apache-2.0 | 18,451 | Apache-2.0 | 2026-11-24 |
@@ -27,7 +27,7 @@ Stars are a snapshot, not a quality score.
 | ✅ in use | **[code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts)** | 341 code-rendered animation styles with prompts | 1,493 | NOASSERTION | 2026-11-05 |
 | ✅ in use | **[ascii.rest](https://github.com/bas3line/ascii)** | 240 animated ASCII pieces for the web, one <ascii-art> tag, MIT | 1,284 | MIT | 2026-11-15 |
 | ✅ in use | **[Animation Handbook](https://github.com/matinmonshizadeh/animation-handbook)** | 176 web-animation techniques as standalone, dependency-free HTML/CSS/JS pages: scroll effects, entrances, page transitions, micro-interactions, text, 3D/advanced, ambient backgrounds — each with a live demo, settings, a README explaining the mechanism and a copy-paste prompt | 112 | MIT | 2026-11-21 |
-| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review) | 309,910 | MIT | 2026-11-23 |
+| 🟡 consider | **[ECC](https://github.com/affaan-m/ECC)** | 299k-star agent harness: 314 skills, 71 agents, 98 commands (plan→code→test→review) | 309,912 | MIT | 2026-11-23 |
 | 🟡 consider | **[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** | 57 runnable AI app folders (agents, RAG, voice): Streamlit demos, ~17.7k Python lines total, Apache-2.0 | 145,569 | Apache-2.0 | 2026-11-18 |
 | 🟡 consider | **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)** | Topic or keyword in, finished 9:16 video out: LLM script -> footage search keywords -> stock clips -> subtitles -> BGM -> render. WebUI plus HTTP API; provider-agnostic (many LLM keys, Pexels/Pixabay/Coverr or local material for footage). | 145,370 | MIT | 2026-11-24 |
 | 🟡 consider | **[Cal.com (cal.diy)](https://github.com/calcom/cal.diy)** | Self-hosted scheduling pages (Calendly alternative) | 50,357 | MIT | 2026-11-13 |
