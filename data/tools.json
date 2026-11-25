@@ -389,7 +389,15 @@
       "forks": 26059,
       "license": "MIT",
       "pushed": "2026-11-25",
-      "archived": false
+      "archived": false,
+      "shipped": {
+        "date": "2026-11-25",
+        "video_id": "Npl_lA1D9b8",
+        "ig_post_id": "18139517686635816",
+        "title": "llama.cpp hit 1.0: one command downloads and serves a model",
+        "channel": "ALGORHYTHM",
+        "note": "Built from source (v1.0.0-dev, 0fc7e17) and ran Qwen3.5-0.8B Q4_0 on this box: 262.9 tok/s prompt, 60.8 tok/s gen on 4 CPU threads; llama-server answered /v1/chat/completions locally. 0.8B Q4_0 GGUF = 563 MB."
+      }
     },
     {
       "name": "Muse-Glimmer-30B",
