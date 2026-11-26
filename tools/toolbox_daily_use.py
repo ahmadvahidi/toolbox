@@ -38,8 +38,12 @@ JOBS = {
     },
     "prompts.chat": {
         "what": "search the prompt library for the day's topic and save the best 5",
-        "cmd": ["/opt/data/skills/.venv/bin/python", "/opt/data/workspace/prompts-cli/pmcp.py",
-                "search", "{topic}"],
+        "cmd": [PY_SKILLS, "/opt/data/workspace/prompts-cli/pmcp.py",
+                "search", "{topic}", "-n", "5"],
+        # topic rotates with the date, same idea as the Codevember scenes
+        "topic_cycle": ["cinematic lighting", "code animation", "product photography",
+                        "explainer video", "youtube thumbnail"],
+        "save": os.path.join(ROOT, "data", "notes", "prompts-{date}.md"),
     },
 }
 
@@ -91,6 +95,12 @@ def main():
             sys.exit("codevember-kit has no material yet (run codevember_material.py sync)")
         cmd = [c.replace("{scene}", scene).replace("{date}", today.isoformat()) for c in cmd]
         os.makedirs(os.path.join(KIT, "out"), exist_ok=True)
+    if cmd and job.get("topic_cycle"):
+        cyc = job["topic_cycle"]
+        topic = cyc[today.toordinal() % len(cyc)]
+        cmd = [c.replace("{topic}", topic).replace("{date}", today.isoformat()) for c in cmd]
+    else:
+        topic = "-"
     print("  what:", job["what"])
     print("  cmd :", " ".join(cmd) if cmd else "(not runnable here)")
     if a.mode == "plan" or not cmd:
@@ -102,6 +112,16 @@ def main():
     rec = {"date": today.isoformat(), "tool": name, "what": job["what"],
            "cmd": cmd, "rc": r.returncode,
            "out": cmd[-1] if cmd else None}
+    if job.get("save") and r.returncode == 0:
+        # the run only counts if it leaves something readable behind
+        path = job["save"].replace("{date}", today.isoformat()).replace("{topic}", topic)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(f"# {name} — {today.isoformat()}\n\n"
+                     f"topic: `{topic}` · query: `{' '.join(cmd)}`\n\n"
+                     f"```\n{r.stdout.strip()}\n```\n")
+        rec["out"] = path
+        print("  saved:", path)
     hist = json.load(open(STATE)) if os.path.exists(STATE) else []
     hist.append(rec)
     json.dump(hist, open(STATE, "w"), indent=1)
