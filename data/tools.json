@@ -2,6 +2,27 @@
   "checked": "2026-11-26",
   "tools": [
     {
+      "name": "H3-Tiny",
+      "repo": "fuyi25/minimax-h3-tiny",
+      "what": "Structured pruning of MiniMax-H3 (33B -> 17B -> 14B) for JOINT video+audio generation from text and reference images: 17B pruned with NO training (low-rank folding of 13B parameters + 8 of 50 blocks removed), a 14B built by narrowing feed-forward and recovering with distillation, plus INT8 ComfyUI single-file checkpoints",
+      "verdict": "watch",
+      "why": "Verified on api.github.com and the repo README 2026-11-26; not tested, because it cannot run here and I will not pretend otherwise. 65 stars / 4 forks, Apache-2.0 code, created 2026-11-19, pushed 2026-11-24 - a five-day-old research release, so the star count says nothing yet. Weights are NOT Apache: they are Model Derivatives under the MiniMax H3 Community License, which carries a territorial scope and an acceptable-use policy - that clause matters for a monetised channel and has to be read before any output is published. Hardware: the README's own numbers are an H200 for the INT8 path (DiT ~17 GB VRAM instead of 33 GB at 1344x768, 243 frames) and ~80 GB for the 33B->17B pruning step; there is no runnable path on a GPU-less box, so the only honest verdict is watch-until-rig. Reel hygiene: githubsignals (112 likes, 2 comments, 2026-11-26) is a README scroll with kinetic captions - 15 of 16 frames are the same GitHub page, and the model samples appear only as static thumbnails inside the README, never as playing video. One caption also says '13 billion parameters' where the repo says 14.0B. Real use when the rig lands: this is the first open path to a clip with its OWN synchronised audio, which is exactly the narration+image pipeline we pay for today.",
+      "status": "checked",
+      "date": "2026-11-26",
+      "tags": [
+        "video-generation",
+        "audio",
+        "pruning",
+        "comfyui",
+        "weights-licence"
+      ],
+      "stars": 65,
+      "forks": 4,
+      "license": "Apache-2.0",
+      "pushed": "2026-11-24",
+      "archived": false
+    },
+    {
       "name": "Pocket TTS",
       "repo": "kyutai-labs/pocket-tts",
       "what": "CPU-only text-to-speech with voice cloning: 100M model (1.9M for English), 7 languages (en/fr/de/pt/it/es/nl), streaming with ~200 ms first chunk, Python API + CLI, MIT",
@@ -80,7 +101,7 @@
         "cloudflare",
         "product-idea"
       ],
-      "stars": 2162,
+      "stars": 2163,
       "forks": 478,
       "license": "MIT",
       "pushed": "2026-11-25",
@@ -102,7 +123,7 @@
         "landing-page",
         "html"
       ],
-      "stars": 137,
+      "stars": 139,
       "forks": 9,
       "license": "MIT",
       "pushed": "2026-11-21",
@@ -168,8 +189,8 @@
         "mcp",
         "harness"
       ],
-      "stars": 311041,
-      "forks": 45689,
+      "stars": 311054,
+      "forks": 45692,
       "license": "MIT",
       "pushed": "2026-11-23",
       "archived": false
@@ -238,7 +259,7 @@
       "tags": [
         "animation"
       ],
-      "stars": 7733,
+      "stars": 7734,
       "forks": 753,
       "license": "MIT",
       "pushed": "2026-11-18",
@@ -255,7 +276,7 @@
         "animation"
       ],
       "stars": 2062,
-      "forks": 178,
+      "forks": 179,
       "license": "Apache-2.0",
       "pushed": "2026-11-05",
       "archived": false
@@ -271,7 +292,7 @@
         "animation",
         "design"
       ],
-      "stars": 1549,
+      "stars": 1550,
       "forks": 325,
       "license": "NOASSERTION",
       "pushed": "2026-11-05",
@@ -287,7 +308,7 @@
       "tags": [
         "desktop"
       ],
-      "stars": 4752,
+      "stars": 4753,
       "forks": 381,
       "license": "GPL-3.0",
       "pushed": "2026-11-18",
@@ -421,7 +442,7 @@
       "tags": [
         "video"
       ],
-      "stars": 99412,
+      "stars": 99415,
       "forks": 9954,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -438,7 +459,7 @@
         "audio",
         "gpu"
       ],
-      "stars": 118706,
+      "stars": 118713,
       "forks": 13243,
       "license": "AGPL-3.0",
       "pushed": "2026-11-26",
@@ -502,7 +523,7 @@
       "tags": [
         "business"
       ],
-      "stars": 40603,
+      "stars": 40604,
       "forks": 9893,
       "license": "NOASSERTION",
       "pushed": "2026-11-26",
@@ -518,7 +539,7 @@
       "tags": [
         "video"
       ],
-      "stars": 25624,
+      "stars": 25625,
       "forks": 2442,
       "license": "NOASSERTION",
       "pushed": "2026-11-26",
@@ -706,8 +727,8 @@
         "templates",
         "content"
       ],
-      "stars": 145790,
-      "forks": 21461,
+      "stars": 145793,
+      "forks": 21462,
       "license": "Apache-2.0",
       "pushed": "2026-11-18",
       "archived": false,
@@ -773,8 +794,8 @@
         "product",
         "video-format"
       ],
-      "stars": 10707,
-      "forks": 1972,
+      "stars": 10708,
+      "forks": 1971,
       "license": "MIT",
       "pushed": "2026-10-03",
       "archived": false
@@ -817,7 +838,7 @@
         "quantization",
         "video-subject"
       ],
-      "stars": 12316,
+      "stars": 12311,
       "forks": 1901,
       "license": "Apache-2.0",
       "pushed": "2026-11-25",
@@ -859,7 +880,7 @@
         "cpu",
         "no-gpu"
       ],
-      "stars": 53555,
+      "stars": 53556,
       "forks": 6482,
       "license": "Apache-2.0",
       "pushed": "2026-11-26",
@@ -872,7 +893,7 @@
       "what": "94 specialist Blender skills for Cursor, Claude Code, Kiro and Codex, plus an MCP route from blockout to engine export.",
       "verdict": "use",
       "verdict_note": "2026-11-17: shipped the 40 s tool-promo built from this repo - ALGORHYTHM youtube NuwRsp-nPRw, Instagram 18159702259524741. Facts re-verified on api.github.com (4,097 stars, MIT, 94 skills, last push 2026-11-06). Blender is not installed here, so the piece is a format-and-facts review, not a hands-on test.",
-      "stars": 5007,
+      "stars": 5009,
       "license": "MIT",
       "pushed": "2026-11-06",
       "tags": [
@@ -893,7 +914,7 @@
       "what": "Topic or keyword in, finished 9:16 video out: LLM script -> footage search keywords -> stock clips -> subtitles -> BGM -> render. WebUI plus HTTP API; provider-agnostic (many LLM keys, Pexels/Pixabay/Coverr or local material for footage).",
       "verdict": "consider",
       "verdict_note": "Checked 2026-11-18 by cloning it (341 MB, 359 py files, deps: moviepy 2.2.1, streamlit, faster-whisper, edge-tts, openai). Verified on api.github.com: 144,268 stars, MIT, created 2024-03-11, pushed 2026-11-18, not archived. NOT adopted as our engine, and the reason is measured, not aesthetic: it produces stock-footage explainers, and our channel's own retention data says the format that holds viewers is a made-up-looking claim proven by motion (35 s clip 53 % retention, 1038 views), not a stock-clip montage. Volume was never our bottleneck - topic consistency and retention were. It needs one free key we do not have (Pexels/Pixabay) OR video_source='local' with our own clips. Its 29 bundled mp3 beds under resource/songs are NOT usable: the repo is MIT for CODE, the audio provenance is unstated, so lifting them into monetised videos is a copyright risk. BEST POSITION: content. It is a strong dev-lane story (144k stars, one-keyword-to-video) and the cards for that short are built at team/formats/demo-moneyprinter/.",
-      "stars": 145804,
+      "stars": 145808,
       "license": "MIT",
       "pushed": "2026-11-26",
       "tags": [
