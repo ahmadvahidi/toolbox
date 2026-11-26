@@ -168,7 +168,7 @@
         "mcp",
         "harness"
       ],
-      "stars": 310815,
+      "stars": 310816,
       "forks": 45660,
       "license": "MIT",
       "pushed": "2026-11-23",
@@ -421,7 +421,7 @@
       "tags": [
         "video"
       ],
-      "stars": 99389,
+      "stars": 99388,
       "forks": 9951,
       "license": "MIT",
       "pushed": "2026-09-24",
@@ -438,7 +438,7 @@
         "audio",
         "gpu"
       ],
-      "stars": 118507,
+      "stars": 118509,
       "forks": 13216,
       "license": "AGPL-3.0",
       "pushed": "2026-11-25",
@@ -706,7 +706,7 @@
         "templates",
         "content"
       ],
-      "stars": 145745,
+      "stars": 145746,
       "forks": 21451,
       "license": "Apache-2.0",
       "pushed": "2026-11-18",
@@ -988,9 +988,30 @@
         "faceless"
       ],
       "stars": 715,
-      "forks": 99,
+      "forks": 100,
       "license": "MIT",
       "pushed": "2026-11-24",
+      "archived": false
+    },
+    {
+      "name": "Goofy Fish",
+      "repo": "nilbuild/goofyfish",
+      "what": "Small stick-figure browser games, one self-contained HTML file each, plus the machinery that makes new ones: a 47 KB working template, a style guide, snippets.js (posed figure, particles, sound, fitView) and Playwright gates (game:check, game:motion). MIT",
+      "verdict": "use",
+      "why": "Template run here 2026-11-26 from file:// in Chromium: ?bot&autoplay on, a full bot run finished — score 90, chain 30, 35.58 s, 61 fps, canvas 1280x577, end card shown — so the artefact runs with no install. Upstream gates need Node 20+/pnpm/Playwright, absent on this box; the template path needs none of it. api.github.com: 138 stars / 34 forks, MIT, created 2026-11-15, pushed 2026-11-22, site goofyfish.com live (200). The reel's 'describe an idea and it builds a game' is accurate but it is .claude/skills/game/SKILL.md inside the repo, not a site feature. Adopted as skill creative/browser-game-jam; template kept at workspace/goofyfish/template.html.",
+      "status": "used",
+      "date": "2026-11-26",
+      "tags": [
+        "game",
+        "canvas",
+        "html",
+        "agentskills",
+        "lead-magnet"
+      ],
+      "stars": 138,
+      "forks": 34,
+      "license": "MIT",
+      "pushed": "2026-11-22",
       "archived": false
     }
   ]
