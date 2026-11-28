@@ -22,6 +22,7 @@ Rules:
 | Narrated slideshow long-form | `faceless-youtube` pipeline | — | `workspace/faceless-youtube/` |
 | Motion-graphics film (HTML → MP4) | `motionmaxxing` | film-toolpromo format file | `workspace/motionmaxxing/` + `team/formats/tool-promo-40s.md` |
 | 3D world / diorama plate (still or slow B-roll) | **Codevember 2026** scenes via our headless capturer (clean 1080x1920, ~4 s/still) | MuJoCo / physics-broll for physics-only shots; creator GIFs 260 px = reference only | `workspace/codevember-kit/codevember_capture.py` + `codevember_material.py` (format: `workspace/codevember-kit/FORMAT.md`) |
+| Character body animation from footage | **RGB MoCap** `watch` — needs Windows + CUDA GPU, not runnable here | hand-keyed Manim / LivLiv (no body motion today) | repo: `toyxyz/toyxyz_RGBMocap` · trigger: a CUDA machine, then one clip → FBX → Blender |
 | Physics / 3D B-roll clip | **MuJoCo** (212k steps/s, CPU) | Blender headless (`bpy` wheel) for real geometry | `workspace/physics-broll/render.py` |
 | ASCII bumper / intro sting | **ascii.rest** + headless Chrome | none needed | `workspace/ascii-rest-demo/ascii_bumper.mjs` |
 | Topic → full episode with approvals, cost ledger, Short | **AI Video Factory** `consider` — render+package verified, generation needs `FAL_KEY`/`GEMINI_API_KEY` + `ELEVENLABS_API_KEY` + agent | our own pipeline above, which needs no keys | `workspace/ai-video-factory` → `pnpm tx render-demo` |
