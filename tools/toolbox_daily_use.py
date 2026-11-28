@@ -26,6 +26,12 @@ PY_SKILLS = "/opt/data/skills/.venv/bin/python"
 
 # tool name -> concrete, verifiable unit of work on this box
 JOBS = {
+    "blender-skills": {
+        "what": "one vertical 720x1280 Cycles render from a real bpy scene (hero prop, 3-point light)",
+        "cmd": [PY_SKILLS, os.path.join(ROOT, "tools", "jobs", "blender_skills.py"),
+                "--out", os.path.join(ROOT, "out", "blender-{date}.png")],
+        "topic_cycle": ["hero-prop"],
+    },
     "Codevember 2026": {
         "what": "one clean 1080x1920 plate from today's scene",
         "cmd": [PY_SKILLS, f"{KIT}/codevember_capture.py", "{scene}", "--still", "--t0", "12",

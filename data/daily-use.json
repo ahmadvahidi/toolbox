@@ -13,5 +13,31 @@
   ],
   "rc": 0,
   "out": "/opt/data/workspace/toolbox-repo/data/notes/prompts-2026-11-26.md"
+ },
+ {
+  "date": "2026-11-28",
+  "tool": "blender-skills",
+  "what": "one vertical 720x1280 Cycles render from a real bpy scene (hero prop, 3-point light)",
+  "cmd": [
+   "/opt/data/skills/.venv/bin/python",
+   "/opt/data/workspace/toolbox-repo/tools/jobs/blender_skills.py",
+   "--out",
+   "/opt/data/workspace/toolbox-repo/out/blender-{date}.png"
+  ],
+  "rc": 1,
+  "out": "/opt/data/workspace/toolbox-repo/out/blender-{date}.png"
+ },
+ {
+  "date": "2026-11-28",
+  "tool": "blender-skills",
+  "what": "one vertical 720x1280 Cycles render from a real bpy scene (hero prop, 3-point light)",
+  "cmd": [
+   "/opt/data/skills/.venv/bin/python",
+   "/opt/data/workspace/toolbox-repo/tools/jobs/blender_skills.py",
+   "--out",
+   "/opt/data/workspace/toolbox-repo/out/blender-2026-11-28.png"
+  ],
+  "rc": 0,
+  "out": "/opt/data/workspace/toolbox-repo/out/blender-2026-11-28.png"
  }
 ]
